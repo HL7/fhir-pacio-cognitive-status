@@ -1,0 +1,52 @@
+{
+  "resourceType": "Observation",
+  "id": "Assessment-SNF-PHQ9-Ob-28",
+  "meta": {
+    "profile": [
+      "https://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-cs"
+    ]
+  },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/event-location",
+      "valueReference": {
+        "reference": "Location/Org-Loc-02"
+      }
+    }
+  ],
+  "subject": {
+    "reference": "Patient/patientBSJ1"
+  },
+  "status": "final",
+  "effectiveDateTime": "2020-04-09T18:00:00-05:00",
+  "code": {
+    "coding": [
+      {
+        "code": "54654-9",
+        "system": "http://loinc.org",
+        "display": "Total Severity Score"
+      }
+    ],
+    "text": "Total Severity Score\t\t\t{score}"
+  },
+  "valueCodeableConcept": {
+    "text": "3"
+  },
+  "performer": [
+    {
+      "reference": "Practitioner/Practitioner-HoneyJones"
+    },
+    {
+      "reference": "PractitionerRole/Role-RN"
+    },
+    {
+      "reference": "Organization/Org-02",
+      "display": "Organization"
+    }
+  ],
+  "derivedFrom": [
+    {
+      "reference": "QuestionnaireResponse/QResponse-SNF-PHQ9"
+    }
+  ]
+}

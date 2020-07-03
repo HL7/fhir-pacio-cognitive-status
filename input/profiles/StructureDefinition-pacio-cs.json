@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "pacio-cs",
-  "url": "http://pacioproject.org/StructureDefinition/pacio-cs",
+  "url": "https://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-cs",
   "version": "0.1.0",
   "name": "CognitiveStatus",
   "title": "PACIO Cognitive Status",

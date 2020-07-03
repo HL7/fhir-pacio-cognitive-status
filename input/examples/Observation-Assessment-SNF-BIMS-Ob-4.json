@@ -1,0 +1,59 @@
+{
+  "resourceType": "Observation",
+  "id": "Assessment-SNF-BIMS-Ob-4",
+  "meta": {
+    "profile": [
+      "https://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-cs"
+    ]
+  },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/event-location",
+      "valueReference": {
+        "reference": "Location/Org-Loc-02"
+      }
+    }
+  ],
+  "subject": {
+    "reference": "Patient/patientBSJ1"
+  },
+  "status": "final",
+  "effectiveDateTime": "2020-04-09T18:00:00-05:00",
+  "code": {
+    "coding": [
+      {
+        "code": "52733-3",
+        "system": "http://loinc.org",
+        "display": "Able to report correct month"
+      }
+    ],
+    "text": "Able to report correct month"
+  },
+  "valueCodeableConcept": {
+    "coding": [
+      {
+        "code": "LA9927-0",
+        "system": "http://loinc.org",
+        "display": "Accurate within 5 days"
+      }
+    ],
+    "text": "Accurate within 5 days"
+  },
+  "performer": [
+    {
+      "reference": "Practitioner/Practitioner-HoneyJones"
+    },
+    {
+      "reference": "PractitionerRole/Role-RN"
+    },
+    {
+      "reference": "Organization/Org-02",
+      "display": "Organization"
+    }
+  ],
+  "derivedFrom": [
+    {
+      "reference": "QuestionnaireResponse/QResponse-SNF-BIMS"
+    }
+  ]
+}

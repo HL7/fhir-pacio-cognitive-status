@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "pacio-bcs",
-  "url": "http://pacioproject.org/StructureDefinition/pacio-bcs",
+  "url": "https://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-bcs",
   "version": "0.1.0",
   "name": "BundledCognitiveStatus",
   "title": "PACIO Bundled Cognitive Status",
@@ -84,7 +84,7 @@
           {
             "code": "Extension",
             "profile": [
-              "http://pacioproject.org/StructureDefinition/device-patient-used"
+              "https://paciowg.github.io/cognitive-status-ig/StructureDefinition/device-patient-used"
             ]
           }
         ],

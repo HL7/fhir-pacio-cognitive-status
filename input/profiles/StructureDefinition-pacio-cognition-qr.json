@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "pacio-cognition-qr",
-  "url": "http://pacioproject.org/StructureDefinition/pacio-cognition-qr",
+  "url": "https://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-cognition-qr",
   "version": "0.1.0",
   "name": "CognitionQuestionnaireResponse",
   "title": "PACIO Cognition Questionnaire Response",

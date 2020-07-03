@@ -1,0 +1,103 @@
+{
+  "resourceType": "Observation",
+  "id": "Assessment-SNF-PHQ9-Ob-12",
+  "meta": {
+    "profile": [
+      "https://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-cs"
+    ]
+  },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/event-location",
+      "valueReference": {
+        "reference": "Location/Org-Loc-02"
+      }
+    }
+  ],
+  "subject": {
+    "reference": "Patient/patientBSJ1"
+  },
+  "status": "final",
+  "effectiveDateTime": "2020-04-09T18:00:00-05:00",
+  "code": {
+    "coding": [
+      {
+        "code": "54638-2",
+        "system": "http://loinc.org",
+        "display": "Feeling down, depressed or hopeless"
+      }
+    ],
+    "text": "Feeling down"
+  },
+  "valueCodeableConcept": {
+    "coding": [
+      {
+        "code": "LA33-6",
+        "system": "http://loinc.org",
+        "display": "Yes"
+      }
+    ],
+    "text": "Yes"
+  },
+  "performer": [
+    {
+      "reference": "Practitioner/Practitioner-HoneyJones"
+    },
+    {
+      "reference": "PractitionerRole/Role-RN"
+    },
+    {
+      "reference": "Organization/Org-02",
+      "display": "Organization"
+    }
+  ],
+  "derivedFrom": [
+    {
+      "reference": "QuestionnaireResponse/QResponse-SNF-PHQ9"
+    }
+  ],
+  "component": [
+    {
+      "code": {
+        "coding": [
+          {
+            "code": "86843-0",
+            "system": "http://loinc.org",
+            "display": "Symptom Presence"
+          }
+        ]
+      },
+      "valueCodeableConcept": {
+        "coding": [
+          {
+            "code": "LA33-6",
+            "system": "http://loinc.org",
+            "display": "Yes"
+          }
+        ],
+        "text": "1"
+      }
+    },
+    {
+      "code": {
+        "coding": [
+          {
+            "code": "86844-8",
+            "system": "http://loinc.org",
+            "display": "Symptom Frequency"
+          }
+        ]
+      },
+      "valueCodeableConcept": {
+        "coding": [
+          {
+            "code": "LA10998-5",
+            "system": "http://loinc.org",
+            "display": "2-6 days (several days)"
+          }
+        ],
+        "text": "1"
+      }
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "pacio-cs-dev",
-  "url": "http://pacioproject.org/StructureDefinition/pacio-cs-dev",
+  "url": "https://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-cs-dev",
   "version": "0.1.0",
   "name": "UseOfDevice",
   "title": "Use of Device",

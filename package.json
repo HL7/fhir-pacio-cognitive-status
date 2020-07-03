@@ -1,10 +1,11 @@
 {
+  "package-id": "hl7.fhir.us.pacio-cs",
   "name": "pacio-cs",
-  "version": "0.1.0",
-  "canonical": "http://pacioproject.org",
-  "url": "http://pacioproject.org",
   "title": "PACIO Cognitive Status Implementation Guide",
-  "description": "PACIO Cognitive Status Implementation Guide generated with the FHIR Shorthand tool",
+  "version": "0.1.0",
+  "canonical": "https://paciowg.github.io/cognitive-status-ig",
+  "url": "https://paciowg.github.io/cognitive-status-ig",
+  "introduction": "The purpose of this Implementation Guide is tO advance interoperable health data exchange between post-acute care (PAC) and other providers, patients, and key stakeholders",
   "dependencies": {
     "hl7.fhir.r4.core": "4.0.1",
     "hl7.fhir.us.core": "3.1.0"
@@ -12,16 +13,25 @@
   "keywords": [
     "PACIO",
     "Cognitive Status",
-    "Post-Acute Care",
-    "FHIR Shorthand"
+    "Post-Acute Care"
   ],
   "language": "en",
-  "author": "MITRE Dev Team",
+  "author": "MITRE PACIO Team",
   "maintainers": [
     {
       "name": "Caleb Wan",
-      "email": "calebwan@mitre.org"
+      "email": "http://pacioproject.org/"
     }
   ],
-  "license": "Apache-2.0"
+  "license": "CC0-1.0",
+  "list": [
+    {
+      "version": "current",
+      "desc": "Continuous Integration Build for FHIR R4 (latest in version control)",
+      "path": "http://build.fhir.org/ig/HL7/fhir-pacio-cognitive-status",
+      "status": "ci-build",
+      "current": true,
+      "fhirversion": "4.0.1"
+    }
+  ]
 }

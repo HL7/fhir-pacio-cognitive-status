@@ -1,0 +1,14 @@
+{
+  "resourceType": "Practitioner",
+  "id": "Practitioner-RonBurgendy",
+  "name": [
+    {
+      "given": [
+        "Ron"
+      ],
+      "family": "Burgendy"
+    }
+  ],
+  "active": true,
+  "gender": "male"
+}

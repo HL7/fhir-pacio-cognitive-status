@@ -1,0 +1,14 @@
+{
+  "resourceType": "Practitioner",
+  "id": "Practitioner-LunaBaskins",
+  "name": [
+    {
+      "given": [
+        "Luna"
+      ],
+      "family": "Baskins"
+    }
+  ],
+  "active": true,
+  "gender": "female"
+}
