@@ -194,7 +194,11 @@
       {
         "id": "Observation.component.code",
         "path": "Observation.component.code",
-        "short": "If used, the LOINC code or text of the column header (for the purpose of grouping answers under a heading and displaying side-by-side columns)."
+        "short": "If used, the LOINC code or text of the column header (for the purpose of grouping answers under a heading and displaying side-by-side columns).",
+        "binding": {
+          "strength": "extensible",
+          "valueSet": "http://loinc.org"
+        }
       },
       {
         "id": "Observation.component.value[x]",

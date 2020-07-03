@@ -101,7 +101,7 @@
         "id": "Observation.code",
         "path": "Observation.code",
         "binding": {
-          "strength": "preferred",
+          "strength": "extensible",
           "valueSet": "http://loinc.org"
         }
       },

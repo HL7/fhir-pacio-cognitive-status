@@ -71,11 +71,11 @@ This resource profile is intended to be used for data exchange of a point in tim
   </tr>
   <tr>
     <td>category</td>
-    <td>A required field with the preferred binding to the code system https://terminology.hl7.org/1.0.0/ValueSet-observation-category.html. This field should contain the value ‘survey’ for PAC assessment.</td>
+    <td>A required field with 'extensible' binding to the code system https://terminology.hl7.org/1.0.0/ValueSet-observation-category.html. This field should contain the value ‘survey’ for PAC assessment.</td>
   </tr>
   <tr>
     <td>code</td>
-    <td>A required field with ‘preferred’ binding to the LOINC code system http://loinc.org/.</td>
+    <td>A required field with ‘extensible’ binding to the LOINC code system http://loinc.org/.</td>
   </tr>
   <tr>
     <td>subject</td>
@@ -120,7 +120,7 @@ This resource profile is intended to be used for data exchange of a single cogni
   </tr>
   <tr>
     <td>code</td>
-    <td>A required field with ‘preferred’ binding to the LOINC code system http://loinc.org/.</td>
+    <td>A required field with ‘extensible’ binding to the LOINC code system http://loinc.org/.</td>
   </tr>
   <tr>
     <td>subject</td>
@@ -173,7 +173,7 @@ This resource profile is intended to be used for the exchange of prior level of 
   </tr>
   <tr>
     <td>code</td>
-    <td>A required field with ‘preferred’ binding to the LOINC code system http://loinc.org/.</td>
+    <td>A required field with ‘extensible’ binding to the LOINC code system http://loinc.org/.</td>
   </tr>
   <tr>
     <td>subject</td>
