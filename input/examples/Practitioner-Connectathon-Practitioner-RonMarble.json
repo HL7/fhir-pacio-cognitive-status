@@ -1,0 +1,14 @@
+{
+  "resourceType": "Practitioner",
+  "id": "Connectathon-Practitioner-RonMarble",
+  "name": [
+    {
+      "given": [
+        "Ron"
+      ],
+      "family": "Marble"
+    }
+  ],
+  "active": true,
+  "gender": "male"
+}

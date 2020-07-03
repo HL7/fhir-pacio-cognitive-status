@@ -1,0 +1,9 @@
+{
+  "resourceType": "Location",
+  "id": "Connectathon-Org-Loc-03",
+  "status": "active",
+  "name": "Sky Harbor Home Health Services",
+  "address": {
+    "text": "8810 Old Sky Harbor, San Antonio, TX 78242"
+  }
+}

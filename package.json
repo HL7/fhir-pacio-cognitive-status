@@ -1,0 +1,27 @@
+{
+  "name": "pacio-cs",
+  "version": "0.1.0",
+  "canonical": "http://pacioproject.org",
+  "url": "http://pacioproject.org",
+  "title": "PACIO Cognitive Status Implementation Guide",
+  "description": "PACIO Cognitive Status Implementation Guide generated with the FHIR Shorthand tool",
+  "dependencies": {
+    "hl7.fhir.r4.core": "4.0.1",
+    "hl7.fhir.us.core": "3.1.0"
+  },
+  "keywords": [
+    "PACIO",
+    "Cognitive Status",
+    "Post-Acute Care",
+    "FHIR Shorthand"
+  ],
+  "language": "en",
+  "author": "MITRE Dev Team",
+  "maintainers": [
+    {
+      "name": "Caleb Wan",
+      "email": "calebwan@mitre.org"
+    }
+  ],
+  "license": "Apache-2.0"
+}

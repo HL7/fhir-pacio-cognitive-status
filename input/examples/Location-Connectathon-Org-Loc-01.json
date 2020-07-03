@@ -1,0 +1,9 @@
+{
+  "resourceType": "Location",
+  "id": "Connectathon-Org-Loc-01",
+  "status": "active",
+  "name": "San Antonio General Hospital",
+  "address": {
+    "text": "26022 Meadowlark Bay, San Antonio, TX 78260"
+  }
+}

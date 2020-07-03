@@ -1,0 +1,14 @@
+{
+  "resourceType": "Practitioner",
+  "id": "Connectathon-Practitioner-DanielGranger",
+  "name": [
+    {
+      "given": [
+        "Daniel"
+      ],
+      "family": "Granger"
+    }
+  ],
+  "active": true,
+  "gender": "male"
+}

@@ -1,0 +1,14 @@
+{
+  "resourceType": "Practitioner",
+  "id": "Connectathon-Practitioner-SallySmith",
+  "name": [
+    {
+      "given": [
+        "Sally"
+      ],
+      "family": "Smith"
+    }
+  ],
+  "active": true,
+  "gender": "female"
+}

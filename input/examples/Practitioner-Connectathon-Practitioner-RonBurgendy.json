@@ -1,0 +1,14 @@
+{
+  "resourceType": "Practitioner",
+  "id": "Connectathon-Practitioner-RonBurgendy",
+  "name": [
+    {
+      "given": [
+        "Ron"
+      ],
+      "family": "Burgendy"
+    }
+  ],
+  "active": true,
+  "gender": "male"
+}

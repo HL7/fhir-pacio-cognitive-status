@@ -1,0 +1,16 @@
+{
+  "resourceType": "PractitionerRole",
+  "id": "Connectathon-Role-PT",
+  "code": [
+    {
+      "coding": [
+        {
+          "code": "36682004",
+          "system": "http://snomed.info/sct",
+          "display": "Physiotherapist"
+        }
+      ]
+    }
+  ],
+  "active": true
+}

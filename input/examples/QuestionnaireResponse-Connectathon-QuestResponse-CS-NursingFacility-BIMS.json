@@ -1,0 +1,141 @@
+{
+  "resourceType": "QuestionnaireResponse",
+  "id": "Connectathon-QuestResponse-CS-NursingFacility-BIMS",
+  "meta": {
+    "profile": [
+      "http://pacioproject.org/StructureDefinition/pacio-cognition-qr"
+    ]
+  },
+  "subject": {
+    "reference": "Patient/patientBSJ1"
+  },
+  "status": "completed",
+  "questionnaire": "https://api.logicahealth.org/PACIO/open/Questionnaire/MDS3.0-NC-1.17",
+  "authored": "2020-04-09T18:00:00-05:00",
+  "item": [
+    {
+      "linkId": "Section C",
+      "text": "Cognitive Patterns",
+      "id": "86529-5",
+      "item": [
+        {
+          "linkId": "Section C/C0200-C0500",
+          "text": "Brief Interview for Mental Status (BIMS)",
+          "id": "52491-8",
+          "item": [
+            {
+              "linkId": "Section C/C0200-C0500/C0200",
+              "text": "Number of words repeated after first attempt",
+              "id": "52731-7",
+              "answer": [
+                {
+                  "valueReference": {
+                    "reference": "Observation/Connectathon-Assessment-CS-NursingFacility-BIMS-Ob-17"
+                  }
+                }
+              ]
+            },
+            {
+              "linkId": "Section C/C0200-C0500/C0300",
+              "text": "Temporal Orientation (orientation to year, month, and day)",
+              "id": "54510-3",
+              "item": [
+                {
+                  "linkId": "Section C/C0200-C0500/C0300/C0300A",
+                  "text": "Able to report correct year",
+                  "id": "52732-5",
+                  "answer": [
+                    {
+                      "valueReference": {
+                        "reference": "Observation/Connectathon-Assessment-CS-NursingFacility-BIMS-Ob-18"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "linkId": "Section C/C0200-C0500/C0300/C0300B",
+                  "text": "Able to report correct month",
+                  "id": "52733-3",
+                  "answer": [
+                    {
+                      "valueReference": {
+                        "reference": "Observation/Connectathon-Assessment-CS-NursingFacility-BIMS-Ob-19"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "linkId": "Section C/C0200-C0500/C0300/C0300C",
+                  "text": "Able to report correct day of the week",
+                  "id": "54609-3",
+                  "answer": [
+                    {
+                      "valueReference": {
+                        "reference": "Observation/Connectathon-Assessment-CS-NursingFacility-BIMS-Ob-20"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "linkId": "Section C/C0200-C0500/C0400",
+              "text": "Recall",
+              "id": "52493-4",
+              "item": [
+                {
+                  "linkId": "Section C/C0200-C0500/C0400/C0400A",
+                  "text": "Able to recall sock",
+                  "id": "52735-8",
+                  "answer": [
+                    {
+                      "valueReference": {
+                        "reference": "Observation/Connectathon-Assessment-CS-NursingFacility-BIMS-Ob-21"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "linkId": "Section C/C0200-C0500/C0400/C0400B",
+                  "text": "Able to recall blue",
+                  "id": "52736-6",
+                  "answer": [
+                    {
+                      "valueReference": {
+                        "reference": "Observation/Connectathon-Assessment-CS-NursingFacility-BIMS-Ob-22"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "linkId": "Section C/C0200-C0500/C0400/C0400C",
+                  "text": "Able to recall bed",
+                  "id": "52737-4",
+                  "answer": [
+                    {
+                      "valueReference": {
+                        "reference": "Observation/Connectathon-Assessment-CS-NursingFacility-BIMS-Ob-23"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "linkId": "Section C/C0200-C0500/C0500",
+              "text": "BIMS Summary Score",
+              "id": "54614-3",
+              "answer": [
+                {
+                  "valueReference": {
+                    "reference": "Observation/Connectathon-Assessment-CS-NursingFacility-BIMS"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

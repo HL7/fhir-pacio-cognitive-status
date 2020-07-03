@@ -1,0 +1,273 @@
+{
+  "resourceType": "QuestionnaireResponse",
+  "id": "Connectathon-QuestResponse-CS-NursingFacility-PHQ9",
+  "meta": {
+    "profile": [
+      "http://pacioproject.org/StructureDefinition/pacio-cognition-qr"
+    ]
+  },
+  "subject": {
+    "reference": "Patient/patientBSJ1"
+  },
+  "status": "completed",
+  "questionnaire": "https://api.logicahealth.org/PACIO/open/Questionnaire/MDS3.0-NC-1.17",
+  "authored": "2020-04-09T18:00:00-05:00",
+  "item": [
+    {
+      "linkId": "Section D",
+      "text": "Mood",
+      "id": " 90482-1",
+      "item": [
+        {
+          "linkId": "Section D/D0200",
+          "text": "Resident Mood Interview (PHQ-9)",
+          "id": "54635-8",
+          "item": [
+            {
+              "linkId": "Section D/D0200/1",
+              "text": "Symptom Presence",
+              "id": "86843-0",
+              "item": [
+                {
+                  "linkId": "Section D/D0200/1/D0200A1",
+                  "text": "Little interest or pleasure in doing things",
+                  "id": "54636-6",
+                  "answer": [
+                    {
+                      "valueReference": {
+                        "reference": "Observation/Connectathon-Assessment-CS-NursingFacility-PHQ9-Ob-25"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "linkId": "Section D/D0200/1/D0200B1",
+                  "text": "Feeling down, depressed or hopeless",
+                  "id": "54638-2",
+                  "answer": [
+                    {
+                      "valueReference": {
+                        "reference": "Observation/Connectathon-Assessment-CS-NursingFacility-PHQ9-Ob-27"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "linkId": "Section D/D0200/1/D0200C1",
+                  "text": "Trouble falling or staying asleep or sleeping too much",
+                  "id": "54640-8",
+                  "answer": [
+                    {
+                      "valueReference": {
+                        "reference": "Observation/Connectathon-Assessment-CS-NursingFacility-PHQ9-Ob-29"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "linkId": "Section D/D0200/1/D0200D1",
+                  "text": "Feeling tired or having little energy",
+                  "id": "54642-4",
+                  "answer": [
+                    {
+                      "valueReference": {
+                        "reference": "Observation/Connectathon-Assessment-CS-NursingFacility-PHQ9-Ob-31"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "linkId": "Section D/D0200/1/D0200E1",
+                  "text": "Poor appetite or overeating",
+                  "id": "54644-0",
+                  "answer": [
+                    {
+                      "valueReference": {
+                        "reference": "Observation/Connectathon-Assessment-CS-NursingFacility-PHQ9-Ob-33"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "linkId": "Section D/D0200/1/D0200F1",
+                  "text": "Feeling bad about yourself - or that you are a failure or have let yourself or your family down",
+                  "id": "54646-5",
+                  "answer": [
+                    {
+                      "valueReference": {
+                        "reference": "Observation/Connectathon-Assessment-CS-NursingFacility-PHQ9-Ob-35"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "linkId": "Section D/D0200/1/D0200G1",
+                  "text": "Trouble concentrating on things, such as reading the newspaper or watching television",
+                  "id": "54648-1",
+                  "answer": [
+                    {
+                      "valueReference": {
+                        "reference": "Observation/Connectathon-Assessment-CS-NursingFacility-PHQ9-Ob-37"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "linkId": "Section D/D0200/1/D0200H1",
+                  "text": "Moving or speaking so slowly that other people could have noticed. Or the opposite - being so fidgety or restless that you have been moving around a lot more than usual",
+                  "id": "54650-7",
+                  "answer": [
+                    {
+                      "valueReference": {
+                        "reference": "Observation/Connectathon-Assessment-CS-NursingFacility-PHQ9-Ob-39"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "linkId": "Section D/D0200/1/D0200I1",
+                  "text": "Thoughts that you would be better off dead, or of hurting yourself in some way",
+                  "id": "54652-3",
+                  "answer": [
+                    {
+                      "valueReference": {
+                        "reference": "Observation/Connectathon-Assessment-CS-NursingFacility-PHQ9-Ob-41"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "linkId": "Section D/D0200/2",
+              "text": "Symptom Frequency",
+              "id": "86844-8",
+              "item": [
+                {
+                  "linkId": "Section D/D0200/2/D0200A2",
+                  "text": "Little interest or pleasure in doing things",
+                  "id": "54637-4",
+                  "answer": [
+                    {
+                      "valueReference": {
+                        "reference": "Observation/Connectathon-Assessment-CS-NursingFacility-PHQ9-Ob-26"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "linkId": "Section D/D0200/2/D0200B2",
+                  "text": "Feeling down, depressed or hopeless",
+                  "id": "54639-0",
+                  "answer": [
+                    {
+                      "valueReference": {
+                        "reference": "Observation/Connectathon-Assessment-CS-NursingFacility-PHQ9-Ob-28"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "linkId": "Section D/D0200/2/D0200C2",
+                  "text": "Trouble falling or staying asleep or sleeping too much",
+                  "id": "54641-6",
+                  "answer": [
+                    {
+                      "valueReference": {
+                        "reference": "Observation/Connectathon-Assessment-CS-NursingFacility-PHQ9-Ob-30"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "linkId": "Section D/D0200/2/D0200D2",
+                  "text": "Feeling tired or having little energy",
+                  "id": "54643-2",
+                  "answer": [
+                    {
+                      "valueReference": {
+                        "reference": "Observation/Connectathon-Assessment-CS-NursingFacility-PHQ9-Ob-32"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "linkId": "Section D/D0200/2/D0200E2",
+                  "text": "Poor appetite or overeating",
+                  "id": "54645-7",
+                  "answer": [
+                    {
+                      "valueReference": {
+                        "reference": "Observation/Connectathon-Assessment-CS-NursingFacility-PHQ9-Ob-34"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "linkId": "Section D/D0200/2/D0200F2",
+                  "text": "Feeling bad about yourself - or that you are a failure or have let yourself or your family down",
+                  "id": "54647-3",
+                  "answer": [
+                    {
+                      "valueReference": {
+                        "reference": "Observation/Connectathon-Assessment-CS-NursingFacility-PHQ9-Ob-36"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "linkId": "Section D/D0200/2/D0200G2",
+                  "text": "Trouble concentrating on things, such as reading the newspaper or watching television",
+                  "id": "54649-9",
+                  "answer": [
+                    {
+                      "valueReference": {
+                        "reference": "Observation/Connectathon-Assessment-CS-NursingFacility-PHQ9-Ob-38"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "linkId": "Section D/D0200/2/D0200H2",
+                  "text": "Moving or speaking so slowly that other people could have noticed. Or the opposite - being so fidgety or restless that you have been moving around a lot more than usual",
+                  "id": "54651-5",
+                  "answer": [
+                    {
+                      "valueReference": {
+                        "reference": "Observation/Connectathon-Assessment-CS-NursingFacility-PHQ9-Ob-40"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "linkId": "Section D/D0200/2/D0200I2",
+                  "text": "Thoughts that you would be better off dead, or of hurting yourself in some way",
+                  "id": "54653-1",
+                  "answer": [
+                    {
+                      "valueReference": {
+                        "reference": "Observation/Connectathon-Assessment-CS-NursingFacility-PHQ9-Ob-42"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "linkId": "Section D/D0300",
+          "text": "Total Severity Score",
+          "id": "54654-9",
+          "answer": [
+            {
+              "valueReference": {
+                "reference": "Observation/Connectathon-Assessment-CS-NursingFacility-PHQ9"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

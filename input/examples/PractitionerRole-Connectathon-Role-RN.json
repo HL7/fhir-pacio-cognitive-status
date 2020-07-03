@@ -1,0 +1,16 @@
+{
+  "resourceType": "PractitionerRole",
+  "id": "Connectathon-Role-RN",
+  "code": [
+    {
+      "coding": [
+        {
+          "code": "224535009",
+          "system": "http://snomed.info/sct",
+          "display": "Registered Nurse"
+        }
+      ]
+    }
+  ],
+  "active": true
+}

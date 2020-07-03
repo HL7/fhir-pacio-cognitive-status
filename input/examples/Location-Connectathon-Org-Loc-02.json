@@ -1,0 +1,9 @@
+{
+  "resourceType": "Location",
+  "id": "Connectathon-Org-Loc-02",
+  "status": "active",
+  "name": "Happy Nursing Facility",
+  "address": {
+    "text": "8100 Pinebrook Dr, San Antonio, TX, 78230"
+  }
+}
