@@ -226,7 +226,7 @@ In the following set of examples, we provide guidance for using specific codes a
 
 **Guidance and Notes:**
 1. The ‘questionnaire’ field is the URL pointing to the file of the questionnaire that defines and organizes the questions for which answers are being provided.
-2. Use ‘id’ field to indicate the code of a section title or an observation question. For example, the LONIC code ‘86585-7.’
+2. Use ‘id’ field to indicate the code of a section title or an observation question. For example, the LOINC code ‘86585-7.’
 3. Each ‘linkId’ field should match the ‘linkId’ of the corresponding section title or question from the questionnaire.
 4. The nesting structure of the ‘item’ fields should correspond to the nesting structure as showed in the questionnaire.
 
@@ -235,7 +235,7 @@ In the following set of examples, we provide guidance for using specific codes a
 ![BCS CAM Example](BCS_CAM_Example.png){:style="float: none;"}
 
 **Guidance and Notes:**
-1. Here is how the ‘event-location’ extension is used to point to a FHIR Location resource.
+1. Here is how the ‘event-location’ extension is used to point to a FHIR Location resource to indicate where the observation event occurred.
 2. Use the right LOINC code to indicate the particular kind of cognitive assessment. In this case the LOINC code ‘86585-7’ is used to indicate ‘Signs and Symptoms of Delirium (from CAM©)’.
 3. The ‘category’ field should contain the value ‘survey’ for a PAC assessment.
 
@@ -262,4 +262,12 @@ In the following set of examples, we provide guidance for using specific codes a
 **Guidance and Notes:**
 1. Use the right LOINC code to indicate the particular kind of cognitive assessment. In this case the LOINC code ‘54635-8’ is used to indicate ‘Resident Mood Interview (PHQ-9)’.
 2. An assessment with more than one observation questions would have a number of ‘hasMember’ elements, each of which would point to an observation in the assessment.
-3. The observation questions of the PHQ-9 assessments are grouped under two headings. One way to determine which ‘hasMember’ elements (i.e. observation questions) should be grouped together and under which heading is to examine the QuestionnaireResponse resource which has the nesting structure to show how the questions were organized.
+3. The observation questions of the PHQ-9 assessment are grouped under two headings. One way to determine which ‘hasMember’ elements (i.e. observation questions) should be grouped together and under which heading is to examine the CognitionQuestionnaireResponse resource which has the nesting structure to show how the questions were organized.
+
+### CognitiveStatus – PHQ-9 Two-Column Example
+
+![CS PHQ9 TwoColumn Example](CS_PHQ9_TwoColumn_Example.png){:style="float: none;"}
+
+**Guidance and Notes:**
+1. The observation questions of the PHQ-9 assessment are grouped under two headings. Use the 'component.code' to specify column headings to provide support for two-column display.
+2. Use the 'component.value' to specify the answers to the observation questions to provide support for two-column display.
