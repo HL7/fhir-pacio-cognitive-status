@@ -168,12 +168,16 @@ This resource profile is intended to be used for the exchange of prior level of 
     <td>A “must support” extension added to the Observation resource for storing the Reference(Location) to indicate where the observation event occurred.</td>
   </tr>
   <tr>
+    <td>assistance-required</td>
+    <td>A “must support” extension added to the Observation resource to provide indication of 'independent' vs. 'assistance needed'.</td>
+  </tr>
+  <tr>
     <td>text</td>
     <td>A “must support” field and to be used as text summary of the prior level of cognitive function for the patient.</td>
   </tr>
   <tr>
     <td>code</td>
-    <td>A required field with ‘extensible’ binding to the LOINC code system http://loinc.org/.</td>
+    <td>This required field has the fixed value of the LOINC code 11332-4 "History of Cognitive Function Narrative".</td>
   </tr>
   <tr>
     <td>subject</td>
@@ -189,7 +193,7 @@ This resource profile is intended to be used for the exchange of prior level of 
   </tr>
   <tr>
     <td>value</td>
-    <td>This field can only be of the type CodeableConcept.</td>
+    <td>Optional field with the type CodeableConcept.</td>
   </tr>
 </table>
 
@@ -264,10 +268,10 @@ In the following set of examples, we provide guidance for using specific codes a
 2. An assessment with more than one observation questions would have a number of ‘hasMember’ elements, each of which would point to an observation in the assessment.
 3. The observation questions of the PHQ-9 assessment are grouped under two headings. One way to determine which ‘hasMember’ elements (i.e. observation questions) should be grouped together and under which heading is to examine the CognitionQuestionnaireResponse resource which has the nesting structure to show how the questions were organized.
 
-### CognitiveStatus – PHQ-9 Two-Column Example
+### PriorLevelOfCognitiveFunction – Prior Level of Cognitive Function Example
 
-![CS PHQ9 TwoColumn Example](CS_PHQ9_TwoColumn_Example.png){:style="float: none;"}
+![PLOCF Example](PLOCF_Example.png){:style="float: none;"}
 
 **Guidance and Notes:**
-1. The observation questions of the PHQ-9 assessment are grouped under two headings. Use the 'component.code' to specify column headings to provide support for two-column display.
-2. Use the 'component.value' to specify the answers to the observation questions to provide support for two-column display.
+1. Use the extension to provide indication of 'independent' vs. 'assistance needed'.
+2. Text summary of the prior level of cognitive function for the patient.

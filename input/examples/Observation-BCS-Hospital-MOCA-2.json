@@ -1,0 +1,70 @@
+{
+  "resourceType": "Observation",
+  "id": "BCS-Hospital-MOCA-2",
+  "meta": {
+    "profile": [
+      "https://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-bcs"
+    ]
+  },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/event-location",
+      "valueReference": {
+        "reference": "Location/Org-Loc-01"
+      }
+    }
+  ],
+  "subject": {
+    "reference": "Patient/patientBSJ1"
+  },
+  "status": "final",
+  "effectiveDateTime": "2020-07-10T12:16:00-05:00",
+  "code": {
+    "coding": [
+      {
+        "code": "72133-2",
+        "system": "http://loinc.org",
+        "display": "Montreal Cognitive Assessment [MoCA]"
+      }
+    ]
+  },
+  "category": [
+    {
+      "coding": [
+        {
+          "code": "survey",
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category"
+        }
+      ]
+    }
+  ],
+  "encounter": {
+    "reference": "Encounter/BSJ-Encounter-1"
+  },
+  "valueCodeableConcept": {
+    "text": "22",
+    "coding": [
+      {
+        "display": "Total score [MoCA]"
+      }
+    ]
+  },
+  "performer": [
+    {
+      "reference": "Practitioner/Practitioner-JennyGlass"
+    },
+    {
+      "reference": "PractitionerRole/Role-SLP"
+    },
+    {
+      "reference": "Organization/Org-01",
+      "display": "Organization"
+    }
+  ],
+  "derivedFrom": [
+    {
+      "reference": "QuestionnaireResponse/QResponse-Hospital-MOCA-2",
+      "display": "Questionnaire Response"
+    }
+  ]
+}

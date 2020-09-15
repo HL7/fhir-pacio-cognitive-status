@@ -1,0 +1,16 @@
+{
+  "resourceType": "PractitionerRole",
+  "id": "Role-SLP",
+  "code": [
+    {
+      "coding": [
+        {
+          "code": "159026005",
+          "system": "http://snomed.info/sct",
+          "display": "Speech Language Pathologist"
+        }
+      ]
+    }
+  ],
+  "active": true
+}

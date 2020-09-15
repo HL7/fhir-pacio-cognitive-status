@@ -1,0 +1,59 @@
+{
+  "resourceType": "Observation",
+  "id": "BCS-SNF-BIMS-1-Ob-Question-5",
+  "meta": {
+    "profile": [
+      "https://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-cs"
+    ]
+  },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/event-location",
+      "valueReference": {
+        "reference": "Location/Org-Loc-02"
+      }
+    }
+  ],
+  "subject": {
+    "reference": "Patient/patientBSJ1"
+  },
+  "status": "final",
+  "effectiveDateTime": "2020-07-11T11:30:00-05:00",
+  "code": {
+    "coding": [
+      {
+        "code": "52735-8",
+        "system": "http://loinc.org",
+        "display": "Able to recall sock"
+      }
+    ],
+    "text": "Able to recall 'sock'"
+  },
+  "valueCodeableConcept": {
+    "coding": [
+      {
+        "code": "LA10126-3",
+        "system": "http://loinc.org",
+        "display": "Yes, after cueing ('something to wear')"
+      }
+    ],
+    "text": "Yes, after cueing ('something to wear')"
+  },
+  "performer": [
+    {
+      "reference": "Practitioner/Practitioner-HoneyJones"
+    },
+    {
+      "reference": "PractitionerRole/Role-SLP"
+    },
+    {
+      "reference": "Organization/Org-02",
+      "display": "Organization"
+    }
+  ],
+  "derivedFrom": [
+    {
+      "reference": "QuestionnaireResponse/QResponse-SNF-BIMS-1"
+    }
+  ]
+}

@@ -50,8 +50,8 @@
       {
         "id": "Observation.text",
         "path": "Observation.text",
-        "short": "Text summary of the prior level of cognitive function for the patient. (Strongly encouraged to use until more structured method is established)",
-        "mustSupport": true
+        "short": "Text summary of the prior level of cognitive function for the patient.",
+        "min": 1
       },
       {
         "id": "Observation.extension",
@@ -100,10 +100,24 @@
       {
         "id": "Observation.code",
         "path": "Observation.code",
+        "patternCodeableConcept": {
+          "coding": [
+            {
+              "code": "11332-4",
+              "system": "http://loinc.org",
+              "display": "History of Cognitive Function Narrative"
+            }
+          ]
+        },
         "binding": {
-          "strength": "extensible",
+          "strength": "required",
           "valueSet": "http://loinc.org"
         }
+      },
+      {
+        "id": "Observation.code.text",
+        "path": "Observation.code.text",
+        "patternString": "History of Cognitive Function Narrative"
       },
       {
         "id": "Observation.subject",
@@ -121,6 +135,7 @@
       {
         "id": "Observation.effective[x]",
         "path": "Observation.effective[x]",
+        "min": 1,
         "type": [
           {
             "code": "dateTime"
@@ -135,15 +150,6 @@
         "path": "Observation.performer",
         "short": "The person who performed the assessment. May also be used to provide the practitioner role and organization. ",
         "min": 1
-      },
-      {
-        "id": "Observation.value[x]",
-        "path": "Observation.value[x]",
-        "type": [
-          {
-            "code": "CodeableConcept"
-          }
-        ]
       }
     ]
   }

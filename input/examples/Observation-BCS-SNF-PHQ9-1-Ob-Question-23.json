@@ -1,0 +1,59 @@
+{
+  "resourceType": "Observation",
+  "id": "BCS-SNF-PHQ9-1-Ob-Question-23",
+  "meta": {
+    "profile": [
+      "https://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-cs"
+    ]
+  },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/event-location",
+      "valueReference": {
+        "reference": "Location/Org-Loc-03"
+      }
+    }
+  ],
+  "subject": {
+    "reference": "Patient/patientBSJ1"
+  },
+  "status": "final",
+  "effectiveDateTime": "2020-07-11T11:30:00-05:00",
+  "code": {
+    "coding": [
+      {
+        "code": "54651-5",
+        "system": "http://loinc.org",
+        "display": "Moving or speaking so slowly so that others notice/or the opposite - being fidgety or restless"
+      }
+    ],
+    "text": "Moving or speaking so slowly that other people could have noticed. Or the opposite - being so fidgety or restless that you have been moving around a lot more than usual"
+  },
+  "valueCodeableConcept": {
+    "coding": [
+      {
+        "code": "LA10997-7",
+        "system": "http://loinc.org",
+        "display": "Never or 1 day"
+      }
+    ],
+    "text": "Never or 1 day"
+  },
+  "performer": [
+    {
+      "reference": "Practitioner/Practitioner-LunaBaskins"
+    },
+    {
+      "reference": "PractitionerRole/Role-SLP"
+    },
+    {
+      "reference": "Organization/Org-03",
+      "display": "Organization"
+    }
+  ],
+  "derivedFrom": [
+    {
+      "reference": "QuestionnaireResponse/QResponse-SNF-PHQ9-1"
+    }
+  ]
+}

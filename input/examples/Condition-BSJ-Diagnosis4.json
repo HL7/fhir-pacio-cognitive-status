@@ -1,0 +1,48 @@
+{
+  "resourceType": "Condition",
+  "id": "BSJ-Diagnosis4",
+  "subject": {
+    "reference": "Patient/patientBSJ1"
+  },
+  "clinicalStatus": {
+    "coding": [
+      {
+        "code": "active",
+        "system": "http://terminology.hl7.org/CodeSystem/condition-clinical"
+      }
+    ]
+  },
+  "verificationStatus": {
+    "coding": [
+      {
+        "code": "confirmed",
+        "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status"
+      }
+    ]
+  },
+  "category": [
+    {
+      "coding": [
+        {
+          "code": "encounter-diagnosis",
+          "system": "http://terminology.hl7.org/CodeSystem/condition-category"
+        }
+      ]
+    }
+  ],
+  "code": {
+    "coding": [
+      {
+        "code": "414545008",
+        "system": "http://snomed.info/sct",
+        "display": "Ischemic heart disease"
+      }
+    ],
+    "text": "Ischemic heart disease (disorder)"
+  },
+  "onsetDateTime": "2020-07-06T12:15:00-05:03",
+  "asserter": {
+    "reference": "Practitioner/Practitioner-JohnSmith",
+    "display": "PCP John Smith"
+  }
+}

@@ -23,7 +23,7 @@
   </ul>
 
   <!-- insert intro if present -->
-  {% include fragment-intro.html %}
+  {% include fragment-intro.html type='{{[type]}}' id='{{[id]}}' %}
 
   <p><b>Usage info</b></p>
   {%include StructureDefinition-{{[id]}}-sd-xref.xhtml%}
@@ -189,14 +189,18 @@
   <!--Terminology Bindings heading in the fragment -->
   {%include StructureDefinition-{{[id]}}-tx.xhtml%}
 
+{% capture invariants %}
+  {% include StructureDefinition-{{[id]}}-inv.xhtml %}
+{% endcapture %}
+<!-- 218 is size of empty table -->
+{% unless invariants.size <= 218 %}
   <a name="inv"> </a>
   <!--Constraints  heading in the fragment -->
-  {%include StructureDefinition-{{[id]}}-inv.xhtml%}
+  {% include StructureDefinition-{{[id]}}-inv.xhtml %}
+{% endunless%}
 
   <!-- insert notes if present -->
-  {% include fragment-notes.html %}
-
-  {%include StructureDefinition-{{[id]}}-history.xhtml%}
+  {% include fragment-notes.html type='{{[type]}}' id='{{[id]}}' %}
 
 </div>
 {% assign includetabscripts = 'true' %}

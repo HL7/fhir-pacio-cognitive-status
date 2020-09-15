@@ -1,0 +1,15 @@
+{
+  "resourceType": "Practitioner",
+  "id": "Practitioner-JohnSmith",
+  "name": [
+    {
+      "given": [
+        "John"
+      ],
+      "family": "Smith",
+      "text": "Primary Care Physician"
+    }
+  ],
+  "active": true,
+  "gender": "male"
+}

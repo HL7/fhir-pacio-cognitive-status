@@ -1,0 +1,70 @@
+{
+  "resourceType": "Observation",
+  "id": "BCS-SNF-CAM-Admission-1",
+  "meta": {
+    "profile": [
+      "https://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-bcs"
+    ]
+  },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/event-location",
+      "valueReference": {
+        "reference": "Location/Org-Loc-02"
+      }
+    }
+  ],
+  "subject": {
+    "reference": "Patient/patientBSJ1"
+  },
+  "status": "final",
+  "effectiveDateTime": "2020-04-09T18:00:00-05:00",
+  "code": {
+    "coding": [
+      {
+        "code": "86585-7",
+        "system": "http://loinc.org",
+        "display": "Signs and Symptoms of Delirium (from CAM)"
+      }
+    ]
+  },
+  "category": [
+    {
+      "coding": [
+        {
+          "code": "survey",
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category"
+        }
+      ]
+    }
+  ],
+  "performer": [
+    {
+      "reference": "Practitioner/Practitioner-HoneyJones"
+    },
+    {
+      "reference": "Role-RN"
+    },
+    {
+      "reference": "Organization/Org-02",
+      "display": "Organization"
+    }
+  ],
+  "hasMember": [
+    {
+      "reference": "Observation/BCS-SNF-CAM-Admission-1-Ob-Question-1"
+    },
+    {
+      "reference": "Observation/BCS-SNF-CAM-Admission-1-Ob-Question-3"
+    },
+    {
+      "reference": "Observation/BCS-SNF-CAM-Admission-1-Ob-Question-5"
+    }
+  ],
+  "derivedFrom": [
+    {
+      "reference": "QuestionnaireResponse/QResponse-SNF-CAM-Admission-1",
+      "display": "Questionnaire Response"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "resourceType": "Observation",
+  "id": "BCS-SNF-BIMS-1-Ob-Question-3",
+  "meta": {
+    "profile": [
+      "https://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-cs"
+    ]
+  },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/event-location",
+      "valueReference": {
+        "reference": "Location/Org-Loc-02"
+      }
+    }
+  ],
+  "subject": {
+    "reference": "Patient/patientBSJ1"
+  },
+  "status": "final",
+  "effectiveDateTime": "2020-07-11T11:30:00-05:00",
+  "code": {
+    "coding": [
+      {
+        "code": "52733-3",
+        "system": "http://loinc.org",
+        "display": "What month are we in right now?"
+      }
+    ],
+    "text": "Able to report correct month"
+  },
+  "valueCodeableConcept": {
+    "coding": [
+      {
+        "code": "LA10010-9",
+        "system": "http://loinc.org",
+        "display": "Missed by 6 days to 1 month"
+      }
+    ],
+    "text": "Missed by 6 days to 1 month"
+  },
+  "performer": [
+    {
+      "reference": "Practitioner/Practitioner-HoneyJones"
+    },
+    {
+      "reference": "PractitionerRole/Role-SLP"
+    },
+    {
+      "reference": "Organization/Org-02",
+      "display": "Organization"
+    }
+  ],
+  "derivedFrom": [
+    {
+      "reference": "QuestionnaireResponse/QResponse-SNF-BIMS-1"
+    }
+  ]
+}

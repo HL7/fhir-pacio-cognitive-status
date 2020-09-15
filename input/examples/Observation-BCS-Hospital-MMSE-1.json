@@ -1,0 +1,70 @@
+{
+  "resourceType": "Observation",
+  "id": "BCS-Hospital-MMSE-1",
+  "meta": {
+    "profile": [
+      "https://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-bcs"
+    ]
+  },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/event-location",
+      "valueReference": {
+        "reference": "Location/Org-Loc-01"
+      }
+    }
+  ],
+  "subject": {
+    "reference": "Patient/patientBSJ1"
+  },
+  "status": "final",
+  "effectiveDateTime": "2020-07-08T17:32:00-05:00",
+  "code": {
+    "coding": [
+      {
+        "code": "72107-6",
+        "system": "http://loinc.org",
+        "display": "Mini-Mental State Examination [MMSE]"
+      }
+    ]
+  },
+  "category": [
+    {
+      "coding": [
+        {
+          "code": "survey",
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category"
+        }
+      ]
+    }
+  ],
+  "encounter": {
+    "reference": "Encounter/BSJ-Encounter-1"
+  },
+  "valueCodeableConcept": {
+    "text": "20",
+    "coding": [
+      {
+        "display": "MMSE Total Score"
+      }
+    ]
+  },
+  "performer": [
+    {
+      "reference": "Practitioner/Practitioner-JennyGlass"
+    },
+    {
+      "reference": "PractitionerRole/Role-SLP"
+    },
+    {
+      "reference": "Organization/Org-01",
+      "display": "Organization"
+    }
+  ],
+  "derivedFrom": [
+    {
+      "reference": "QuestionnaireResponse/QResponse-Hospital-MMSE-1",
+      "display": "Questionnaire Response"
+    }
+  ]
+}

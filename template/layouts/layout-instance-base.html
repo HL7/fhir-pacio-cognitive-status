@@ -13,13 +13,21 @@
 {% assign prefix = site.data.artifacts[page.path].type %}
   <h2 id="root">{{example}}{{prefix}}: {{site.data.pages[page.path].title}}</h2>
 
-  <!-- insert intro if present -->
-  {% include fragment-intro.html %}
+{% unless example %}
+  {% if '{{[type]}}' == 'CapabilityStatement' %}
+      <p>
+      <a href="{{[id]}}.openapi.json" no-download="true">Raw OpenAPI-Swagger Definition file</a> | <a href="{{[id]}}.openapi.json" download>Download</a>
+      </p>
+  {% endif %}
+{% endunless %}
 
-  {% include {{[type]}}-{{[name]}}.xhtml %}
+  <!-- insert intro if present -->
+  {% include fragment-intro.html type='{{[type]}}' id='{{[id]}}' %}
+
+  {% include {{[type]}}-{{[id]}}-html.xhtml %}
 
   <!-- insert notes if present -->
-  {% include fragment-notes.html %}
+  {% include fragment-notes.html type='{{[type]}}' id='{{[id]}}' %}
 
 </div>
 {% include fragment-pageend.html %}

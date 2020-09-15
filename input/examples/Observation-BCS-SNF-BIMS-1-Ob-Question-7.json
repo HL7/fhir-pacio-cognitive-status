@@ -1,0 +1,59 @@
+{
+  "resourceType": "Observation",
+  "id": "BCS-SNF-BIMS-1-Ob-Question-7",
+  "meta": {
+    "profile": [
+      "https://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-cs"
+    ]
+  },
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/event-location",
+      "valueReference": {
+        "reference": "Location/Org-Loc-02"
+      }
+    }
+  ],
+  "subject": {
+    "reference": "Patient/patientBSJ1"
+  },
+  "status": "final",
+  "effectiveDateTime": "2020-07-11T11:30:00-05:00",
+  "code": {
+    "coding": [
+      {
+        "code": "52737-4",
+        "system": "http://loinc.org",
+        "display": "Able to recall bed"
+      }
+    ],
+    "text": "Able to recall 'bed'"
+  },
+  "valueCodeableConcept": {
+    "coding": [
+      {
+        "code": "LA10125-5",
+        "system": "http://loinc.org",
+        "display": "Yes, after cueing ('a piece of furniture')"
+      }
+    ],
+    "text": "Yes, after cueing ('a piece of furniture')"
+  },
+  "performer": [
+    {
+      "reference": "Practitioner/Practitioner-HoneyJones"
+    },
+    {
+      "reference": "PractitionerRole/Role-SLP"
+    },
+    {
+      "reference": "Organization/Org-02",
+      "display": "Organization"
+    }
+  ],
+  "derivedFrom": [
+    {
+      "reference": "QuestionnaireResponse/QResponse-SNF-BIMS-1"
+    }
+  ]
+}

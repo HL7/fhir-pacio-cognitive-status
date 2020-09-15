@@ -1,0 +1,56 @@
+{
+  "resourceType": "Observation",
+  "id": "BSJ-Prior-Level-Of-Cognitive-Function-1",
+  "meta": {
+    "profile": [
+      "https://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-plcf"
+    ]
+  },
+  "code": {
+    "coding": [
+      {
+        "code": "11332-4",
+        "system": "http://loinc.org",
+        "display": "History of Cognitive Function Narrative"
+      }
+    ]
+  },
+  "extension": [
+    {
+      "url": "https://paciowg.github.io/cognitive-status-ig/StructureDefinition/assistance-required",
+      "valueCodeableConcept": {
+        "text": "Independent"
+      }
+    },
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/event-location",
+      "valueReference": {
+        "reference": "Location/provider-org-loc-01"
+      }
+    }
+  ],
+  "subject": {
+    "reference": "Patient/patientBSJ1"
+  },
+  "status": "final",
+  "text": {
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Alert and oriented x 3. She is independent in household finances, social and community activities, coeherent and appropriate communication. Appropriate attire for location and weather.</div>",
+    "status": "additional"
+  },
+  "performer": [
+    {
+      "reference": "Practitioner/Practitioner-JohnSmith"
+    },
+    {
+      "reference": "PractitionerRole/provider-role-pcp"
+    },
+    {
+      "reference": "Organization/provider-org-01",
+      "display": "Organization"
+    }
+  ],
+  "effectivePeriod": {
+    "start": "2019-07-01",
+    "end": "2020-11-30"
+  }
+}

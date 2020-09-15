@@ -1,0 +1,48 @@
+{
+  "resourceType": "Condition",
+  "id": "BSJ-Diagnosis3",
+  "subject": {
+    "reference": "Patient/patientBSJ1"
+  },
+  "clinicalStatus": {
+    "coding": [
+      {
+        "code": "active",
+        "system": "http://terminology.hl7.org/CodeSystem/condition-clinical"
+      }
+    ]
+  },
+  "verificationStatus": {
+    "coding": [
+      {
+        "code": "confirmed",
+        "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status"
+      }
+    ]
+  },
+  "category": [
+    {
+      "coding": [
+        {
+          "code": "encounter-diagnosis",
+          "system": "http://terminology.hl7.org/CodeSystem/condition-category"
+        }
+      ]
+    }
+  ],
+  "code": {
+    "coding": [
+      {
+        "code": "433144002",
+        "system": "http://snomed.info/sct",
+        "display": "Stage 3 chronic kideny disease"
+      }
+    ],
+    "text": "Chronic kidney disease stage 3 (disorder)"
+  },
+  "onsetDateTime": "2020-07-06T12:15:00-05:02",
+  "asserter": {
+    "reference": "Practitioner/Practitioner-JohnSmith",
+    "display": "PCP John Smith"
+  }
+}

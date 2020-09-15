@@ -1,0 +1,32 @@
+{
+  "resourceType": "Practitioner",
+  "id": "Practitioner-NoraOlogist",
+  "identifier": [
+    {
+      "system": "http://hl7.org/fhir/sid/us-npi",
+      "value": "3668788925"
+    }
+  ],
+  "name": [
+    {
+      "given": [
+        "Nora"
+      ],
+      "family": "Ologist",
+      "text": "Neurologist"
+    }
+  ],
+  "active": true,
+  "gender": "female",
+  "telecom": [
+    {
+      "system": "phone",
+      "value": "(210) 555 7632"
+    }
+  ],
+  "address": [
+    {
+      "text": "26022 Meadowlark Bay, San Antonio, TX 78260"
+    }
+  ]
+}

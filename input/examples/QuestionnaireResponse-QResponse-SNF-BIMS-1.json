@@ -1,0 +1,141 @@
+{
+  "resourceType": "QuestionnaireResponse",
+  "id": "QResponse-SNF-BIMS-1",
+  "meta": {
+    "profile": [
+      "https://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-cognition-qr"
+    ]
+  },
+  "subject": {
+    "reference": "Patient/patientBSJ1"
+  },
+  "status": "completed",
+  "questionnaire": "https://api.logicahealth.org/PACIO/open/Questionnaire/MDS3.0-NC-1.17",
+  "authored": "2020-07-11T11:30:00-05:00",
+  "item": [
+    {
+      "linkId": "Section-3",
+      "text": "Cognitive Patterns",
+      "id": "86529-5",
+      "item": [
+        {
+          "linkId": "Section-3/C0200-C0500",
+          "text": "Brief Interview for Mental Status (BIMS)",
+          "id": "52491-8",
+          "item": [
+            {
+              "linkId": "Section-3/C0200",
+              "text": "Number of words repeated after first attempt",
+              "id": "52731-7",
+              "answer": [
+                {
+                  "valueReference": {
+                    "reference": "Observation/BCS-SNF-BIMS-1-Ob-Question-1"
+                  }
+                }
+              ]
+            },
+            {
+              "linkId": "Section-3/C0300",
+              "text": "Temporal Orientation (orientation to year, month, and day)",
+              "id": "54510-3",
+              "item": [
+                {
+                  "linkId": "Section-3/C0300A",
+                  "text": "Able to report correct year",
+                  "id": "52732-5",
+                  "answer": [
+                    {
+                      "valueReference": {
+                        "reference": "Observation/BCS-SNF-BIMS-1-Ob-Question-2"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "linkId": "Section-3/C0300B",
+                  "text": "What month are we in right now?",
+                  "id": "52733-3",
+                  "answer": [
+                    {
+                      "valueReference": {
+                        "reference": "Observation/BCS-SNF-BIMS-1-Ob-Question-3"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "linkId": "Section-3/C0300C",
+                  "text": "What day of the week is today?",
+                  "id": "54609-3",
+                  "answer": [
+                    {
+                      "valueReference": {
+                        "reference": "Observation/BCS-SNF-BIMS-1-Ob-Question-4"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "linkId": "Section-3/C0400",
+              "text": "Recall",
+              "id": "52493-4",
+              "item": [
+                {
+                  "linkId": "Section-3/C0400A",
+                  "text": "Able to recall sock",
+                  "id": "52735-8",
+                  "answer": [
+                    {
+                      "valueReference": {
+                        "reference": "Observation/BCS-SNF-BIMS-1-Ob-Question-5"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "linkId": "Section-3/C0400B",
+                  "text": "Able to recall blue",
+                  "id": "52736-6",
+                  "answer": [
+                    {
+                      "valueReference": {
+                        "reference": "Observation/BCS-SNF-BIMS-1-Ob-Question-6"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "linkId": "Section-3/C0400C",
+                  "text": "Able to recall bed",
+                  "id": "52737-4",
+                  "answer": [
+                    {
+                      "valueReference": {
+                        "reference": "Observation/BCS-SNF-BIMS-1-Ob-Question-7"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "linkId": "Section-3/C0500",
+              "text": "BIMS Summary Score",
+              "id": "54614-3",
+              "answer": [
+                {
+                  "valueReference": {
+                    "reference": "Observation/BCS-SNF-BIMS-1"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
