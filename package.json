@@ -16,10 +16,10 @@
     "Post-Acute Care"
   ],
   "language": "en",
-  "author": "MITRE PACIO Team",
+  "author": "PACIO Project",
   "maintainers": [
     {
-      "name": "Caleb Wan",
+      "name": "MITRE PACIO Team",
       "email": "http://pacioproject.org/"
     }
   ],

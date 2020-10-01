@@ -36,6 +36,7 @@ lists those files generated from project configs or the contents in the ig-data 
 | input/pagecontent/cognitive_status_use_case.md                        | copied    | ../ig-data/input/pagecontent/cognitive_status_use_case.md           |
 | input/pagecontent/index.md                                            | copied    | ../ig-data/input/pagecontent/index.md                               |
 | input/pagecontent/profile_highlights_and_guidance.md                  | copied    | ../ig-data/input/pagecontent/profile_highlights_and_guidance.md     |
+| input/pagecontent/representative_assessments.md                       | copied    | ../ig-data/input/pagecontent/representative_assessments.md          |
 | input/pagecontent/security_and_data_sharing.md                        | copied    | ../ig-data/input/pagecontent/security_and_data_sharing.md           |
 | input/pagecontent/underlying_technologies.md                          | copied    | ../ig-data/input/pagecontent/underlying_technologies.md             |
 | input/resources/CapabilityStatement-CapabilityStatement-pacio-cs.json | copied    | ../ig-data/input/resources/CapabilityStatement-cognitive_pacio.json |

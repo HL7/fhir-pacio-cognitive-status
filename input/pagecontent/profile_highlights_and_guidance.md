@@ -11,7 +11,7 @@
 This implementation guide provides a set of resource profiles to define how information should be packaged and retrieved in the exchange of PAC assessment data. In the following sections the highlights of the key fields of each profile are presented and guidance for building profile instances is provided.
 
 A note on the use of "Must Support" in the Implementation Guide:
-For profiles defined in other IGs, the meaning of "Must Support" is established in the defining IG. For profiles defined in this IG, Must Support will conform with US Core definition.
+For profiles defined in other IGs, the meaning of "Must Support" is established in the defining IG. For profiles defined in this IG, [Must Support](http://hl7.org/fhir/us/core/1.0.1/guidance.html#must-support) will conform with US Core definition.
 
 ### Resource Profile: CognitionQuestionnaireResponse
 
@@ -185,7 +185,7 @@ This resource profile is intended to be used for the exchange of prior level of 
   </tr>
   <tr>
     <td>effective</td>
-    <td>This field, limited to the type dateTime or Period only, indicates the time/time-period for the observation.</td>
+    <td>This required field, limited to the type dateTime or Period only, indicates the time/time-period for the observation.</td>
   </tr>
   <tr>
     <td>performer</td>

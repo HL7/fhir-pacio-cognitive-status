@@ -14,10 +14,10 @@
    <name value="PACIOCognitiveStatusImplementationGuide"/>
    <title value="PACIO Cognitive Status Implementation Guide"/>
    <status value="active"/>
-   <date value="2020-09-14T23:43:14+00:00"/>
-   <publisher value="MITRE PACIO Team"/>
+   <date value="2020-10-01T09:12:36-07:00"/>
+   <publisher value="PACIO Project"/>
    <contact>
-      <name value="Caleb Wan"/>
+      <name value="MITRE PACIO Team"/>
       <telecom>
          <system value="email"/>
          <value value="http://pacioproject.org/"/>
@@ -1309,6 +1309,11 @@
             <generation value="markdown"/>
          </page>
          <page>
+            <nameUrl value="representative_assessments.html"/>
+            <title value="Representative Assessments"/>
+            <generation value="markdown"/>
+         </page>
+         <page>
             <nameUrl value="security_and_data_sharing.html"/>
             <title value="Security and Data Sharing"/>
             <generation value="markdown"/>
@@ -1814,6 +1819,10 @@
       <parameter>
          <code value="path-resource"/>
          <value value="input/history"/>
+      </parameter>
+      <parameter>
+         <code value="path-resource"/>
+         <value value="fsh-generated/resources"/>
       </parameter>
       <parameter>
          <code value="path-pages"/>

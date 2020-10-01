@@ -6,10 +6,10 @@
   "name": "PACIOCognitiveStatusImplementationGuide",
   "title": "PACIO Cognitive Status Implementation Guide",
   "status": "active",
-  "publisher": "MITRE PACIO Team",
+  "publisher": "PACIO Project",
   "contact": [
     {
-      "name": "Caleb Wan",
+      "name": "MITRE PACIO Team",
       "telecom": [
         {
           "system": "email",
@@ -668,6 +668,11 @@
         {
           "nameUrl": "profile_highlights_and_guidance.html",
           "title": "Profile Highlights and Guidance",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "representative_assessments.html",
+          "title": "Representative Assessments",
           "generation": "markdown"
         },
         {

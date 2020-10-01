@@ -10,7 +10,13 @@
 {% endcomment %} -->
 ### Example Scenario
 
-Post-acute care patients are typically complex from a healthcare perspective and have many stops during their healthcare journey (as shown in Figure 1).  As the patient moves from one healthcare setting to another, it is important that their [functional/cognitive] data travel with them so that the new healthcare setting has the most complete information about that patient so they can provide the best care.
+Post-acute care patients are typically complex from a healthcare perspective and have many stops during their healthcare journey (as shown in Figure 1).  As the patient moves from one healthcare setting to another, it is important that their cognitive data travel with them so that the new healthcare setting has the most complete information about that patient so they can provide the best care.
+
+The below example uses the following Post-Acute Care assessments:
+* FASI: Functional Assessment Standardized Items
+* MDS: Minimum Data Set
+* OASIS: Outcome and Assessment Information Set
+<br>
 
 ![Patient Journey](Patient_Journey.png){:style="float: none;"}
 

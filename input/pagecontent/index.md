@@ -10,6 +10,10 @@
 {% endcomment %} -->
 ### Cognitive Status
 
+Care coordination – when a person transitions between healthcare settings, including ambulatory care, acute care, long-term post-acute care (LTPAC), and home- and community-based services (HCBS) – is often fragmented and can lead to poor health outcomes, increased burden, and increased costs. Interoperable health information exchange has the potential to improve patient and provider communications and supports access to longitudinal health information that enables improved efficiencies, improved quality of care, and improved health outcomes. Data should be usable across the continuum of care, and beyond the traditional healthcare system – into the community.
+
+Providers are not receiving complete and accurate information in a timely manner, leading to adverse outcomes and additional expenses. Failure to exchange accurate, timely data often leads to inefficient workflows, duplicative data entries, and increased risk of patient harm attributable to missing or inaccurate information. HIT can significantly alleviate administrative burden by supporting health information exchange across care settings to ensure that the relevant information necessary to care for the incoming patient is delivered to the right person, at the right time- therefore improving patient outcomes, reducing provider burden, improving cost efficiencies, and improving workflows. Moreover, enhanced data exchange would allow for advanced computability, standardization, usability, and real-time data analytics, enabling broader data use by health IT developers, researchers, providers, and payers.
+
 Poor quality discharge information is a major barrier to safe and effective transitions. With 45% of Medicare beneficiaries requiring post-acute care (PAC) services after hospitalization, the need for a seamless exchange of health information is great.
 
 In 2014, the Social Security Act was amended to include the Improving Medicare Post-Acute Care Transformation (IMPACT) Act, which required the standardization and interoperability of patient assessment in specific categories for post-acute care (PAC) settings, including long-term care hospitals (LTCHs), home health agencies (HHAs), skilled nursing facilities (SNFs), and inpatient rehabilitation facilities (IRFs). It focuses on standardizing data elements in specified quality measure domains and patient assessment domains for cross setting comparison and clinical information exchange, respectively. The Act requires:
@@ -39,6 +43,7 @@ The implementation guide is organized into the following sections:
 * [Use Case Example](cognitive_status_use_case.html) Describes an example of its use and provides a high-level overview of expected process flow.
 * [Underlying Technologies](underlying_technologies.html) Describes the different specifications this implementation guide relies on and indicates what developers should read and understand prior to implementing this specification.
 * [Profile Highlights and Guidance](profile_highlights_and_guidance.html) Provides a closer look at the IG profiles and guidance for constructing profile instances with examples for data exchange.
+* [Representative Assessments](representative_assessments.html) Presents representative examples of standardized instruments and guidance on the use of standardized code systems.
 * [Security and Data Sharing](security_and_data_sharing.html) Covers issues concerning security and patient information access and sharing.
 * [Artifacts Summary](artifacts.html) Introduces and provides links to the Capability Statement, IG Resource Profiles, and IG Extension Definitions as well as example profile instances.
 
