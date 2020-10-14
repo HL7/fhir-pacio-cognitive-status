@@ -3,7 +3,7 @@
   "id": "BCS-SNF-CAM-Discharge-1",
   "meta": {
     "profile": [
-      "https://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-bcs"
+      "http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-bcs"
     ]
   },
   "extension": [
@@ -43,7 +43,7 @@
       "reference": "Practitioner/Practitioner-HoneyJones"
     },
     {
-      "reference": "Role-RN"
+      "reference": "PractitionerRole/Role-RN"
     },
     {
       "reference": "Organization/Org-02",

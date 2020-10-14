@@ -3,7 +3,7 @@
   "id": "BCS-SNF-PHQ9-1-Ob-Question-19",
   "meta": {
     "profile": [
-      "https://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-cs"
+      "http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cs"
     ]
   },
   "extension": [

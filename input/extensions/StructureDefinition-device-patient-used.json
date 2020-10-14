@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "device-patient-used",
-  "url": "https://paciowg.github.io/cognitive-status-ig/StructureDefinition/device-patient-used",
+  "url": "http://hl7.org/fhir/us/pacio-cs/StructureDefinition/device-patient-used",
   "version": "0.1.0",
   "name": "DevicePatientUsed",
   "status": "active",
@@ -35,7 +35,7 @@
       {
         "id": "Extension.url",
         "path": "Extension.url",
-        "fixedUri": "https://paciowg.github.io/cognitive-status-ig/StructureDefinition/device-patient-used"
+        "fixedUri": "http://hl7.org/fhir/us/pacio-cs/StructureDefinition/device-patient-used"
       },
       {
         "id": "Extension.value[x]",
@@ -44,7 +44,7 @@
           {
             "code": "Reference",
             "targetProfile": [
-              "https://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-cs-dev"
+              "http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cs-dev"
             ]
           }
         ]

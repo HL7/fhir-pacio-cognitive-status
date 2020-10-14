@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "pacio-plcf",
-  "url": "https://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-plcf",
+  "url": "http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-plcf",
   "version": "0.1.0",
   "name": "PriorLevelOfCognitiveFunction",
   "title": "PACIO Prior Level of Cognitive Function",
@@ -91,7 +91,7 @@
           {
             "code": "Extension",
             "profile": [
-              "https://paciowg.github.io/cognitive-status-ig/StructureDefinition/assistance-required"
+              "http://hl7.org/fhir/us/pacio-cs/StructureDefinition/assistance-required"
             ]
           }
         ],

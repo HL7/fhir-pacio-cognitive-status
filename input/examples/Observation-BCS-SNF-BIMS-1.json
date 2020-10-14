@@ -3,7 +3,7 @@
   "id": "BCS-SNF-BIMS-1",
   "meta": {
     "profile": [
-      "https://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-bcs"
+      "http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-bcs"
     ]
   },
   "extension": [

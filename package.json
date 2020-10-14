@@ -1,11 +1,20 @@
 {
   "package-id": "hl7.fhir.us.pacio-cs",
-  "name": "pacio-cs",
+  "name": "hl7.fhir.us.pacio-cs",
   "title": "PACIO Cognitive Status Implementation Guide",
   "version": "0.1.0",
-  "canonical": "https://paciowg.github.io/cognitive-status-ig",
-  "url": "https://paciowg.github.io/cognitive-status-ig",
+  "canonical": "http://hl7.org/fhir/us/pacio-cs",
   "introduction": "The purpose of this Implementation Guide is tO advance interoperable health data exchange between post-acute care (PAC) and other providers, patients, and key stakeholders",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166",
+          "code": "US"
+        }
+      ]
+    }
+  ],
   "dependencies": {
     "hl7.fhir.r4.core": "4.0.1",
     "hl7.fhir.us.core": "3.1.0"
@@ -16,11 +25,12 @@
     "Post-Acute Care"
   ],
   "language": "en",
-  "author": "PACIO Project",
+  "author": "HL7 Patient Care Work Group",
   "maintainers": [
     {
       "name": "MITRE PACIO Team",
-      "email": "http://pacioproject.org/"
+      "email": "info@pacioproject.org",
+      "url": "https://www.hl7.org/Special/committees/patientcare/"
     }
   ],
   "license": "CC0-1.0",

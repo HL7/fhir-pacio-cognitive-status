@@ -3,7 +3,7 @@
   "id": "BCS-Hospital-MMSE-1",
   "meta": {
     "profile": [
-      "https://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-bcs"
+      "http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-bcs"
     ]
   },
   "extension": [
@@ -38,9 +38,6 @@
       ]
     }
   ],
-  "encounter": {
-    "reference": "Encounter/BSJ-Encounter-1"
-  },
   "valueCodeableConcept": {
     "text": "20",
     "coding": [

@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "assistance-required",
-  "url": "https://paciowg.github.io/cognitive-status-ig/StructureDefinition/assistance-required",
+  "url": "http://hl7.org/fhir/us/pacio-cs/StructureDefinition/assistance-required",
   "version": "0.1.0",
   "name": "AssistanceRequired",
   "status": "active",
@@ -35,7 +35,7 @@
       {
         "id": "Extension.url",
         "path": "Extension.url",
-        "fixedUri": "https://paciowg.github.io/cognitive-status-ig/StructureDefinition/assistance-required"
+        "fixedUri": "http://hl7.org/fhir/us/pacio-cs/StructureDefinition/assistance-required"
       },
       {
         "id": "Extension.value[x]",

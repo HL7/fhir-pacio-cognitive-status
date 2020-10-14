@@ -1,29 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ImplementationGuide xmlns="http://hl7.org/fhir">
-   <id value="pacio-cs"/>
+   <id value="hl7.fhir.us.pacio-cs"/>
    <text>
       <status value="extensions"/>
       <div xmlns="http://www.w3.org/1999/xhtml">
          <h2>PACIOCognitiveStatusImplementationGuide</h2>
          <p>The official URL for this implementation guide is: </p>
-         <pre>https://paciowg.github.io/cognitive-status-ig/ImplementationGuide/pacio-cs</pre>
+         <pre>http://hl7.org/fhir/us/pacio-cs/ImplementationGuide/hl7.fhir.us.pacio-cs</pre>
       </div>
    </text>
-   <url value="https://paciowg.github.io/cognitive-status-ig/ImplementationGuide/pacio-cs"/>
+   <url value="http://hl7.org/fhir/us/pacio-cs/ImplementationGuide/hl7.fhir.us.pacio-cs"/>
    <version value="0.1.0"/>
    <name value="PACIOCognitiveStatusImplementationGuide"/>
    <title value="PACIO Cognitive Status Implementation Guide"/>
    <status value="active"/>
-   <date value="2020-10-01T09:12:36-07:00"/>
-   <publisher value="PACIO Project"/>
+   <date value="2020-10-14T15:58:14-07:00"/>
+   <publisher value="HL7 Patient Care Work Group"/>
    <contact>
       <name value="MITRE PACIO Team"/>
       <telecom>
+         <system value="url"/>
+         <value value="https://www.hl7.org/Special/committees/patientcare/"/>
+      </telecom>
+      <telecom>
          <system value="email"/>
-         <value value="http://pacioproject.org/"/>
+         <value value="info@pacioproject.org"/>
       </telecom>
    </contact>
-   <packageId value="pacio-cs"/>
+   <packageId value="hl7.fhir.us.pacio-cs"/>
    <license value="CC0-1.0"/>
    <fhirVersion value="4.0.1"/>
    <dependsOn>
@@ -179,7 +183,7 @@
             <reference value="Observation/BCS-Hospital-MMSE-1"/>
          </reference>
          <name value="BCS-Hospital-MMSE-1"/>
-         <exampleCanonical value="https://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-bcs"/>
+         <exampleCanonical value="http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-bcs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -193,7 +197,7 @@
             <reference value="Observation/BCS-Hospital-MMSE-2"/>
          </reference>
          <name value="BCS-Hospital-MMSE-2"/>
-         <exampleCanonical value="https://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-bcs"/>
+         <exampleCanonical value="http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-bcs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -207,7 +211,7 @@
             <reference value="Observation/BCS-Hospital-MOCA-1"/>
          </reference>
          <name value="BCS-Hospital-MOCA-1"/>
-         <exampleCanonical value="https://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-bcs"/>
+         <exampleCanonical value="http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-bcs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -221,21 +225,7 @@
             <reference value="Observation/BCS-Hospital-MOCA-2"/>
          </reference>
          <name value="BCS-Hospital-MOCA-2"/>
-         <exampleCanonical value="https://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-bcs"/>
-         <groupingId value="_ex_example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="Observation"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Observation-BCS-SNF-BCAT-1.html"/>
-         </extension>
-         <reference>
-            <reference value="Observation/BCS-SNF-BCAT-1"/>
-         </reference>
-         <name value="BCS-SNF-BCAT-1"/>
-         <exampleCanonical value="https://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-bcs"/>
+         <exampleCanonical value="http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-bcs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -249,7 +239,7 @@
             <reference value="Observation/BCS-SNF-BIMS-1"/>
          </reference>
          <name value="BCS-SNF-BIMS-1"/>
-         <exampleCanonical value="https://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-bcs"/>
+         <exampleCanonical value="http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-bcs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -263,7 +253,7 @@
             <reference value="Observation/BCS-SNF-BIMS-1-Ob-Question-1"/>
          </reference>
          <name value="BCS-SNF-BIMS-1-Ob-Question-1"/>
-         <exampleCanonical value="https://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-cs"/>
+         <exampleCanonical value="http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -277,7 +267,7 @@
             <reference value="Observation/BCS-SNF-BIMS-1-Ob-Question-2"/>
          </reference>
          <name value="BCS-SNF-BIMS-1-Ob-Question-2"/>
-         <exampleCanonical value="https://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-cs"/>
+         <exampleCanonical value="http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -291,7 +281,7 @@
             <reference value="Observation/BCS-SNF-BIMS-1-Ob-Question-3"/>
          </reference>
          <name value="BCS-SNF-BIMS-1-Ob-Question-3"/>
-         <exampleCanonical value="https://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-cs"/>
+         <exampleCanonical value="http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -305,7 +295,7 @@
             <reference value="Observation/BCS-SNF-BIMS-1-Ob-Question-4"/>
          </reference>
          <name value="BCS-SNF-BIMS-1-Ob-Question-4"/>
-         <exampleCanonical value="https://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-cs"/>
+         <exampleCanonical value="http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -319,7 +309,7 @@
             <reference value="Observation/BCS-SNF-BIMS-1-Ob-Question-5"/>
          </reference>
          <name value="BCS-SNF-BIMS-1-Ob-Question-5"/>
-         <exampleCanonical value="https://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-cs"/>
+         <exampleCanonical value="http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -333,7 +323,7 @@
             <reference value="Observation/BCS-SNF-BIMS-1-Ob-Question-6"/>
          </reference>
          <name value="BCS-SNF-BIMS-1-Ob-Question-6"/>
-         <exampleCanonical value="https://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-cs"/>
+         <exampleCanonical value="http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -347,7 +337,7 @@
             <reference value="Observation/BCS-SNF-BIMS-1-Ob-Question-7"/>
          </reference>
          <name value="BCS-SNF-BIMS-1-Ob-Question-7"/>
-         <exampleCanonical value="https://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-cs"/>
+         <exampleCanonical value="http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -361,7 +351,7 @@
             <reference value="Observation/BCS-SNF-CAM-Admission-1"/>
          </reference>
          <name value="BCS-SNF-CAM-Admission-1"/>
-         <exampleCanonical value="https://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-bcs"/>
+         <exampleCanonical value="http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-bcs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -375,7 +365,7 @@
             <reference value="Observation/BCS-SNF-CAM-Admission-1-Ob-Question-1"/>
          </reference>
          <name value="BCS-SNF-CAM-Admission-1-Ob-Question-1"/>
-         <exampleCanonical value="https://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-cs"/>
+         <exampleCanonical value="http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -389,7 +379,7 @@
             <reference value="Observation/BCS-SNF-CAM-Admission-1-Ob-Question-3"/>
          </reference>
          <name value="BCS-SNF-CAM-Admission-1-Ob-Question-3"/>
-         <exampleCanonical value="https://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-cs"/>
+         <exampleCanonical value="http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -403,7 +393,7 @@
             <reference value="Observation/BCS-SNF-CAM-Admission-1-Ob-Question-5"/>
          </reference>
          <name value="BCS-SNF-CAM-Admission-1-Ob-Question-5"/>
-         <exampleCanonical value="https://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-cs"/>
+         <exampleCanonical value="http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -417,7 +407,7 @@
             <reference value="Observation/BCS-SNF-CAM-Discharge-1"/>
          </reference>
          <name value="BCS-SNF-CAM-Discharge-1"/>
-         <exampleCanonical value="https://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-bcs"/>
+         <exampleCanonical value="http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-bcs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -431,7 +421,7 @@
             <reference value="Observation/BCS-SNF-CAM-Discharge-1-Ob-Question-2"/>
          </reference>
          <name value="BCS-SNF-CAM-Discharge-1-Ob-Question-2"/>
-         <exampleCanonical value="https://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-cs"/>
+         <exampleCanonical value="http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -445,7 +435,7 @@
             <reference value="Observation/BCS-SNF-CAM-Discharge-1-Ob-Question-4"/>
          </reference>
          <name value="BCS-SNF-CAM-Discharge-1-Ob-Question-4"/>
-         <exampleCanonical value="https://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-cs"/>
+         <exampleCanonical value="http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -459,7 +449,7 @@
             <reference value="Observation/BCS-SNF-CAM-Discharge-1-Ob-Question-6"/>
          </reference>
          <name value="BCS-SNF-CAM-Discharge-1-Ob-Question-6"/>
-         <exampleCanonical value="https://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-cs"/>
+         <exampleCanonical value="http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -473,7 +463,7 @@
             <reference value="Observation/BCS-SNF-PHQ9-1"/>
          </reference>
          <name value="BCS-SNF-PHQ9-1"/>
-         <exampleCanonical value="https://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-bcs"/>
+         <exampleCanonical value="http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-bcs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -487,7 +477,7 @@
             <reference value="Observation/BCS-SNF-PHQ9-1-Ob-Question-10"/>
          </reference>
          <name value="BCS-SNF-PHQ9-1-Ob-Question-10"/>
-         <exampleCanonical value="https://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-cs"/>
+         <exampleCanonical value="http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -501,7 +491,7 @@
             <reference value="Observation/BCS-SNF-PHQ9-1-Ob-Question-11"/>
          </reference>
          <name value="BCS-SNF-PHQ9-1-Ob-Question-11"/>
-         <exampleCanonical value="https://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-cs"/>
+         <exampleCanonical value="http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -515,7 +505,7 @@
             <reference value="Observation/BCS-SNF-PHQ9-1-Ob-Question-12"/>
          </reference>
          <name value="BCS-SNF-PHQ9-1-Ob-Question-12"/>
-         <exampleCanonical value="https://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-cs"/>
+         <exampleCanonical value="http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -529,7 +519,7 @@
             <reference value="Observation/BCS-SNF-PHQ9-1-Ob-Question-13"/>
          </reference>
          <name value="BCS-SNF-PHQ9-1-Ob-Question-13"/>
-         <exampleCanonical value="https://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-cs"/>
+         <exampleCanonical value="http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -543,7 +533,7 @@
             <reference value="Observation/BCS-SNF-PHQ9-1-Ob-Question-14"/>
          </reference>
          <name value="BCS-SNF-PHQ9-1-Ob-Question-14"/>
-         <exampleCanonical value="https://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-cs"/>
+         <exampleCanonical value="http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -557,7 +547,7 @@
             <reference value="Observation/BCS-SNF-PHQ9-1-Ob-Question-15"/>
          </reference>
          <name value="BCS-SNF-PHQ9-1-Ob-Question-15"/>
-         <exampleCanonical value="https://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-cs"/>
+         <exampleCanonical value="http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -571,7 +561,7 @@
             <reference value="Observation/BCS-SNF-PHQ9-1-Ob-Question-16"/>
          </reference>
          <name value="BCS-SNF-PHQ9-1-Ob-Question-16"/>
-         <exampleCanonical value="https://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-cs"/>
+         <exampleCanonical value="http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -585,7 +575,7 @@
             <reference value="Observation/BCS-SNF-PHQ9-1-Ob-Question-17"/>
          </reference>
          <name value="BCS-SNF-PHQ9-1-Ob-Question-17"/>
-         <exampleCanonical value="https://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-cs"/>
+         <exampleCanonical value="http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -599,7 +589,7 @@
             <reference value="Observation/BCS-SNF-PHQ9-1-Ob-Question-18"/>
          </reference>
          <name value="BCS-SNF-PHQ9-1-Ob-Question-18"/>
-         <exampleCanonical value="https://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-cs"/>
+         <exampleCanonical value="http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -613,7 +603,7 @@
             <reference value="Observation/BCS-SNF-PHQ9-1-Ob-Question-19"/>
          </reference>
          <name value="BCS-SNF-PHQ9-1-Ob-Question-19"/>
-         <exampleCanonical value="https://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-cs"/>
+         <exampleCanonical value="http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -627,7 +617,7 @@
             <reference value="Observation/BCS-SNF-PHQ9-1-Ob-Question-20"/>
          </reference>
          <name value="BCS-SNF-PHQ9-1-Ob-Question-20"/>
-         <exampleCanonical value="https://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-cs"/>
+         <exampleCanonical value="http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -641,7 +631,7 @@
             <reference value="Observation/BCS-SNF-PHQ9-1-Ob-Question-21"/>
          </reference>
          <name value="BCS-SNF-PHQ9-1-Ob-Question-21"/>
-         <exampleCanonical value="https://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-cs"/>
+         <exampleCanonical value="http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -655,7 +645,7 @@
             <reference value="Observation/BCS-SNF-PHQ9-1-Ob-Question-22"/>
          </reference>
          <name value="BCS-SNF-PHQ9-1-Ob-Question-22"/>
-         <exampleCanonical value="https://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-cs"/>
+         <exampleCanonical value="http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -669,7 +659,7 @@
             <reference value="Observation/BCS-SNF-PHQ9-1-Ob-Question-23"/>
          </reference>
          <name value="BCS-SNF-PHQ9-1-Ob-Question-23"/>
-         <exampleCanonical value="https://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-cs"/>
+         <exampleCanonical value="http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -683,7 +673,7 @@
             <reference value="Observation/BCS-SNF-PHQ9-1-Ob-Question-24"/>
          </reference>
          <name value="BCS-SNF-PHQ9-1-Ob-Question-24"/>
-         <exampleCanonical value="https://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-cs"/>
+         <exampleCanonical value="http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -697,7 +687,7 @@
             <reference value="Observation/BCS-SNF-PHQ9-1-Ob-Question-25"/>
          </reference>
          <name value="BCS-SNF-PHQ9-1-Ob-Question-25"/>
-         <exampleCanonical value="https://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-cs"/>
+         <exampleCanonical value="http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -711,7 +701,7 @@
             <reference value="Observation/BCS-SNF-PHQ9-1-Ob-Question-8"/>
          </reference>
          <name value="BCS-SNF-PHQ9-1-Ob-Question-8"/>
-         <exampleCanonical value="https://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-cs"/>
+         <exampleCanonical value="http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -725,49 +715,7 @@
             <reference value="Observation/BCS-SNF-PHQ9-1-Ob-Question-9"/>
          </reference>
          <name value="BCS-SNF-PHQ9-1-Ob-Question-9"/>
-         <exampleCanonical value="https://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-cs"/>
-         <groupingId value="_ex_example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="Condition"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Condition-BSJ-Assessed-Need1.html"/>
-         </extension>
-         <reference>
-            <reference value="Condition/BSJ-Assessed-Need1"/>
-         </reference>
-         <name value="BSJ-Assessed-Need1"/>
-         <exampleBoolean value="true"/>
-         <groupingId value="_ex_example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="Condition"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Condition-BSJ-Assessed-Need2.html"/>
-         </extension>
-         <reference>
-            <reference value="Condition/BSJ-Assessed-Need2"/>
-         </reference>
-         <name value="BSJ-Assessed-Need2"/>
-         <exampleBoolean value="true"/>
-         <groupingId value="_ex_example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="Condition"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Condition-BSJ-Assessed-Need3.html"/>
-         </extension>
-         <reference>
-            <reference value="Condition/BSJ-Assessed-Need3"/>
-         </reference>
-         <name value="BSJ-Assessed-Need3"/>
-         <exampleBoolean value="true"/>
+         <exampleCanonical value="http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cs"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -898,20 +846,6 @@
       </resource>
       <resource>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="Encounter"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Encounter-BSJ-Encounter-1.html"/>
-         </extension>
-         <reference>
-            <reference value="Encounter/BSJ-Encounter-1"/>
-         </reference>
-         <name value="BSJ-Encounter-1"/>
-         <exampleBoolean value="true"/>
-         <groupingId value="_ex_example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
             <valueString value="Observation"/>
          </extension>
          <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
@@ -921,7 +855,7 @@
             <reference value="Observation/BSJ-Prior-Level-Of-Cognitive-Function-1"/>
          </reference>
          <name value="BSJ-Prior-Level-Of-Cognitive-Function-1"/>
-         <exampleCanonical value="https://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-plcf"/>
+         <exampleCanonical value="http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-plcf"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -1089,7 +1023,7 @@
             <reference value="QuestionnaireResponse/QResponse-Hospital-MMSE-1"/>
          </reference>
          <name value="QResponse-Hospital-MMSE-1"/>
-         <exampleCanonical value="https://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-cognition-qr"/>
+         <exampleCanonical value="http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cognition-qr"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -1103,7 +1037,7 @@
             <reference value="QuestionnaireResponse/QResponse-Hospital-MMSE-2"/>
          </reference>
          <name value="QResponse-Hospital-MMSE-2"/>
-         <exampleCanonical value="https://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-cognition-qr"/>
+         <exampleCanonical value="http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cognition-qr"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -1117,7 +1051,7 @@
             <reference value="QuestionnaireResponse/QResponse-Hospital-MOCA-1"/>
          </reference>
          <name value="QResponse-Hospital-MOCA-1"/>
-         <exampleCanonical value="https://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-cognition-qr"/>
+         <exampleCanonical value="http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cognition-qr"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -1131,21 +1065,7 @@
             <reference value="QuestionnaireResponse/QResponse-Hospital-MOCA-2"/>
          </reference>
          <name value="QResponse-Hospital-MOCA-2"/>
-         <exampleCanonical value="https://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-cognition-qr"/>
-         <groupingId value="_ex_example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="QuestionnaireResponse"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="QuestionnaireResponse-QResponse-SNF-BCAT-1.html"/>
-         </extension>
-         <reference>
-            <reference value="QuestionnaireResponse/QResponse-SNF-BCAT-1"/>
-         </reference>
-         <name value="QResponse-SNF-BCAT-1"/>
-         <exampleCanonical value="https://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-cognition-qr"/>
+         <exampleCanonical value="http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cognition-qr"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -1159,7 +1079,7 @@
             <reference value="QuestionnaireResponse/QResponse-SNF-BIMS-1"/>
          </reference>
          <name value="QResponse-SNF-BIMS-1"/>
-         <exampleCanonical value="https://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-cognition-qr"/>
+         <exampleCanonical value="http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cognition-qr"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -1173,7 +1093,7 @@
             <reference value="QuestionnaireResponse/QResponse-SNF-CAM-Admission-1"/>
          </reference>
          <name value="QResponse-SNF-CAM-Admission-1"/>
-         <exampleCanonical value="https://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-cognition-qr"/>
+         <exampleCanonical value="http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cognition-qr"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -1187,7 +1107,7 @@
             <reference value="QuestionnaireResponse/QResponse-SNF-CAM-Discharge-1"/>
          </reference>
          <name value="QResponse-SNF-CAM-Discharge-1"/>
-         <exampleCanonical value="https://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-cognition-qr"/>
+         <exampleCanonical value="http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cognition-qr"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -1201,7 +1121,21 @@
             <reference value="QuestionnaireResponse/QResponse-SNF-PHQ9-1"/>
          </reference>
          <name value="QResponse-SNF-PHQ9-1"/>
-         <exampleCanonical value="https://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-cognition-qr"/>
+         <exampleCanonical value="http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cognition-qr"/>
+         <groupingId value="_ex_example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="PractitionerRole"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="PractitionerRole-Role-RN.html"/>
+         </extension>
+         <reference>
+            <reference value="PractitionerRole/Role-RN"/>
+         </reference>
+         <name value="Role-RN"/>
+         <exampleBoolean value="true"/>
          <groupingId value="_ex_example"/>
       </resource>
       <resource>
@@ -1279,10 +1213,10 @@
             <valueString value="CapabilityStatement"/>
          </extension>
          <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="CapabilityStatement-CapabilityStatement-pacio-cs.html"/>
+            <valueUri value="CapabilityStatement-pacio-cap.html"/>
          </extension>
          <reference>
-            <reference value="CapabilityStatement/CapabilityStatement-pacio-cs"/>
+            <reference value="CapabilityStatement/pacio-cap"/>
          </reference>
          <name value="PACIO Cognitive Status Capability Statement"/>
          <description value="This Capability Statement defines the expected capabilities of a PACIO Cognitive Status FHIR server conforming to the PACIO Cognitive Status Implementation Guide."/>
@@ -1328,7 +1262,7 @@
             <title value="Artifacts Summary"/>
             <generation value="html"/>
             <page>
-               <nameUrl value="CapabilityStatement-CapabilityStatement-pacio-cs.html"/>
+               <nameUrl value="CapabilityStatement-pacio-cap.html"/>
                <title value="PACIO Cognitive Status Capability Statement"/>
                <generation value="generated"/>
             </page>
@@ -1385,11 +1319,6 @@
             <page>
                <nameUrl value="Observation-BCS-Hospital-MOCA-2.html"/>
                <title value="BCS-Hospital-MOCA-2"/>
-               <generation value="generated"/>
-            </page>
-            <page>
-               <nameUrl value="Observation-BCS-SNF-BCAT-1.html"/>
-               <title value="BCS-SNF-BCAT-1"/>
                <generation value="generated"/>
             </page>
             <page>
@@ -1568,21 +1497,6 @@
                <generation value="generated"/>
             </page>
             <page>
-               <nameUrl value="Condition-BSJ-Assessed-Need1.html"/>
-               <title value="BSJ-Assessed-Need1"/>
-               <generation value="generated"/>
-            </page>
-            <page>
-               <nameUrl value="Condition-BSJ-Assessed-Need2.html"/>
-               <title value="BSJ-Assessed-Need2"/>
-               <generation value="generated"/>
-            </page>
-            <page>
-               <nameUrl value="Condition-BSJ-Assessed-Need3.html"/>
-               <title value="BSJ-Assessed-Need3"/>
-               <generation value="generated"/>
-            </page>
-            <page>
                <nameUrl value="Condition-BSJ-Diagnosis1.html"/>
                <title value="BSJ-Diagnosis1"/>
                <generation value="generated"/>
@@ -1625,11 +1539,6 @@
             <page>
                <nameUrl value="Condition-BSJ-Diagnosis9.html"/>
                <title value="BSJ-Diagnosis9"/>
-               <generation value="generated"/>
-            </page>
-            <page>
-               <nameUrl value="Encounter-BSJ-Encounter-1.html"/>
-               <title value="BSJ-Encounter-1"/>
                <generation value="generated"/>
             </page>
             <page>
@@ -1713,11 +1622,6 @@
                <generation value="generated"/>
             </page>
             <page>
-               <nameUrl value="QuestionnaireResponse-QResponse-SNF-BCAT-1.html"/>
-               <title value="QResponse-SNF-BCAT-1"/>
-               <generation value="generated"/>
-            </page>
-            <page>
                <nameUrl value="QuestionnaireResponse-QResponse-SNF-BIMS-1.html"/>
                <title value="QResponse-SNF-BIMS-1"/>
                <generation value="generated"/>
@@ -1735,6 +1639,11 @@
             <page>
                <nameUrl value="QuestionnaireResponse-QResponse-SNF-PHQ9-1.html"/>
                <title value="QResponse-SNF-PHQ9-1"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="PractitionerRole-Role-RN.html"/>
+               <title value="Role-RN"/>
                <generation value="generated"/>
             </page>
             <page>
@@ -1775,6 +1684,10 @@
       <parameter>
          <code value="show-inherited-invariants"/>
          <value value="false"/>
+      </parameter>
+      <parameter>
+         <code value="path-history"/>
+         <value value="http://hl7.org/fhir/us/pacio-cs/history.html"/>
       </parameter>
       <parameter>
          <code value="path-resource"/>
@@ -1859,10 +1772,6 @@
       <parameter>
          <code value="path-suppressed-warnings"/>
          <value value="input/ignoreWarnings.txt"/>
-      </parameter>
-      <parameter>
-         <code value="path-history"/>
-         <value value="https://paciowg.github.io/cognitive-status-ig/history.html"/>
       </parameter>
       <parameter>
          <code value="template-html"/>

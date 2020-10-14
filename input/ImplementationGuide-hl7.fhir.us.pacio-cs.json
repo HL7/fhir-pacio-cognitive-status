@@ -1,24 +1,28 @@
 {
   "resourceType": "ImplementationGuide",
-  "id": "pacio-cs",
-  "url": "https://paciowg.github.io/cognitive-status-ig/ImplementationGuide/pacio-cs",
+  "id": "hl7.fhir.us.pacio-cs",
+  "url": "http://hl7.org/fhir/us/pacio-cs/ImplementationGuide/hl7.fhir.us.pacio-cs",
   "version": "0.1.0",
   "name": "PACIOCognitiveStatusImplementationGuide",
   "title": "PACIO Cognitive Status Implementation Guide",
   "status": "active",
-  "publisher": "PACIO Project",
+  "publisher": "HL7 Patient Care Work Group",
   "contact": [
     {
       "name": "MITRE PACIO Team",
       "telecom": [
         {
+          "system": "url",
+          "value": "https://www.hl7.org/Special/committees/patientcare/"
+        },
+        {
           "system": "email",
-          "value": "http://pacioproject.org/"
+          "value": "info@pacioproject.org"
         }
       ]
     }
   ],
-  "packageId": "pacio-cs",
+  "packageId": "hl7.fhir.us.pacio-cs",
   "license": "CC0-1.0",
   "fhirVersion": [
     "4.0.1"
@@ -93,301 +97,273 @@
           "reference": "Observation/BCS-Hospital-MMSE-1"
         },
         "name": "BCS-Hospital-MMSE-1",
-        "exampleCanonical": "https://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-bcs"
+        "exampleCanonical": "http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-bcs"
       },
       {
         "reference": {
           "reference": "Observation/BCS-Hospital-MMSE-2"
         },
         "name": "BCS-Hospital-MMSE-2",
-        "exampleCanonical": "https://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-bcs"
+        "exampleCanonical": "http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-bcs"
       },
       {
         "reference": {
           "reference": "Observation/BCS-Hospital-MOCA-1"
         },
         "name": "BCS-Hospital-MOCA-1",
-        "exampleCanonical": "https://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-bcs"
+        "exampleCanonical": "http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-bcs"
       },
       {
         "reference": {
           "reference": "Observation/BCS-Hospital-MOCA-2"
         },
         "name": "BCS-Hospital-MOCA-2",
-        "exampleCanonical": "https://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-bcs"
-      },
-      {
-        "reference": {
-          "reference": "Observation/BCS-SNF-BCAT-1"
-        },
-        "name": "BCS-SNF-BCAT-1",
-        "exampleCanonical": "https://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-bcs"
+        "exampleCanonical": "http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-bcs"
       },
       {
         "reference": {
           "reference": "Observation/BCS-SNF-BIMS-1"
         },
         "name": "BCS-SNF-BIMS-1",
-        "exampleCanonical": "https://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-bcs"
+        "exampleCanonical": "http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-bcs"
       },
       {
         "reference": {
           "reference": "Observation/BCS-SNF-BIMS-1-Ob-Question-1"
         },
         "name": "BCS-SNF-BIMS-1-Ob-Question-1",
-        "exampleCanonical": "https://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-cs"
+        "exampleCanonical": "http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cs"
       },
       {
         "reference": {
           "reference": "Observation/BCS-SNF-BIMS-1-Ob-Question-2"
         },
         "name": "BCS-SNF-BIMS-1-Ob-Question-2",
-        "exampleCanonical": "https://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-cs"
+        "exampleCanonical": "http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cs"
       },
       {
         "reference": {
           "reference": "Observation/BCS-SNF-BIMS-1-Ob-Question-3"
         },
         "name": "BCS-SNF-BIMS-1-Ob-Question-3",
-        "exampleCanonical": "https://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-cs"
+        "exampleCanonical": "http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cs"
       },
       {
         "reference": {
           "reference": "Observation/BCS-SNF-BIMS-1-Ob-Question-4"
         },
         "name": "BCS-SNF-BIMS-1-Ob-Question-4",
-        "exampleCanonical": "https://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-cs"
+        "exampleCanonical": "http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cs"
       },
       {
         "reference": {
           "reference": "Observation/BCS-SNF-BIMS-1-Ob-Question-5"
         },
         "name": "BCS-SNF-BIMS-1-Ob-Question-5",
-        "exampleCanonical": "https://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-cs"
+        "exampleCanonical": "http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cs"
       },
       {
         "reference": {
           "reference": "Observation/BCS-SNF-BIMS-1-Ob-Question-6"
         },
         "name": "BCS-SNF-BIMS-1-Ob-Question-6",
-        "exampleCanonical": "https://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-cs"
+        "exampleCanonical": "http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cs"
       },
       {
         "reference": {
           "reference": "Observation/BCS-SNF-BIMS-1-Ob-Question-7"
         },
         "name": "BCS-SNF-BIMS-1-Ob-Question-7",
-        "exampleCanonical": "https://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-cs"
+        "exampleCanonical": "http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cs"
       },
       {
         "reference": {
           "reference": "Observation/BCS-SNF-CAM-Admission-1"
         },
         "name": "BCS-SNF-CAM-Admission-1",
-        "exampleCanonical": "https://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-bcs"
+        "exampleCanonical": "http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-bcs"
       },
       {
         "reference": {
           "reference": "Observation/BCS-SNF-CAM-Admission-1-Ob-Question-1"
         },
         "name": "BCS-SNF-CAM-Admission-1-Ob-Question-1",
-        "exampleCanonical": "https://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-cs"
+        "exampleCanonical": "http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cs"
       },
       {
         "reference": {
           "reference": "Observation/BCS-SNF-CAM-Admission-1-Ob-Question-3"
         },
         "name": "BCS-SNF-CAM-Admission-1-Ob-Question-3",
-        "exampleCanonical": "https://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-cs"
+        "exampleCanonical": "http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cs"
       },
       {
         "reference": {
           "reference": "Observation/BCS-SNF-CAM-Admission-1-Ob-Question-5"
         },
         "name": "BCS-SNF-CAM-Admission-1-Ob-Question-5",
-        "exampleCanonical": "https://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-cs"
+        "exampleCanonical": "http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cs"
       },
       {
         "reference": {
           "reference": "Observation/BCS-SNF-CAM-Discharge-1"
         },
         "name": "BCS-SNF-CAM-Discharge-1",
-        "exampleCanonical": "https://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-bcs"
+        "exampleCanonical": "http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-bcs"
       },
       {
         "reference": {
           "reference": "Observation/BCS-SNF-CAM-Discharge-1-Ob-Question-2"
         },
         "name": "BCS-SNF-CAM-Discharge-1-Ob-Question-2",
-        "exampleCanonical": "https://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-cs"
+        "exampleCanonical": "http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cs"
       },
       {
         "reference": {
           "reference": "Observation/BCS-SNF-CAM-Discharge-1-Ob-Question-4"
         },
         "name": "BCS-SNF-CAM-Discharge-1-Ob-Question-4",
-        "exampleCanonical": "https://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-cs"
+        "exampleCanonical": "http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cs"
       },
       {
         "reference": {
           "reference": "Observation/BCS-SNF-CAM-Discharge-1-Ob-Question-6"
         },
         "name": "BCS-SNF-CAM-Discharge-1-Ob-Question-6",
-        "exampleCanonical": "https://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-cs"
+        "exampleCanonical": "http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cs"
       },
       {
         "reference": {
           "reference": "Observation/BCS-SNF-PHQ9-1"
         },
         "name": "BCS-SNF-PHQ9-1",
-        "exampleCanonical": "https://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-bcs"
+        "exampleCanonical": "http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-bcs"
       },
       {
         "reference": {
           "reference": "Observation/BCS-SNF-PHQ9-1-Ob-Question-10"
         },
         "name": "BCS-SNF-PHQ9-1-Ob-Question-10",
-        "exampleCanonical": "https://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-cs"
+        "exampleCanonical": "http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cs"
       },
       {
         "reference": {
           "reference": "Observation/BCS-SNF-PHQ9-1-Ob-Question-11"
         },
         "name": "BCS-SNF-PHQ9-1-Ob-Question-11",
-        "exampleCanonical": "https://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-cs"
+        "exampleCanonical": "http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cs"
       },
       {
         "reference": {
           "reference": "Observation/BCS-SNF-PHQ9-1-Ob-Question-12"
         },
         "name": "BCS-SNF-PHQ9-1-Ob-Question-12",
-        "exampleCanonical": "https://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-cs"
+        "exampleCanonical": "http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cs"
       },
       {
         "reference": {
           "reference": "Observation/BCS-SNF-PHQ9-1-Ob-Question-13"
         },
         "name": "BCS-SNF-PHQ9-1-Ob-Question-13",
-        "exampleCanonical": "https://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-cs"
+        "exampleCanonical": "http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cs"
       },
       {
         "reference": {
           "reference": "Observation/BCS-SNF-PHQ9-1-Ob-Question-14"
         },
         "name": "BCS-SNF-PHQ9-1-Ob-Question-14",
-        "exampleCanonical": "https://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-cs"
+        "exampleCanonical": "http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cs"
       },
       {
         "reference": {
           "reference": "Observation/BCS-SNF-PHQ9-1-Ob-Question-15"
         },
         "name": "BCS-SNF-PHQ9-1-Ob-Question-15",
-        "exampleCanonical": "https://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-cs"
+        "exampleCanonical": "http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cs"
       },
       {
         "reference": {
           "reference": "Observation/BCS-SNF-PHQ9-1-Ob-Question-16"
         },
         "name": "BCS-SNF-PHQ9-1-Ob-Question-16",
-        "exampleCanonical": "https://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-cs"
+        "exampleCanonical": "http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cs"
       },
       {
         "reference": {
           "reference": "Observation/BCS-SNF-PHQ9-1-Ob-Question-17"
         },
         "name": "BCS-SNF-PHQ9-1-Ob-Question-17",
-        "exampleCanonical": "https://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-cs"
+        "exampleCanonical": "http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cs"
       },
       {
         "reference": {
           "reference": "Observation/BCS-SNF-PHQ9-1-Ob-Question-18"
         },
         "name": "BCS-SNF-PHQ9-1-Ob-Question-18",
-        "exampleCanonical": "https://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-cs"
+        "exampleCanonical": "http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cs"
       },
       {
         "reference": {
           "reference": "Observation/BCS-SNF-PHQ9-1-Ob-Question-19"
         },
         "name": "BCS-SNF-PHQ9-1-Ob-Question-19",
-        "exampleCanonical": "https://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-cs"
+        "exampleCanonical": "http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cs"
       },
       {
         "reference": {
           "reference": "Observation/BCS-SNF-PHQ9-1-Ob-Question-20"
         },
         "name": "BCS-SNF-PHQ9-1-Ob-Question-20",
-        "exampleCanonical": "https://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-cs"
+        "exampleCanonical": "http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cs"
       },
       {
         "reference": {
           "reference": "Observation/BCS-SNF-PHQ9-1-Ob-Question-21"
         },
         "name": "BCS-SNF-PHQ9-1-Ob-Question-21",
-        "exampleCanonical": "https://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-cs"
+        "exampleCanonical": "http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cs"
       },
       {
         "reference": {
           "reference": "Observation/BCS-SNF-PHQ9-1-Ob-Question-22"
         },
         "name": "BCS-SNF-PHQ9-1-Ob-Question-22",
-        "exampleCanonical": "https://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-cs"
+        "exampleCanonical": "http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cs"
       },
       {
         "reference": {
           "reference": "Observation/BCS-SNF-PHQ9-1-Ob-Question-23"
         },
         "name": "BCS-SNF-PHQ9-1-Ob-Question-23",
-        "exampleCanonical": "https://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-cs"
+        "exampleCanonical": "http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cs"
       },
       {
         "reference": {
           "reference": "Observation/BCS-SNF-PHQ9-1-Ob-Question-24"
         },
         "name": "BCS-SNF-PHQ9-1-Ob-Question-24",
-        "exampleCanonical": "https://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-cs"
+        "exampleCanonical": "http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cs"
       },
       {
         "reference": {
           "reference": "Observation/BCS-SNF-PHQ9-1-Ob-Question-25"
         },
         "name": "BCS-SNF-PHQ9-1-Ob-Question-25",
-        "exampleCanonical": "https://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-cs"
+        "exampleCanonical": "http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cs"
       },
       {
         "reference": {
           "reference": "Observation/BCS-SNF-PHQ9-1-Ob-Question-8"
         },
         "name": "BCS-SNF-PHQ9-1-Ob-Question-8",
-        "exampleCanonical": "https://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-cs"
+        "exampleCanonical": "http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cs"
       },
       {
         "reference": {
           "reference": "Observation/BCS-SNF-PHQ9-1-Ob-Question-9"
         },
         "name": "BCS-SNF-PHQ9-1-Ob-Question-9",
-        "exampleCanonical": "https://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-cs"
-      },
-      {
-        "reference": {
-          "reference": "Condition/BSJ-Assessed-Need1"
-        },
-        "name": "BSJ-Assessed-Need1",
-        "exampleBoolean": true
-      },
-      {
-        "reference": {
-          "reference": "Condition/BSJ-Assessed-Need2"
-        },
-        "name": "BSJ-Assessed-Need2",
-        "exampleBoolean": true
-      },
-      {
-        "reference": {
-          "reference": "Condition/BSJ-Assessed-Need3"
-        },
-        "name": "BSJ-Assessed-Need3",
-        "exampleBoolean": true
+        "exampleCanonical": "http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cs"
       },
       {
         "reference": {
@@ -454,17 +430,10 @@
       },
       {
         "reference": {
-          "reference": "Encounter/BSJ-Encounter-1"
-        },
-        "name": "BSJ-Encounter-1",
-        "exampleBoolean": true
-      },
-      {
-        "reference": {
           "reference": "Observation/BSJ-Prior-Level-Of-Cognitive-Function-1"
         },
         "name": "BSJ-Prior-Level-Of-Cognitive-Function-1",
-        "exampleCanonical": "https://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-plcf"
+        "exampleCanonical": "http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-plcf"
       },
       {
         "reference": {
@@ -548,63 +517,63 @@
           "reference": "QuestionnaireResponse/QResponse-Hospital-MMSE-1"
         },
         "name": "QResponse-Hospital-MMSE-1",
-        "exampleCanonical": "https://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-cognition-qr"
+        "exampleCanonical": "http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cognition-qr"
       },
       {
         "reference": {
           "reference": "QuestionnaireResponse/QResponse-Hospital-MMSE-2"
         },
         "name": "QResponse-Hospital-MMSE-2",
-        "exampleCanonical": "https://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-cognition-qr"
+        "exampleCanonical": "http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cognition-qr"
       },
       {
         "reference": {
           "reference": "QuestionnaireResponse/QResponse-Hospital-MOCA-1"
         },
         "name": "QResponse-Hospital-MOCA-1",
-        "exampleCanonical": "https://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-cognition-qr"
+        "exampleCanonical": "http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cognition-qr"
       },
       {
         "reference": {
           "reference": "QuestionnaireResponse/QResponse-Hospital-MOCA-2"
         },
         "name": "QResponse-Hospital-MOCA-2",
-        "exampleCanonical": "https://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-cognition-qr"
-      },
-      {
-        "reference": {
-          "reference": "QuestionnaireResponse/QResponse-SNF-BCAT-1"
-        },
-        "name": "QResponse-SNF-BCAT-1",
-        "exampleCanonical": "https://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-cognition-qr"
+        "exampleCanonical": "http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cognition-qr"
       },
       {
         "reference": {
           "reference": "QuestionnaireResponse/QResponse-SNF-BIMS-1"
         },
         "name": "QResponse-SNF-BIMS-1",
-        "exampleCanonical": "https://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-cognition-qr"
+        "exampleCanonical": "http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cognition-qr"
       },
       {
         "reference": {
           "reference": "QuestionnaireResponse/QResponse-SNF-CAM-Admission-1"
         },
         "name": "QResponse-SNF-CAM-Admission-1",
-        "exampleCanonical": "https://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-cognition-qr"
+        "exampleCanonical": "http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cognition-qr"
       },
       {
         "reference": {
           "reference": "QuestionnaireResponse/QResponse-SNF-CAM-Discharge-1"
         },
         "name": "QResponse-SNF-CAM-Discharge-1",
-        "exampleCanonical": "https://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-cognition-qr"
+        "exampleCanonical": "http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cognition-qr"
       },
       {
         "reference": {
           "reference": "QuestionnaireResponse/QResponse-SNF-PHQ9-1"
         },
         "name": "QResponse-SNF-PHQ9-1",
-        "exampleCanonical": "https://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-cognition-qr"
+        "exampleCanonical": "http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cognition-qr"
+      },
+      {
+        "reference": {
+          "reference": "PractitionerRole/Role-RN"
+        },
+        "name": "Role-RN",
+        "exampleBoolean": true
       },
       {
         "reference": {
@@ -643,7 +612,7 @@
       },
       {
         "reference": {
-          "reference": "CapabilityStatement/CapabilityStatement-pacio-cs"
+          "reference": "CapabilityStatement/pacio-cap"
         },
         "name": "PACIO Cognitive Status Capability Statement",
         "description": "This Capability Statement defines the expected capabilities of a PACIO Cognitive Status FHIR server conforming to the PACIO Cognitive Status Implementation Guide.",
@@ -699,6 +668,10 @@
       {
         "code": "show-inherited-invariants",
         "value": "false"
+      },
+      {
+        "code": "path-history",
+        "value": "http://hl7.org/fhir/us/pacio-cs/history.html"
       }
     ]
   }

@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "pacio-cs",
-  "url": "https://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-cs",
+  "url": "http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cs",
   "version": "0.1.0",
   "name": "CognitiveStatus",
   "title": "PACIO Cognitive Status",
@@ -138,10 +138,7 @@
         "id": "Observation.performer",
         "path": "Observation.performer",
         "short": "The person who performed the assessment. May also be used to provide the practitioner role and organization. ",
-        "min": 1,
-        "binding": {
-          "description": "The person who performed the assessment."
-        }
+        "min": 1
       },
       {
         "id": "Observation.value[x]",

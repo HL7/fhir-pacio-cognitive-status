@@ -3,7 +3,7 @@
   "id": "QResponse-SNF-CAM-Admission-1",
   "meta": {
     "profile": [
-      "https://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-cognition-qr"
+      "http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cognition-qr"
     ]
   },
   "subject": {
