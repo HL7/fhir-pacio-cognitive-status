@@ -14,7 +14,7 @@
    <name value="PACIOCognitiveStatusImplementationGuide"/>
    <title value="PACIO Cognitive Status Implementation Guide"/>
    <status value="active"/>
-   <date value="2020-10-14T18:03:31-07:00"/>
+   <date value="2020-10-15T08:00:20-07:00"/>
    <publisher value="HL7 Patient Care Work Group"/>
    <contact>
       <name value="MITRE PACIO Team"/>
@@ -27,6 +27,13 @@
          <value value="info@pacioproject.org"/>
       </telecom>
    </contact>
+   <jurisdiction>
+      <coding>
+         <system value="urn:iso:std:iso:3166"/>
+         <code value="US"/>
+         <display value="United States of America"/>
+      </coding>
+   </jurisdiction>
    <packageId value="hl7.fhir.us.pacio-cs"/>
    <license value="CC0-1.0"/>
    <fhirVersion value="4.0.1"/>
