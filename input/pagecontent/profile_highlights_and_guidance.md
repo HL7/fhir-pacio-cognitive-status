@@ -11,7 +11,7 @@
 This implementation guide provides a set of resource profiles to define how information should be packaged and retrieved in the exchange of PAC assessment data. In the following sections the highlights of the key fields of each profile are presented and guidance for building profile instances is provided.
 
 A note on the use of "Must Support" in the Implementation Guide:
-For profiles defined in other IGs, the meaning of "Must Support" is established in the defining IG. For profiles defined in this IG, [Must Support](http://hl7.org/fhir/us/core/1.0.1/guidance.html#must-support) will conform with US Core definition.
+For profiles defined in other IGs, the meaning of "Must Support" is established in the defining IG. For profiles defined in this IG, [Must Support](http://hl7.org/fhir/us/core/general-guidance.html#must-support) will conform with US Core definition.
 
 ### Resource Profile: CognitionQuestionnaireResponse
 
