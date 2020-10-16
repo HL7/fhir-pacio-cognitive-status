@@ -34,7 +34,7 @@
       {
         "code": "54632-5",
         "system": "http://loinc.org",
-        "display": "Is there evidence of an acute change in mental status from the patients baseline?"
+        "display": "Acute onset mental status change [CAM.CMS]"
       }
     ],
     "text": "Acute Onset Mental Status Change. Is there evidence of an acute change in mental status from the resident's baseline?"

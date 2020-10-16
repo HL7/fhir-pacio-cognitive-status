@@ -42,7 +42,7 @@
       {
         "code": "54635-8",
         "system": "http://loinc.org",
-        "display": "Resident Mood Interview (PHQ-9)"
+        "display": "Resident mood interview (PHQ-9) [Reported PHQ-9 CMS]"
       }
     ]
   },

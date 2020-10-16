@@ -34,7 +34,7 @@
       {
         "code": "52736-6",
         "system": "http://loinc.org",
-        "display": "Able to recall blue"
+        "display": "Recall - blue [BIMS]"
       }
     ],
     "text": "Able to recall 'blue'"

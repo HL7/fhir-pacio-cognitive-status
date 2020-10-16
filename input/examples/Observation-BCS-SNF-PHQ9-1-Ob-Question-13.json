@@ -34,7 +34,7 @@
       {
         "code": "54641-6",
         "system": "http://loinc.org",
-        "display": "Trouble falling or staying asleep or sleeping too much"
+        "display": "Trouble falling or staying asleep, or sleeping too much in last 2 weeks.frequency [Reported PHQ-9 CMS]"
       }
     ],
     "text": "Trouble falling or staying asleep"

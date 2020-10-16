@@ -34,7 +34,7 @@
       {
         "code": "52731-7",
         "system": "http://loinc.org",
-        "display": "Number of words repeated after first attempt"
+        "display": "Repetition of three words # [BIMS]"
       }
     ],
     "text": "Repetition of Three Words. Number of words repeated after first attempt"

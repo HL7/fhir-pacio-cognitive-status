@@ -34,7 +34,7 @@
       {
         "code": "54652-3",
         "system": "http://loinc.org",
-        "display": "Thoughts that you would be better off dead or hurting yourself"
+        "display": "Thoughts that you would be better off dead, or of hurting yourself in some way in last 2 weeks.presence [Reported PHQ-9 CMS]"
       }
     ],
     "text": "Thoughts that you would be better off dead"

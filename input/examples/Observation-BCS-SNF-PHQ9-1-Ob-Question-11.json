@@ -34,7 +34,7 @@
       {
         "code": "54639-0",
         "system": "http://loinc.org",
-        "display": "Feeling down, depressed or hopeless"
+        "display": "Feeling down, depressed or hopeless in last 2 weeks.frequency [Reported PHQ-9 CMS]"
       }
     ],
     "text": "Feeling down"

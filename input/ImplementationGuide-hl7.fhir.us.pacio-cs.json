@@ -233,38 +233,6 @@
       },
       {
         "reference": {
-          "reference": "Observation/BCS-SNF-CAM-Discharge-1"
-        },
-        "name": "BCS-SNF-CAM-Discharge-1",
-        "description": "An instance of BundledCognitiveStatus",
-        "exampleCanonical": "http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-bcs"
-      },
-      {
-        "reference": {
-          "reference": "Observation/BCS-SNF-CAM-Discharge-1-Ob-Question-2"
-        },
-        "name": "BCS-SNF-CAM-Discharge-1-Ob-Question-2",
-        "description": "An instance of CognitiveStatus",
-        "exampleCanonical": "http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cs"
-      },
-      {
-        "reference": {
-          "reference": "Observation/BCS-SNF-CAM-Discharge-1-Ob-Question-4"
-        },
-        "name": "BCS-SNF-CAM-Discharge-1-Ob-Question-4",
-        "description": "An instance of CognitiveStatus",
-        "exampleCanonical": "http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cs"
-      },
-      {
-        "reference": {
-          "reference": "Observation/BCS-SNF-CAM-Discharge-1-Ob-Question-6"
-        },
-        "name": "BCS-SNF-CAM-Discharge-1-Ob-Question-6",
-        "description": "An instance of CognitiveStatus",
-        "exampleCanonical": "http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cs"
-      },
-      {
-        "reference": {
           "reference": "Observation/BCS-SNF-PHQ9-1"
         },
         "name": "BCS-SNF-PHQ9-1",
@@ -417,78 +385,6 @@
       },
       {
         "reference": {
-          "reference": "Condition/BSJ-Diagnosis1"
-        },
-        "name": "BSJ-Diagnosis1",
-        "description": "An instance of Condition",
-        "exampleBoolean": true
-      },
-      {
-        "reference": {
-          "reference": "Condition/BSJ-Diagnosis2"
-        },
-        "name": "BSJ-Diagnosis2",
-        "description": "An instance of Condition",
-        "exampleBoolean": true
-      },
-      {
-        "reference": {
-          "reference": "Condition/BSJ-Diagnosis3"
-        },
-        "name": "BSJ-Diagnosis3",
-        "description": "An instance of Condition",
-        "exampleBoolean": true
-      },
-      {
-        "reference": {
-          "reference": "Condition/BSJ-Diagnosis4"
-        },
-        "name": "BSJ-Diagnosis4",
-        "description": "An instance of Condition",
-        "exampleBoolean": true
-      },
-      {
-        "reference": {
-          "reference": "Condition/BSJ-Diagnosis5"
-        },
-        "name": "BSJ-Diagnosis5",
-        "description": "An instance of Condition",
-        "exampleBoolean": true
-      },
-      {
-        "reference": {
-          "reference": "Condition/BSJ-Diagnosis6"
-        },
-        "name": "BSJ-Diagnosis6",
-        "description": "An instance of Condition",
-        "exampleBoolean": true
-      },
-      {
-        "reference": {
-          "reference": "Condition/BSJ-Diagnosis7"
-        },
-        "name": "BSJ-Diagnosis7",
-        "description": "An instance of Condition",
-        "exampleBoolean": true
-      },
-      {
-        "reference": {
-          "reference": "Condition/BSJ-Diagnosis8"
-        },
-        "name": "BSJ-Diagnosis8",
-        "description": "An instance of Condition",
-        "exampleBoolean": true
-      },
-      {
-        "reference": {
-          "reference": "Condition/BSJ-Diagnosis9"
-        },
-        "name": "BSJ-Diagnosis9",
-        "description": "An instance of Condition",
-        "exampleBoolean": true
-      },
-      {
-        "reference": {
           "reference": "Observation/BSJ-Prior-Level-Of-Cognitive-Function-1"
         },
         "name": "BSJ-Prior-Level-Of-Cognitive-Function-1",
@@ -588,6 +484,7 @@
           "reference": "QuestionnaireResponse/QResponse-Hospital-MMSE-1"
         },
         "name": "QResponse-Hospital-MMSE-1",
+        "description": "An instance of CognitionQuestionnaireResponse",
         "exampleCanonical": "http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cognition-qr"
       },
       {
@@ -595,6 +492,7 @@
           "reference": "QuestionnaireResponse/QResponse-Hospital-MMSE-2"
         },
         "name": "QResponse-Hospital-MMSE-2",
+        "description": "An instance of CognitionQuestionnaireResponse",
         "exampleCanonical": "http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cognition-qr"
       },
       {
@@ -602,6 +500,7 @@
           "reference": "QuestionnaireResponse/QResponse-Hospital-MOCA-1"
         },
         "name": "QResponse-Hospital-MOCA-1",
+        "description": "An instance of CognitionQuestionnaireResponse",
         "exampleCanonical": "http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cognition-qr"
       },
       {
@@ -609,6 +508,7 @@
           "reference": "QuestionnaireResponse/QResponse-Hospital-MOCA-2"
         },
         "name": "QResponse-Hospital-MOCA-2",
+        "description": "An instance of CognitionQuestionnaireResponse",
         "exampleCanonical": "http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cognition-qr"
       },
       {
@@ -616,6 +516,7 @@
           "reference": "QuestionnaireResponse/QResponse-SNF-BIMS-1"
         },
         "name": "QResponse-SNF-BIMS-1",
+        "description": "An instance of CognitionQuestionnaireResponse",
         "exampleCanonical": "http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cognition-qr"
       },
       {
@@ -628,17 +529,10 @@
       },
       {
         "reference": {
-          "reference": "QuestionnaireResponse/QResponse-SNF-CAM-Discharge-1"
-        },
-        "name": "QResponse-SNF-CAM-Discharge-1",
-        "description": "An instance of CognitionQuestionnaireResponse",
-        "exampleCanonical": "http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cognition-qr"
-      },
-      {
-        "reference": {
           "reference": "QuestionnaireResponse/QResponse-SNF-PHQ9-1"
         },
         "name": "QResponse-SNF-PHQ9-1",
+        "description": "An instance of CognitionQuestionnaireResponse",
         "exampleCanonical": "http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cognition-qr"
       },
       {

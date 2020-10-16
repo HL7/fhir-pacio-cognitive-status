@@ -34,7 +34,7 @@
       {
         "code": "54628-3",
         "system": "http://loinc.org",
-        "display": "Did the patient have difficulty focusing attention, for example being easily distractible, or having difficulty keeping track of what was being said?"
+        "display": "Inattention in last 7 days [CAM.CMS]"
       }
     ],
     "text": "Inattention - Did the resident have difficulty focusing attention, for example, being easily distractible or having difficulty keeping track of what was being said?"

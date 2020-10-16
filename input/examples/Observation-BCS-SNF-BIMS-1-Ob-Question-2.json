@@ -34,7 +34,7 @@
       {
         "code": "52732-5",
         "system": "http://loinc.org",
-        "display": "Able to report correct year"
+        "display": "Temporal orientation - current year [BIMS]"
       }
     ],
     "text": "Able to report correct year"

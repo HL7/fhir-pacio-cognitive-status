@@ -34,7 +34,7 @@
       {
         "code": "54609-3",
         "system": "http://loinc.org",
-        "display": "What day of the week is today?"
+        "display": "Temporal orientation - current day of the week [BIMS]"
       }
     ],
     "text": "Able to report correct day of the week"

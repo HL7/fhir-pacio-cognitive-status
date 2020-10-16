@@ -78,7 +78,7 @@
    <name value="PACIOCognitiveStatusImplementationGuide"/>
    <title value="PACIO Cognitive Status Implementation Guide"/>
    <status value="active"/>
-   <date value="2020-10-15T21:11:42-07:00"/>
+   <date value="2020-10-15T23:24:00-07:00"/>
    <contact>
       <name value="PACIO  project"/>
       <telecom>
@@ -487,66 +487,6 @@
             <valueString value="Observation"/>
          </extension>
          <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Observation-BCS-SNF-CAM-Discharge-1.html"/>
-         </extension>
-         <reference>
-            <reference value="Observation/BCS-SNF-CAM-Discharge-1"/>
-         </reference>
-         <name value="BCS-SNF-CAM-Discharge-1"/>
-         <description value="An instance of BundledCognitiveStatus"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-bcs"/>
-         <groupingId value="_ex_example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="Observation"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Observation-BCS-SNF-CAM-Discharge-1-Ob-Question-2.html"/>
-         </extension>
-         <reference>
-            <reference value="Observation/BCS-SNF-CAM-Discharge-1-Ob-Question-2"/>
-         </reference>
-         <name value="BCS-SNF-CAM-Discharge-1-Ob-Question-2"/>
-         <description value="An instance of CognitiveStatus"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cs"/>
-         <groupingId value="_ex_example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="Observation"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Observation-BCS-SNF-CAM-Discharge-1-Ob-Question-4.html"/>
-         </extension>
-         <reference>
-            <reference value="Observation/BCS-SNF-CAM-Discharge-1-Ob-Question-4"/>
-         </reference>
-         <name value="BCS-SNF-CAM-Discharge-1-Ob-Question-4"/>
-         <description value="An instance of CognitiveStatus"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cs"/>
-         <groupingId value="_ex_example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="Observation"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Observation-BCS-SNF-CAM-Discharge-1-Ob-Question-6.html"/>
-         </extension>
-         <reference>
-            <reference value="Observation/BCS-SNF-CAM-Discharge-1-Ob-Question-6"/>
-         </reference>
-         <name value="BCS-SNF-CAM-Discharge-1-Ob-Question-6"/>
-         <description value="An instance of CognitiveStatus"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cs"/>
-         <groupingId value="_ex_example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="Observation"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
             <valueUri value="Observation-BCS-SNF-PHQ9-1.html"/>
          </extension>
          <reference>
@@ -829,141 +769,6 @@
       </resource>
       <resource>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="Condition"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Condition-BSJ-Diagnosis1.html"/>
-         </extension>
-         <reference>
-            <reference value="Condition/BSJ-Diagnosis1"/>
-         </reference>
-         <name value="BSJ-Diagnosis1"/>
-         <description value="An instance of Condition"/>
-         <exampleBoolean value="true"/>
-         <groupingId value="_ex_example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="Condition"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Condition-BSJ-Diagnosis2.html"/>
-         </extension>
-         <reference>
-            <reference value="Condition/BSJ-Diagnosis2"/>
-         </reference>
-         <name value="BSJ-Diagnosis2"/>
-         <description value="An instance of Condition"/>
-         <exampleBoolean value="true"/>
-         <groupingId value="_ex_example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="Condition"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Condition-BSJ-Diagnosis3.html"/>
-         </extension>
-         <reference>
-            <reference value="Condition/BSJ-Diagnosis3"/>
-         </reference>
-         <name value="BSJ-Diagnosis3"/>
-         <description value="An instance of Condition"/>
-         <exampleBoolean value="true"/>
-         <groupingId value="_ex_example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="Condition"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Condition-BSJ-Diagnosis4.html"/>
-         </extension>
-         <reference>
-            <reference value="Condition/BSJ-Diagnosis4"/>
-         </reference>
-         <name value="BSJ-Diagnosis4"/>
-         <description value="An instance of Condition"/>
-         <exampleBoolean value="true"/>
-         <groupingId value="_ex_example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="Condition"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Condition-BSJ-Diagnosis5.html"/>
-         </extension>
-         <reference>
-            <reference value="Condition/BSJ-Diagnosis5"/>
-         </reference>
-         <name value="BSJ-Diagnosis5"/>
-         <description value="An instance of Condition"/>
-         <exampleBoolean value="true"/>
-         <groupingId value="_ex_example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="Condition"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Condition-BSJ-Diagnosis6.html"/>
-         </extension>
-         <reference>
-            <reference value="Condition/BSJ-Diagnosis6"/>
-         </reference>
-         <name value="BSJ-Diagnosis6"/>
-         <description value="An instance of Condition"/>
-         <exampleBoolean value="true"/>
-         <groupingId value="_ex_example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="Condition"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Condition-BSJ-Diagnosis7.html"/>
-         </extension>
-         <reference>
-            <reference value="Condition/BSJ-Diagnosis7"/>
-         </reference>
-         <name value="BSJ-Diagnosis7"/>
-         <description value="An instance of Condition"/>
-         <exampleBoolean value="true"/>
-         <groupingId value="_ex_example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="Condition"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Condition-BSJ-Diagnosis8.html"/>
-         </extension>
-         <reference>
-            <reference value="Condition/BSJ-Diagnosis8"/>
-         </reference>
-         <name value="BSJ-Diagnosis8"/>
-         <description value="An instance of Condition"/>
-         <exampleBoolean value="true"/>
-         <groupingId value="_ex_example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="Condition"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Condition-BSJ-Diagnosis9.html"/>
-         </extension>
-         <reference>
-            <reference value="Condition/BSJ-Diagnosis9"/>
-         </reference>
-         <name value="BSJ-Diagnosis9"/>
-         <description value="An instance of Condition"/>
-         <exampleBoolean value="true"/>
-         <groupingId value="_ex_example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
             <valueString value="Observation"/>
          </extension>
          <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
@@ -1153,6 +958,7 @@
             <reference value="QuestionnaireResponse/QResponse-Hospital-MMSE-1"/>
          </reference>
          <name value="QResponse-Hospital-MMSE-1"/>
+         <description value="An instance of CognitionQuestionnaireResponse"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cognition-qr"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -1167,6 +973,7 @@
             <reference value="QuestionnaireResponse/QResponse-Hospital-MMSE-2"/>
          </reference>
          <name value="QResponse-Hospital-MMSE-2"/>
+         <description value="An instance of CognitionQuestionnaireResponse"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cognition-qr"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -1181,6 +988,7 @@
             <reference value="QuestionnaireResponse/QResponse-Hospital-MOCA-1"/>
          </reference>
          <name value="QResponse-Hospital-MOCA-1"/>
+         <description value="An instance of CognitionQuestionnaireResponse"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cognition-qr"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -1195,6 +1003,7 @@
             <reference value="QuestionnaireResponse/QResponse-Hospital-MOCA-2"/>
          </reference>
          <name value="QResponse-Hospital-MOCA-2"/>
+         <description value="An instance of CognitionQuestionnaireResponse"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cognition-qr"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -1209,6 +1018,7 @@
             <reference value="QuestionnaireResponse/QResponse-SNF-BIMS-1"/>
          </reference>
          <name value="QResponse-SNF-BIMS-1"/>
+         <description value="An instance of CognitionQuestionnaireResponse"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cognition-qr"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -1232,27 +1042,13 @@
             <valueString value="QuestionnaireResponse"/>
          </extension>
          <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="QuestionnaireResponse-QResponse-SNF-CAM-Discharge-1.html"/>
-         </extension>
-         <reference>
-            <reference value="QuestionnaireResponse/QResponse-SNF-CAM-Discharge-1"/>
-         </reference>
-         <name value="QResponse-SNF-CAM-Discharge-1"/>
-         <description value="An instance of CognitionQuestionnaireResponse"/>
-         <exampleCanonical value="http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cognition-qr"/>
-         <groupingId value="_ex_example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="QuestionnaireResponse"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
             <valueUri value="QuestionnaireResponse-QResponse-SNF-PHQ9-1.html"/>
          </extension>
          <reference>
             <reference value="QuestionnaireResponse/QResponse-SNF-PHQ9-1"/>
          </reference>
          <name value="QResponse-SNF-PHQ9-1"/>
+         <description value="An instance of CognitionQuestionnaireResponse"/>
          <exampleCanonical value="http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cognition-qr"/>
          <groupingId value="_ex_example"/>
       </resource>
@@ -1520,26 +1316,6 @@
                <generation value="generated"/>
             </page>
             <page>
-               <nameUrl value="Observation-BCS-SNF-CAM-Discharge-1.html"/>
-               <title value="BCS-SNF-CAM-Discharge-1"/>
-               <generation value="generated"/>
-            </page>
-            <page>
-               <nameUrl value="Observation-BCS-SNF-CAM-Discharge-1-Ob-Question-2.html"/>
-               <title value="BCS-SNF-CAM-Discharge-1-Ob-Question-2"/>
-               <generation value="generated"/>
-            </page>
-            <page>
-               <nameUrl value="Observation-BCS-SNF-CAM-Discharge-1-Ob-Question-4.html"/>
-               <title value="BCS-SNF-CAM-Discharge-1-Ob-Question-4"/>
-               <generation value="generated"/>
-            </page>
-            <page>
-               <nameUrl value="Observation-BCS-SNF-CAM-Discharge-1-Ob-Question-6.html"/>
-               <title value="BCS-SNF-CAM-Discharge-1-Ob-Question-6"/>
-               <generation value="generated"/>
-            </page>
-            <page>
                <nameUrl value="Observation-BCS-SNF-PHQ9-1.html"/>
                <title value="BCS-SNF-PHQ9-1"/>
                <generation value="generated"/>
@@ -1635,51 +1411,6 @@
                <generation value="generated"/>
             </page>
             <page>
-               <nameUrl value="Condition-BSJ-Diagnosis1.html"/>
-               <title value="BSJ-Diagnosis1"/>
-               <generation value="generated"/>
-            </page>
-            <page>
-               <nameUrl value="Condition-BSJ-Diagnosis2.html"/>
-               <title value="BSJ-Diagnosis2"/>
-               <generation value="generated"/>
-            </page>
-            <page>
-               <nameUrl value="Condition-BSJ-Diagnosis3.html"/>
-               <title value="BSJ-Diagnosis3"/>
-               <generation value="generated"/>
-            </page>
-            <page>
-               <nameUrl value="Condition-BSJ-Diagnosis4.html"/>
-               <title value="BSJ-Diagnosis4"/>
-               <generation value="generated"/>
-            </page>
-            <page>
-               <nameUrl value="Condition-BSJ-Diagnosis5.html"/>
-               <title value="BSJ-Diagnosis5"/>
-               <generation value="generated"/>
-            </page>
-            <page>
-               <nameUrl value="Condition-BSJ-Diagnosis6.html"/>
-               <title value="BSJ-Diagnosis6"/>
-               <generation value="generated"/>
-            </page>
-            <page>
-               <nameUrl value="Condition-BSJ-Diagnosis7.html"/>
-               <title value="BSJ-Diagnosis7"/>
-               <generation value="generated"/>
-            </page>
-            <page>
-               <nameUrl value="Condition-BSJ-Diagnosis8.html"/>
-               <title value="BSJ-Diagnosis8"/>
-               <generation value="generated"/>
-            </page>
-            <page>
-               <nameUrl value="Condition-BSJ-Diagnosis9.html"/>
-               <title value="BSJ-Diagnosis9"/>
-               <generation value="generated"/>
-            </page>
-            <page>
                <nameUrl value="Observation-BSJ-Prior-Level-Of-Cognitive-Function-1.html"/>
                <title value="BSJ-Prior-Level-Of-Cognitive-Function-1"/>
                <generation value="generated"/>
@@ -1767,11 +1498,6 @@
             <page>
                <nameUrl value="QuestionnaireResponse-QResponse-SNF-CAM-Admission-1.html"/>
                <title value="QResponse-SNF-CAM-Admission-1"/>
-               <generation value="generated"/>
-            </page>
-            <page>
-               <nameUrl value="QuestionnaireResponse-QResponse-SNF-CAM-Discharge-1.html"/>
-               <title value="QResponse-SNF-CAM-Discharge-1"/>
                <generation value="generated"/>
             </page>
             <page>

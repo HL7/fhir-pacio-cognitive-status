@@ -34,7 +34,7 @@
       {
         "code": "54646-5",
         "system": "http://loinc.org",
-        "display": "Feeling bad about yourself"
+        "display": "Feeling bad about yourself - or that you are a failure or have let yourself or your family down in last 2 weeks.presence [Reported PHQ-9 CMS]"
       }
     ],
     "text": "Feeling bad about yourself - or that you are a failure or have let yourself or your family down"

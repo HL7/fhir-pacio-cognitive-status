@@ -34,7 +34,7 @@
       {
         "code": "52737-4",
         "system": "http://loinc.org",
-        "display": "Able to recall bed"
+        "display": "Recall - bed [BIMS]"
       }
     ],
     "text": "Able to recall 'bed'"

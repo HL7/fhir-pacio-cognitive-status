@@ -34,7 +34,7 @@
       {
         "code": "52735-8",
         "system": "http://loinc.org",
-        "display": "Able to recall sock"
+        "display": "Recall - sock [BIMS]"
       }
     ],
     "text": "Able to recall 'sock'"

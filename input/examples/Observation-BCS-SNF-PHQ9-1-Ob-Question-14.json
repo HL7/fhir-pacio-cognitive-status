@@ -34,7 +34,7 @@
       {
         "code": "54642-4",
         "system": "http://loinc.org",
-        "display": "Feeling tired or having little energy"
+        "display": "Feeling tired or having little energy in last 2 weeks.presence [Reported PHQ-9 CMS]"
       }
     ],
     "text": "Feeling tired or having little energy"

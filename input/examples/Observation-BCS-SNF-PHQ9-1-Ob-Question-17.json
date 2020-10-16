@@ -34,7 +34,7 @@
       {
         "code": "54645-7",
         "system": "http://loinc.org",
-        "display": "Poor appetite or overeating"
+        "display": "Poor appetite or overeating in last 2 weeks.frequency [Reported PHQ-9 CMS]"
       }
     ],
     "text": "Poor appetite or overeating"

@@ -34,7 +34,7 @@
       {
         "code": "52733-3",
         "system": "http://loinc.org",
-        "display": "What month are we in right now?"
+        "display": "Temporal orientation - current month [BIMS]"
       }
     ],
     "text": "Able to report correct month"
