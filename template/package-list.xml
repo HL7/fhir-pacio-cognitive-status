@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <package-list>
    <package version="current"
-            path="http://build.fhir.org/ig/example/example-ig"
+            path="http://build.fhir.org/ig/HL7/fhir-pacio-cognitive-status"
             status="ci-build"/>
-   <package version="0.0.1" path="http://example.org/fhir/STU1" status="ballot"/>
+   <package version="0.1.0"
+            path="http://hl7.org/fhir/us/pacio-cs/2021Jan"
+            status="ballot"/>
 </package-list>

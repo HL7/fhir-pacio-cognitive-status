@@ -118,7 +118,7 @@
         },
         "binding": {
           "strength": "required",
-          "valueSet": "http://loinc.org"
+          "valueSet": "http://hl7.org/fhir/ValueSet/observation-codes"
         }
       },
       {

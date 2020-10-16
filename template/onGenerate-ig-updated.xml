@@ -17,9 +17,21 @@
    <name value="PACIOCognitiveStatusImplementationGuide"/>
    <title value="PACIO Cognitive Status Implementation Guide"/>
    <status value="active"/>
-   <date value="2020-10-16T01:23:00-07:00"/>
+   <date value="2020-10-16T14:22:02-07:00"/>
+   <publisher value="HL7 Patient Care Work Group"/>
    <contact>
-      <name value="PACIO  project"/>
+      <name value="HL7 Patient Care Work Group"/>
+      <telecom>
+         <system value="url"/>
+         <value value="http://www.hl7.org/Special/committees/patientcare"/>
+      </telecom>
+      <telecom>
+         <system value="email"/>
+         <value value="patientcare@lists.HL7.org"/>
+      </telecom>
+   </contact>
+   <contact>
+      <name value="PACIO project"/>
       <telecom>
          <system value="url"/>
          <value value="http://www.hl7.org/Special/committees/patientcare/"/>

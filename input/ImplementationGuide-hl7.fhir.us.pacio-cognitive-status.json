@@ -1,26 +1,12 @@
 {
   "resourceType": "ImplementationGuide",
-  "id": "hl7.fhir.us.pacio-cs",
-  "url": "http://hl7.org/fhir/us/pacio-cs/ImplementationGuide/hl7.fhir.us.pacio-cs",
+  "id": "hl7.fhir.us.pacio-cognitive-status",
+  "url": "http://hl7.org/fhir/us/pacio-cognitive-status/ImplementationGuide/hl7.fhir.us.pacio-cognitive-status",
   "version": "0.1.0",
   "name": "PACIOCognitiveStatusImplementationGuide",
   "title": "PACIO Cognitive Status Implementation Guide",
   "status": "active",
-  "publisher": "HL7 Patient Care Work Group",
   "contact": [
-    {
-      "name": "HL7 Patient Care Work Group",
-      "telecom": [
-        {
-          "system": "url",
-          "value": "http://www.hl7.org/Special/committees/patientcare"
-        },
-        {
-          "system": "email",
-          "value": "patientcare@lists.HL7.org"
-        }
-      ]
-    },
     {
       "name": "PACIO project",
       "telecom": [
@@ -46,7 +32,7 @@
       ]
     }
   ],
-  "packageId": "hl7.fhir.us.pacio-cs",
+  "packageId": "hl7.fhir.us.pacio-cognitive-status",
   "license": "CC0-1.0",
   "fhirVersion": [
     "4.0.1"
@@ -123,7 +109,7 @@
         },
         "name": "BCS-Hospital-MOCA-1",
         "description": "An instance of BundledCognitiveStatus",
-        "exampleCanonical": "http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-bcs"
+        "exampleCanonical": "http://hl7.org/fhir/us/pacio-cognitive-status/StructureDefinition/pacio-bcs"
       },
       {
         "reference": {
@@ -131,7 +117,7 @@
         },
         "name": "BCS-SNF-CAM-Admission-1",
         "description": "An instance of BundledCognitiveStatus",
-        "exampleCanonical": "http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-bcs"
+        "exampleCanonical": "http://hl7.org/fhir/us/pacio-cognitive-status/StructureDefinition/pacio-bcs"
       },
       {
         "reference": {
@@ -139,7 +125,7 @@
         },
         "name": "BCS-SNF-CAM-Admission-1-Ob-Question-1",
         "description": "An instance of CognitiveStatus",
-        "exampleCanonical": "http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cs"
+        "exampleCanonical": "http://hl7.org/fhir/us/pacio-cognitive-status/StructureDefinition/pacio-cs"
       },
       {
         "reference": {
@@ -147,7 +133,7 @@
         },
         "name": "BCS-SNF-CAM-Admission-1-Ob-Question-3",
         "description": "An instance of CognitiveStatus",
-        "exampleCanonical": "http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cs"
+        "exampleCanonical": "http://hl7.org/fhir/us/pacio-cognitive-status/StructureDefinition/pacio-cs"
       },
       {
         "reference": {
@@ -155,7 +141,7 @@
         },
         "name": "BCS-SNF-CAM-Admission-1-Ob-Question-5",
         "description": "An instance of CognitiveStatus",
-        "exampleCanonical": "http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cs"
+        "exampleCanonical": "http://hl7.org/fhir/us/pacio-cognitive-status/StructureDefinition/pacio-cs"
       },
       {
         "reference": {
@@ -163,7 +149,7 @@
         },
         "name": "BSJ-Prior-Level-Of-Cognitive-Function-1",
         "description": "An instance of PriorLevelOfCognitiveFunction",
-        "exampleCanonical": "http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-plcf"
+        "exampleCanonical": "http://hl7.org/fhir/us/pacio-cognitive-status/StructureDefinition/pacio-plcf"
       },
       {
         "reference": {
@@ -259,7 +245,7 @@
         },
         "name": "QResponse-Hospital-MOCA-1",
         "description": "An instance of CognitionQuestionnaireResponse",
-        "exampleCanonical": "http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cognition-qr"
+        "exampleCanonical": "http://hl7.org/fhir/us/pacio-cognitive-status/StructureDefinition/pacio-cognition-qr"
       },
       {
         "reference": {
@@ -267,7 +253,7 @@
         },
         "name": "QResponse-SNF-CAM-Admission-1",
         "description": "An instance of CognitionQuestionnaireResponse",
-        "exampleCanonical": "http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cognition-qr"
+        "exampleCanonical": "http://hl7.org/fhir/us/pacio-cognitive-status/StructureDefinition/pacio-cognition-qr"
       },
       {
         "reference": {
@@ -378,7 +364,7 @@
       },
       {
         "code": "path-history",
-        "value": "http://hl7.org/fhir/us/pacio-cs/history.html"
+        "value": "http://hl7.org/fhir/us/pacio-cognitive-status/history.html"
       }
     ]
   }
