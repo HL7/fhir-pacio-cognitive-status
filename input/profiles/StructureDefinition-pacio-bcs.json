@@ -145,7 +145,7 @@
       {
         "id": "Observation.performer",
         "path": "Observation.performer",
-        "short": "The person who performed the assessment. May also be used to provide the practitioner role and organization. ",
+        "short": "The person who performed the assessment. May also be used to provide the practitioner role and organization.",
         "min": 1
       },
       {
