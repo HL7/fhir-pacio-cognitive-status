@@ -6,6 +6,16 @@
       "http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cs"
     ]
   },
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code": "laboratory"
+        }
+      ]
+    }
+  ],
   "extension": [
     {
       "url": "http://hl7.org/fhir/StructureDefinition/event-location",

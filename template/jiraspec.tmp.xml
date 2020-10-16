@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<specification xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ciUrl="http://build.fhir.org/ig/HL7/fhir-pacio-cognitive-status" defaultVersion="0.1" defaultWorkgroup="pc" gitUrl="https://github.com/HL7/fhir-pacio-cognitive-status" xsi:noNamespaceSchemaLocation="../schemas/specification.xsd" url="http://hl7.org/fhir/us/pacio-cs"><version code="0.1" url="http://hl7.org/fhir/us/pacio-cs"/>
+<page key="NA" name="(NA)"/>
+<page key="many" name="(many)"/>
+<page key="profiles" name="(profiles)"/>
+<page key="index" name="index"/>
+<page key="toc" name="toc"/>
+<page key="usecases" name="usecases"/>
+</specification>

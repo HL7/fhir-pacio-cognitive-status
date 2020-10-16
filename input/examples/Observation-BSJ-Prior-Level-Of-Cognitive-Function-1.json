@@ -6,6 +6,16 @@
       "http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-plcf"
     ]
   },
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+          "code": "laboratory"
+        }
+      ]
+    }
+  ],
   "code": {
     "coding": [
       {
@@ -36,6 +46,14 @@
   "text": {
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Alert and oriented x 3. She is independent in household finances, social and community activities, coeherent and appropriate communication. Appropriate attire for location and weather.</div>",
     "status": "additional"
+  },
+  "dataAbsentReason": {
+    "coding": [
+      {
+        "code": "not-applicable",
+        "system": "http://terminology.hl7.org/CodeSystem/data-absent-reason"
+      }
+    ]
   },
   "performer": [
     {

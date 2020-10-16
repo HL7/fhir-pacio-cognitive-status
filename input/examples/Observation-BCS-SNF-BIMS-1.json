@@ -6,6 +6,24 @@
       "http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-bcs"
     ]
   },
+  "category": [
+    {
+      "coding": [
+        {
+          "code": "survey",
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category"
+        }
+      ]
+    },
+    {
+      "coding": [
+        {
+          "code": "laboratory",
+          "system": "http://terminology.hl7.org/CodeSystem/observation-category"
+        }
+      ]
+    }
+  ],
   "extension": [
     {
       "url": "http://hl7.org/fhir/StructureDefinition/event-location",
@@ -28,16 +46,6 @@
       }
     ]
   },
-  "category": [
-    {
-      "coding": [
-        {
-          "code": "survey",
-          "system": "http://terminology.hl7.org/CodeSystem/observation-category"
-        }
-      ]
-    }
-  ],
   "valueCodeableConcept": {
     "text": "9",
     "coding": [

@@ -6,18 +6,28 @@
   "name": "PACIOCognitiveStatusImplementationGuide",
   "title": "PACIO Cognitive Status Implementation Guide",
   "status": "active",
-  "publisher": "HL7 Patient Care Work Group",
   "contact": [
     {
-      "name": "MITRE PACIO Team",
+      "name": "PACIO  project",
       "telecom": [
         {
           "system": "url",
-          "value": "https://www.hl7.org/Special/committees/patientcare/"
+          "value": "http://www.hl7.org/Special/committees/patientcare/"
         },
         {
           "system": "email",
           "value": "info@pacioproject.org"
+        }
+      ]
+    }
+  ],
+  "description": "To advance interoperable health data exchange between post-acute care (PAC) and other providers, patients, and key stakeholders",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "code": "US",
+          "system": "urn:iso:std:iso:3166"
         }
       ]
     }
@@ -29,20 +39,10 @@
   ],
   "dependsOn": [
     {
-      "uri": "http://hl7.org/fhir/us/core/ImplementationGuide/hl7.fhir.us.core",
       "packageId": "hl7.fhir.us.core",
-      "version": "3.1.0"
-    }
-  ],
-  "jurisdiction": [
-    {
-      "coding": [
-        {
-          "system": "urn:iso:std:iso:3166",
-          "code": "US",
-          "display": "United States of America"
-        }
-      ]
+      "version": "3.1.0",
+      "uri": "http://hl7.org/fhir/us/core/ImplementationGuide/hl7.fhir.us.core",
+      "id": "hl7_fhir_us_core"
     }
   ],
   "definition": {
@@ -108,6 +108,7 @@
           "reference": "Observation/BCS-Hospital-MMSE-1"
         },
         "name": "BCS-Hospital-MMSE-1",
+        "description": "An instance of BundledCognitiveStatus",
         "exampleCanonical": "http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-bcs"
       },
       {
@@ -115,6 +116,7 @@
           "reference": "Observation/BCS-Hospital-MMSE-2"
         },
         "name": "BCS-Hospital-MMSE-2",
+        "description": "An instance of BundledCognitiveStatus",
         "exampleCanonical": "http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-bcs"
       },
       {
@@ -122,6 +124,7 @@
           "reference": "Observation/BCS-Hospital-MOCA-1"
         },
         "name": "BCS-Hospital-MOCA-1",
+        "description": "An instance of BundledCognitiveStatus",
         "exampleCanonical": "http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-bcs"
       },
       {
@@ -129,6 +132,7 @@
           "reference": "Observation/BCS-Hospital-MOCA-2"
         },
         "name": "BCS-Hospital-MOCA-2",
+        "description": "An instance of BundledCognitiveStatus",
         "exampleCanonical": "http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-bcs"
       },
       {
@@ -136,6 +140,7 @@
           "reference": "Observation/BCS-SNF-BIMS-1"
         },
         "name": "BCS-SNF-BIMS-1",
+        "description": "An instance of BundledCognitiveStatus",
         "exampleCanonical": "http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-bcs"
       },
       {
@@ -143,6 +148,7 @@
           "reference": "Observation/BCS-SNF-BIMS-1-Ob-Question-1"
         },
         "name": "BCS-SNF-BIMS-1-Ob-Question-1",
+        "description": "An instance of CognitiveStatus",
         "exampleCanonical": "http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cs"
       },
       {
@@ -150,6 +156,7 @@
           "reference": "Observation/BCS-SNF-BIMS-1-Ob-Question-2"
         },
         "name": "BCS-SNF-BIMS-1-Ob-Question-2",
+        "description": "An instance of CognitiveStatus",
         "exampleCanonical": "http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cs"
       },
       {
@@ -157,6 +164,7 @@
           "reference": "Observation/BCS-SNF-BIMS-1-Ob-Question-3"
         },
         "name": "BCS-SNF-BIMS-1-Ob-Question-3",
+        "description": "An instance of CognitiveStatus",
         "exampleCanonical": "http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cs"
       },
       {
@@ -164,6 +172,7 @@
           "reference": "Observation/BCS-SNF-BIMS-1-Ob-Question-4"
         },
         "name": "BCS-SNF-BIMS-1-Ob-Question-4",
+        "description": "An instance of CognitiveStatus",
         "exampleCanonical": "http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cs"
       },
       {
@@ -171,6 +180,7 @@
           "reference": "Observation/BCS-SNF-BIMS-1-Ob-Question-5"
         },
         "name": "BCS-SNF-BIMS-1-Ob-Question-5",
+        "description": "An instance of CognitiveStatus",
         "exampleCanonical": "http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cs"
       },
       {
@@ -178,6 +188,7 @@
           "reference": "Observation/BCS-SNF-BIMS-1-Ob-Question-6"
         },
         "name": "BCS-SNF-BIMS-1-Ob-Question-6",
+        "description": "An instance of CognitiveStatus",
         "exampleCanonical": "http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cs"
       },
       {
@@ -185,6 +196,7 @@
           "reference": "Observation/BCS-SNF-BIMS-1-Ob-Question-7"
         },
         "name": "BCS-SNF-BIMS-1-Ob-Question-7",
+        "description": "An instance of CognitiveStatus",
         "exampleCanonical": "http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cs"
       },
       {
@@ -192,6 +204,7 @@
           "reference": "Observation/BCS-SNF-CAM-Admission-1"
         },
         "name": "BCS-SNF-CAM-Admission-1",
+        "description": "An instance of BundledCognitiveStatus",
         "exampleCanonical": "http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-bcs"
       },
       {
@@ -199,6 +212,7 @@
           "reference": "Observation/BCS-SNF-CAM-Admission-1-Ob-Question-1"
         },
         "name": "BCS-SNF-CAM-Admission-1-Ob-Question-1",
+        "description": "An instance of CognitiveStatus",
         "exampleCanonical": "http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cs"
       },
       {
@@ -206,6 +220,7 @@
           "reference": "Observation/BCS-SNF-CAM-Admission-1-Ob-Question-3"
         },
         "name": "BCS-SNF-CAM-Admission-1-Ob-Question-3",
+        "description": "An instance of CognitiveStatus",
         "exampleCanonical": "http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cs"
       },
       {
@@ -213,6 +228,7 @@
           "reference": "Observation/BCS-SNF-CAM-Admission-1-Ob-Question-5"
         },
         "name": "BCS-SNF-CAM-Admission-1-Ob-Question-5",
+        "description": "An instance of CognitiveStatus",
         "exampleCanonical": "http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cs"
       },
       {
@@ -220,6 +236,7 @@
           "reference": "Observation/BCS-SNF-CAM-Discharge-1"
         },
         "name": "BCS-SNF-CAM-Discharge-1",
+        "description": "An instance of BundledCognitiveStatus",
         "exampleCanonical": "http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-bcs"
       },
       {
@@ -227,6 +244,7 @@
           "reference": "Observation/BCS-SNF-CAM-Discharge-1-Ob-Question-2"
         },
         "name": "BCS-SNF-CAM-Discharge-1-Ob-Question-2",
+        "description": "An instance of CognitiveStatus",
         "exampleCanonical": "http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cs"
       },
       {
@@ -234,6 +252,7 @@
           "reference": "Observation/BCS-SNF-CAM-Discharge-1-Ob-Question-4"
         },
         "name": "BCS-SNF-CAM-Discharge-1-Ob-Question-4",
+        "description": "An instance of CognitiveStatus",
         "exampleCanonical": "http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cs"
       },
       {
@@ -241,6 +260,7 @@
           "reference": "Observation/BCS-SNF-CAM-Discharge-1-Ob-Question-6"
         },
         "name": "BCS-SNF-CAM-Discharge-1-Ob-Question-6",
+        "description": "An instance of CognitiveStatus",
         "exampleCanonical": "http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cs"
       },
       {
@@ -248,6 +268,7 @@
           "reference": "Observation/BCS-SNF-PHQ9-1"
         },
         "name": "BCS-SNF-PHQ9-1",
+        "description": "An instance of BundledCognitiveStatus",
         "exampleCanonical": "http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-bcs"
       },
       {
@@ -255,6 +276,7 @@
           "reference": "Observation/BCS-SNF-PHQ9-1-Ob-Question-10"
         },
         "name": "BCS-SNF-PHQ9-1-Ob-Question-10",
+        "description": "An instance of CognitiveStatus",
         "exampleCanonical": "http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cs"
       },
       {
@@ -262,6 +284,7 @@
           "reference": "Observation/BCS-SNF-PHQ9-1-Ob-Question-11"
         },
         "name": "BCS-SNF-PHQ9-1-Ob-Question-11",
+        "description": "An instance of CognitiveStatus",
         "exampleCanonical": "http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cs"
       },
       {
@@ -269,6 +292,7 @@
           "reference": "Observation/BCS-SNF-PHQ9-1-Ob-Question-12"
         },
         "name": "BCS-SNF-PHQ9-1-Ob-Question-12",
+        "description": "An instance of CognitiveStatus",
         "exampleCanonical": "http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cs"
       },
       {
@@ -276,6 +300,7 @@
           "reference": "Observation/BCS-SNF-PHQ9-1-Ob-Question-13"
         },
         "name": "BCS-SNF-PHQ9-1-Ob-Question-13",
+        "description": "An instance of CognitiveStatus",
         "exampleCanonical": "http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cs"
       },
       {
@@ -283,6 +308,7 @@
           "reference": "Observation/BCS-SNF-PHQ9-1-Ob-Question-14"
         },
         "name": "BCS-SNF-PHQ9-1-Ob-Question-14",
+        "description": "An instance of CognitiveStatus",
         "exampleCanonical": "http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cs"
       },
       {
@@ -290,6 +316,7 @@
           "reference": "Observation/BCS-SNF-PHQ9-1-Ob-Question-15"
         },
         "name": "BCS-SNF-PHQ9-1-Ob-Question-15",
+        "description": "An instance of CognitiveStatus",
         "exampleCanonical": "http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cs"
       },
       {
@@ -297,6 +324,7 @@
           "reference": "Observation/BCS-SNF-PHQ9-1-Ob-Question-16"
         },
         "name": "BCS-SNF-PHQ9-1-Ob-Question-16",
+        "description": "An instance of CognitiveStatus",
         "exampleCanonical": "http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cs"
       },
       {
@@ -304,6 +332,7 @@
           "reference": "Observation/BCS-SNF-PHQ9-1-Ob-Question-17"
         },
         "name": "BCS-SNF-PHQ9-1-Ob-Question-17",
+        "description": "An instance of CognitiveStatus",
         "exampleCanonical": "http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cs"
       },
       {
@@ -311,6 +340,7 @@
           "reference": "Observation/BCS-SNF-PHQ9-1-Ob-Question-18"
         },
         "name": "BCS-SNF-PHQ9-1-Ob-Question-18",
+        "description": "An instance of CognitiveStatus",
         "exampleCanonical": "http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cs"
       },
       {
@@ -318,6 +348,7 @@
           "reference": "Observation/BCS-SNF-PHQ9-1-Ob-Question-19"
         },
         "name": "BCS-SNF-PHQ9-1-Ob-Question-19",
+        "description": "An instance of CognitiveStatus",
         "exampleCanonical": "http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cs"
       },
       {
@@ -325,6 +356,7 @@
           "reference": "Observation/BCS-SNF-PHQ9-1-Ob-Question-20"
         },
         "name": "BCS-SNF-PHQ9-1-Ob-Question-20",
+        "description": "An instance of CognitiveStatus",
         "exampleCanonical": "http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cs"
       },
       {
@@ -332,6 +364,7 @@
           "reference": "Observation/BCS-SNF-PHQ9-1-Ob-Question-21"
         },
         "name": "BCS-SNF-PHQ9-1-Ob-Question-21",
+        "description": "An instance of CognitiveStatus",
         "exampleCanonical": "http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cs"
       },
       {
@@ -339,6 +372,7 @@
           "reference": "Observation/BCS-SNF-PHQ9-1-Ob-Question-22"
         },
         "name": "BCS-SNF-PHQ9-1-Ob-Question-22",
+        "description": "An instance of CognitiveStatus",
         "exampleCanonical": "http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cs"
       },
       {
@@ -346,6 +380,7 @@
           "reference": "Observation/BCS-SNF-PHQ9-1-Ob-Question-23"
         },
         "name": "BCS-SNF-PHQ9-1-Ob-Question-23",
+        "description": "An instance of CognitiveStatus",
         "exampleCanonical": "http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cs"
       },
       {
@@ -353,6 +388,7 @@
           "reference": "Observation/BCS-SNF-PHQ9-1-Ob-Question-24"
         },
         "name": "BCS-SNF-PHQ9-1-Ob-Question-24",
+        "description": "An instance of CognitiveStatus",
         "exampleCanonical": "http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cs"
       },
       {
@@ -360,6 +396,7 @@
           "reference": "Observation/BCS-SNF-PHQ9-1-Ob-Question-25"
         },
         "name": "BCS-SNF-PHQ9-1-Ob-Question-25",
+        "description": "An instance of CognitiveStatus",
         "exampleCanonical": "http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cs"
       },
       {
@@ -367,6 +404,7 @@
           "reference": "Observation/BCS-SNF-PHQ9-1-Ob-Question-8"
         },
         "name": "BCS-SNF-PHQ9-1-Ob-Question-8",
+        "description": "An instance of CognitiveStatus",
         "exampleCanonical": "http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cs"
       },
       {
@@ -374,6 +412,7 @@
           "reference": "Observation/BCS-SNF-PHQ9-1-Ob-Question-9"
         },
         "name": "BCS-SNF-PHQ9-1-Ob-Question-9",
+        "description": "An instance of CognitiveStatus",
         "exampleCanonical": "http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cs"
       },
       {
@@ -381,6 +420,7 @@
           "reference": "Condition/BSJ-Diagnosis1"
         },
         "name": "BSJ-Diagnosis1",
+        "description": "An instance of Condition",
         "exampleBoolean": true
       },
       {
@@ -388,6 +428,7 @@
           "reference": "Condition/BSJ-Diagnosis2"
         },
         "name": "BSJ-Diagnosis2",
+        "description": "An instance of Condition",
         "exampleBoolean": true
       },
       {
@@ -395,6 +436,7 @@
           "reference": "Condition/BSJ-Diagnosis3"
         },
         "name": "BSJ-Diagnosis3",
+        "description": "An instance of Condition",
         "exampleBoolean": true
       },
       {
@@ -402,6 +444,7 @@
           "reference": "Condition/BSJ-Diagnosis4"
         },
         "name": "BSJ-Diagnosis4",
+        "description": "An instance of Condition",
         "exampleBoolean": true
       },
       {
@@ -409,6 +452,7 @@
           "reference": "Condition/BSJ-Diagnosis5"
         },
         "name": "BSJ-Diagnosis5",
+        "description": "An instance of Condition",
         "exampleBoolean": true
       },
       {
@@ -416,6 +460,7 @@
           "reference": "Condition/BSJ-Diagnosis6"
         },
         "name": "BSJ-Diagnosis6",
+        "description": "An instance of Condition",
         "exampleBoolean": true
       },
       {
@@ -423,6 +468,7 @@
           "reference": "Condition/BSJ-Diagnosis7"
         },
         "name": "BSJ-Diagnosis7",
+        "description": "An instance of Condition",
         "exampleBoolean": true
       },
       {
@@ -430,6 +476,7 @@
           "reference": "Condition/BSJ-Diagnosis8"
         },
         "name": "BSJ-Diagnosis8",
+        "description": "An instance of Condition",
         "exampleBoolean": true
       },
       {
@@ -437,6 +484,7 @@
           "reference": "Condition/BSJ-Diagnosis9"
         },
         "name": "BSJ-Diagnosis9",
+        "description": "An instance of Condition",
         "exampleBoolean": true
       },
       {
@@ -444,6 +492,7 @@
           "reference": "Observation/BSJ-Prior-Level-Of-Cognitive-Function-1"
         },
         "name": "BSJ-Prior-Level-Of-Cognitive-Function-1",
+        "description": "An instance of PriorLevelOfCognitiveFunction",
         "exampleCanonical": "http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-plcf"
       },
       {
@@ -451,6 +500,7 @@
           "reference": "Organization/Org-01"
         },
         "name": "Org-01",
+        "description": "An instance of Organization",
         "exampleBoolean": true
       },
       {
@@ -458,6 +508,7 @@
           "reference": "Organization/Org-02"
         },
         "name": "Org-02",
+        "description": "An instance of Organization",
         "exampleBoolean": true
       },
       {
@@ -465,6 +516,7 @@
           "reference": "Organization/Org-03"
         },
         "name": "Org-03",
+        "description": "An instance of Organization",
         "exampleBoolean": true
       },
       {
@@ -472,6 +524,7 @@
           "reference": "Location/Org-Loc-01"
         },
         "name": "Org-Loc-01",
+        "description": "An instance of Location",
         "exampleBoolean": true
       },
       {
@@ -479,6 +532,7 @@
           "reference": "Location/Org-Loc-02"
         },
         "name": "Org-Loc-02",
+        "description": "An instance of Location",
         "exampleBoolean": true
       },
       {
@@ -486,6 +540,7 @@
           "reference": "Location/Org-Loc-03"
         },
         "name": "Org-Loc-03",
+        "description": "An instance of Location",
         "exampleBoolean": true
       },
       {
@@ -493,6 +548,7 @@
           "reference": "Practitioner/Practitioner-HoneyJones"
         },
         "name": "Practitioner-HoneyJones",
+        "description": "An instance of Practitioner",
         "exampleBoolean": true
       },
       {
@@ -500,6 +556,7 @@
           "reference": "Practitioner/Practitioner-JennyGlass"
         },
         "name": "Practitioner-JennyGlass",
+        "description": "An instance of Practitioner",
         "exampleBoolean": true
       },
       {
@@ -507,6 +564,7 @@
           "reference": "Practitioner/Practitioner-JohnSmith"
         },
         "name": "Practitioner-JohnSmith",
+        "description": "An instance of Practitioner",
         "exampleBoolean": true
       },
       {
@@ -514,6 +572,7 @@
           "reference": "Practitioner/Practitioner-LunaBaskins"
         },
         "name": "Practitioner-LunaBaskins",
+        "description": "An instance of Practitioner",
         "exampleBoolean": true
       },
       {
@@ -521,6 +580,7 @@
           "reference": "Practitioner/Practitioner-NoraOlogist"
         },
         "name": "Practitioner-NoraOlogist",
+        "description": "An instance of Practitioner",
         "exampleBoolean": true
       },
       {
@@ -563,6 +623,7 @@
           "reference": "QuestionnaireResponse/QResponse-SNF-CAM-Admission-1"
         },
         "name": "QResponse-SNF-CAM-Admission-1",
+        "description": "An instance of CognitionQuestionnaireResponse",
         "exampleCanonical": "http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cognition-qr"
       },
       {
@@ -570,6 +631,7 @@
           "reference": "QuestionnaireResponse/QResponse-SNF-CAM-Discharge-1"
         },
         "name": "QResponse-SNF-CAM-Discharge-1",
+        "description": "An instance of CognitionQuestionnaireResponse",
         "exampleCanonical": "http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cognition-qr"
       },
       {
@@ -584,6 +646,7 @@
           "reference": "PractitionerRole/Role-RN"
         },
         "name": "Role-RN",
+        "description": "An instance of Practitioner",
         "exampleBoolean": true
       },
       {
@@ -591,6 +654,7 @@
           "reference": "PractitionerRole/Role-SLP"
         },
         "name": "Role-SLP",
+        "description": "An instance of Practitioner",
         "exampleBoolean": true
       },
       {
@@ -598,6 +662,7 @@
           "reference": "Patient/patientBSJ1"
         },
         "name": "patientBSJ1",
+        "description": "An instance of Patient",
         "exampleBoolean": true
       },
       {
@@ -605,6 +670,7 @@
           "reference": "Organization/provider-org-01"
         },
         "name": "provider-org-01",
+        "description": "An instance of Organization",
         "exampleBoolean": true
       },
       {
@@ -612,6 +678,7 @@
           "reference": "Location/provider-org-loc-01"
         },
         "name": "provider-org-loc-01",
+        "description": "An instance of Location",
         "exampleBoolean": true
       },
       {
@@ -619,15 +686,16 @@
           "reference": "PractitionerRole/provider-role-pcp"
         },
         "name": "provider-role-pcp",
+        "description": "An instance of Practitioner",
         "exampleBoolean": true
       },
       {
         "reference": {
           "reference": "CapabilityStatement/pacio-cap"
         },
-        "name": "PACIO Cognitive Status Capability Statement",
         "description": "This Capability Statement defines the expected capabilities of a PACIO Cognitive Status FHIR server conforming to the PACIO Cognitive Status Implementation Guide.",
-        "exampleBoolean": false
+        "exampleBoolean": false,
+        "name": "PACIO Cognitive Status Capability Statement"
       }
     ],
     "page": {

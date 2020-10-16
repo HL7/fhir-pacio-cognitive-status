@@ -1,4 +1,4 @@
-{
+<json>{
   "package-id": "hl7.fhir.us.pacio-cs",
   "canonical": "http://hl7.org/fhir/us/pacio-cs",
   "title": "PACIO Cognitive Status Implementation Guide",
@@ -23,3 +23,4 @@
     }
   ]
 }
+</json>

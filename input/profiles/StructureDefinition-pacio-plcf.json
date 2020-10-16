@@ -10,6 +10,11 @@
   "fhirVersion": "4.0.1",
   "mapping": [
     {
+      "identity": "argonaut-dq-dstu2",
+      "uri": "http://unknown.org/Argonaut-DQ-DSTU2",
+      "name": "Argonaut-DQ-DSTU2"
+    },
+    {
       "identity": "workflow",
       "uri": "http://hl7.org/fhir/workflow",
       "name": "Workflow Pattern"
@@ -43,7 +48,7 @@
   "kind": "resource",
   "abstract": false,
   "type": "Observation",
-  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Observation",
+  "baseDefinition": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab",
   "derivation": "constraint",
   "differential": {
     "element": [
@@ -71,6 +76,7 @@
         "id": "Observation.extension:event-location",
         "path": "Observation.extension",
         "sliceName": "event-location",
+        "min": 0,
         "max": "1",
         "type": [
           {
@@ -86,6 +92,7 @@
         "id": "Observation.extension:assistance-required",
         "path": "Observation.extension",
         "sliceName": "assistance-required",
+        "min": 0,
         "max": "1",
         "type": [
           {
@@ -120,30 +127,9 @@
         "patternString": "History of Cognitive Function Narrative"
       },
       {
-        "id": "Observation.subject",
-        "path": "Observation.subject",
-        "min": 1,
-        "type": [
-          {
-            "code": "Reference",
-            "targetProfile": [
-              "http://hl7.org/fhir/StructureDefinition/Patient"
-            ]
-          }
-        ]
-      },
-      {
         "id": "Observation.effective[x]",
         "path": "Observation.effective[x]",
-        "min": 1,
-        "type": [
-          {
-            "code": "dateTime"
-          },
-          {
-            "code": "Period"
-          }
-        ]
+        "min": 1
       },
       {
         "id": "Observation.performer",

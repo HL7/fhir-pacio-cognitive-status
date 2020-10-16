@@ -17,10 +17,10 @@ lists those files generated from project configs or the contents in the ig-data 
 | _genonce.sh                                          | generated |                                                                     |
 | _updatePublisher.bat                                 | generated |                                                                     |
 | _updatePublisher.sh                                  | generated |                                                                     |
-| ig.ini                                               | generated | ../ig-data/ig.ini, ../package.json                                  |
-| input/ImplementationGuide-hl7.fhir.us.pacio-cs.json  | generated | ../ig-data/ig.ini, ../package.json, {all input resources and pages} |
+| ig.ini                                               | generated | ../config.yaml                                                      |
+| input/ImplementationGuide-hl7.fhir.us.pacio-cs.json  | generated | ../config.yaml, {all input resources and pages}                     |
 | input/ignoreWarnings.txt                             | generated |                                                                     |
-| package-list.json                                    | generated | ../package.json                                                     |
+| package-list.json                                    | generated | ../config.yaml                                                      |
 | input/images/BCS_BIMS_Example.png                    | copied    | ../ig-data/input/images/BCS_BIMS_Example.png                        |
 | input/images/BCS_CAM_Example.png                     | copied    | ../ig-data/input/images/BCS_CAM_Example.png                         |
 | input/images/BCS_MOCA_Example.png                    | copied    | ../ig-data/input/images/BCS_MOCA_Example.png                        |
@@ -40,4 +40,3 @@ lists those files generated from project configs or the contents in the ig-data 
 | input/pagecontent/security_and_data_sharing.md       | copied    | ../ig-data/input/pagecontent/security_and_data_sharing.md           |
 | input/pagecontent/underlying_technologies.md         | copied    | ../ig-data/input/pagecontent/underlying_technologies.md             |
 | input/resources/CapabilityStatement-pacio-cap.json   | copied    | ../ig-data/input/resources/CapabilityStatement-cognitive_pacio.json |
-| package.json                                         | copied    | ../package.json                                                     |
