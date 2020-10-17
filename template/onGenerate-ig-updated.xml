@@ -17,7 +17,7 @@
    <name value="PACIOCognitiveStatusImplementationGuide"/>
    <title value="PACIO Cognitive Status Implementation Guide"/>
    <status value="active"/>
-   <date value="2020-10-16T14:22:02-07:00"/>
+   <date value="2020-10-16T20:54:21-07:00"/>
    <publisher value="HL7 Patient Care Work Group"/>
    <contact>
       <name value="HL7 Patient Care Work Group"/>
@@ -794,7 +794,7 @@
       </parameter>
       <parameter>
          <code value="releaselabel"/>
-         <value value="CI Build"/>
+         <value value="STU Ballot"/>
       </parameter>
       <parameter>
          <code value="show-inherited-invariants"/>
