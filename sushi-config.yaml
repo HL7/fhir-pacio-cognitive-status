@@ -1,0 +1,59 @@
+# ╭────────────────────────────────────────────────────────────────────────────────────────────────╮
+# │  ACTION REQUIRED: REVIEW AND EDIT THIS FILE TO ENSURE IT ACCURATELY REFLECTS YOUR PROJECT!     │
+# │                                                                                                │
+# │  This file was generated from your existing project files and will be used for SUSHI           │
+# │  configuration from now on. You may delete your package.json as it is no longer needed.        │
+# ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+# ╭─────────────────────────ImplementationGuide-hl7.fhir.us.pacio-cs.json──────────────────────────╮
+# │  The properties below are used to create the ImplementationGuide resource. For a list of       │
+# │  supported properties, see: https://fshschool.org/sushi/configuration/                         │
+# ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
+id: hl7.fhir.us.pacio-cs
+##### use this URL when publishing the IG:
+#####canonical: https://build.fhir.org/ig/HL7/fhir-pacio-cognitive-status
+canonical: http://paciowg.github.io/cognitive-status-ig
+version: 0.1.0
+name: PACIOCognitiveStatusImplementationGuide
+title: PACIO Cognitive Status Implementation Guide
+status: active
+publisher:
+  name: HL7 Patient Care Work Group
+  url: http://www.hl7.org/Special/committees/patientcare
+  email: patientcare@lists.HL7.org
+jurisdiction: urn:iso:std:iso:3166#US
+contact:
+  - name: PACIO project
+    telecom:
+      - system: url
+        value: http://www.hl7.org/Special/committees/patientcare/
+      - system: email
+        value: info@pacioproject.org
+description: To advance interoperable health data exchange between post-acute care (PAC)
+  and other providers, patients, and key stakeholders
+license: CC0-1.0
+fhirVersion: 4.0.1
+dependencies:
+  hl7.fhir.us.core: 3.1.0
+parameters:
+  show-inherited-invariants: false
+copyrightYear: 2020+
+releaseLabel: STU Ballot
+
+# ╭───────────────────────────────────────package-list.json────────────────────────────────────────╮
+# │  To use a provided ig-data/package-list.json file, delete the "history" property below.        │
+# ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
+### NOTE: created ig-data/package-list.json
+
+# ╭────────────────────────────────────────────menu.xml────────────────────────────────────────────╮
+# │  To control the menu.xml using this config, uncomment and set the "menu" property.             │
+# ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
+#menu:
+#   IG Home: index.html
+#   Table of Contents: toc.html
+#   Underlying Technologies: underlying_technologies.html
+#   Use Case Example: Cognitive_status_use_case.html
+#   Profile Highlights and Guidance: profile_highlights_and_guidance.html
+#   Artifacts Summary: artifacts.html
+#   Other Resources:
+#     "FHIR Spec ": new-tab external {{site.data.fhir.path}}index.html

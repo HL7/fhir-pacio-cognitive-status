@@ -1,6 +1,6 @@
 <json>{
   "package-id": "hl7.fhir.us.pacio-cs",
-  "canonical": "http://hl7.org/fhir/us/pacio-cs",
+  "canonical": "http://paciowg.github.io/cognitive-status-ig",
   "title": "PACIO Cognitive Status Implementation Guide",
   "introduction": "To advance interoperable health data exchange between post-acute care (PAC) and other providers, patients, and key stakeholders",
   "category": "Patient Summary",
