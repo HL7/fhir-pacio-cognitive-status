@@ -11,8 +11,8 @@
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 id: hl7.fhir.us.pacio-cs
 ##### use this URL when publishing the IG:
-#####canonical: https://build.fhir.org/ig/HL7/fhir-pacio-cognitive-status
-canonical: http://paciowg.github.io/cognitive-status-ig
+canonical: https://build.fhir.org/ig/HL7/fhir-pacio-cognitive-status
+###canonical: http://paciowg.github.io/cognitive-status-ig
 version: 0.1.0
 name: PACIOCognitiveStatusImplementationGuide
 title: PACIO Cognitive Status Implementation Guide
