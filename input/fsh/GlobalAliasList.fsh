@@ -2,8 +2,7 @@
 // NOTE: use a code system (not value set) in instances
 Alias: LNC = http://loinc.org
 Alias: SCT = http://snomed.info/sct
-//Alias: CAT = http://terminology.hl7.org/CodeSystem/observation-category
-Alias: CAT = http://hl7.org/fhir/us/pacio-cs/CodeSystem/pacio-cat-cs
+Alias: CAT = http://terminology.hl7.org/CodeSystem/observation-category
 Alias: UOM = http://unitsofmeasure.org
 Alias: DAR = http://terminology.hl7.org/CodeSystem/data-absent-reason
 Alias: Hl7FhirAdminGender  = http://hl7.org/fhir/administrative-gender
