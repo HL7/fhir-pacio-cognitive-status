@@ -11,10 +11,8 @@ Alias: NUCC = http://nucc.org/provider-taxonomy
 // Value Sets
 // NOTE: use a value set (not code system) when binding a field
 Alias: LNCVS = http://hl7.org/fhir/ValueSet/observation-codes
-Alias: CATVS = http://terminology.hl7.org/ValueSet/observation-category
-//Alias: LL4970-1 = https://fhir.loinc.org/ValueSet/?url=http://loinc.org/vs/LL4970-1
+Alias: CATVS = http://hl7.org/fhir/ValueSet/observation-category
 Alias: LL4309-2 = http://loinc.org/vs/LL4309-2
 
 // Misc
 Alias: USCorePatient = http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient
-//Alias: USCoreObLab = http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab

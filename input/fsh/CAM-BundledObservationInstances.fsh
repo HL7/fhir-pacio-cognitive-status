@@ -12,7 +12,7 @@ Description: "An instance of CognitiveStatusCollection"
 * effectiveDateTime = "2020-04-09T18:00:00-05:00"
 * code = LNC#86585-7
 * code.coding.display = "MDS v3.0 - RAI v1.17.2 - Signs and symptoms of delirium (from CAM) [CMS Assessment]"
-* category = CAT#survey
+* category[1].coding = CAT#survey "Survey"
 * performer = Reference(Role-SLP-HoneyJones)
 * extension[event-location].valueReference = Reference(Org-Loc-02)
 * hasMember[0] = Reference(CSC-SNF-CAM-Admission-1-Ob-Question-1)

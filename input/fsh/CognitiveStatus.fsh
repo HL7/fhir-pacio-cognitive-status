@@ -16,6 +16,10 @@ Description:    "An exchange of cognitive status observation for a patient. This
 
 //* value[x] only CodeableConcept
 
+* category 1..* MS
+* category from PACIOFunctioningCategoryVS (extensible)
+* category = PACIOFunctioningCategoryCS#functioning
+
 * effective[x] 1..1
 * effective[x] only dateTime
 
@@ -26,6 +30,7 @@ Description:    "An exchange of cognitive status observation for a patient. This
 * component.code from LNCVS (extensible)
 * component.value[x] only CodeableConcept
 
+* category ^short = "A second category code may be used along with the code “functioning”. For example, for assessment tool/survey instrument observations use “survey” as a second code."
 * performer ^short = "The person who performed the assessment. The preferred way to specify the performer is to use the PractitionerRole resource to provide both the practitioner and organization."
 * code ^short = "For a Post-Acute Care Assessment, should include a LOINC code and text for the question."
 * subject ^short = "Should only reference a Patient resource."

@@ -8,6 +8,10 @@ Description:    "An exchange of summary observation regarding the most recent pr
 * code = LNC#11332-4 "History of Cognitive Function Narrative"
 //* code.text = "History of Cognitive Function Narrative"
 
+* category 1..*
+* category from PACIOFunctioningCategoryVS (extensible)
+* category = PACIOFunctioningCategoryCS#functioning
+
 * value[x] 1..1
 * value[x] only string
 * value[x] ^short = "Text summary of the prior level of cognitive function for the patient."
@@ -25,6 +29,7 @@ Description:    "An exchange of summary observation regarding the most recent pr
 * extension contains ObservationLocation named event-location 0..1 MS
 * extension contains AssistanceRequired named assistance-required 0..1 MS
 
+//* category ^short = "A second category code may be used along with the code “functioning”. For example, for assessment tool/survey instrument observations use “survey” as a second code."
 * component ^short = "Currently not used in PriorLevelOfCognitiveFunction."
 * basedOn ^short = "Currently not used in PriorLevelOfCognitiveFunction."
 * partOf ^short = "Currently not used in PriorLevelOfCognitiveFunction."

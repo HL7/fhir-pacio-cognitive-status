@@ -35,6 +35,12 @@
    <artifact name="DevicePatientUsed"
              key="StructureDefinition-device-patient-used"
              id="StructureDefinition/device-patient-used"/>
+   <artifact name="PACIO Functioning Category Value Set"
+             key="ValueSet-pacio-cat-vs"
+             id="ValueSet/pacio-cat-vs"/>
+   <artifact name="PACIO Functioning Category Code System"
+             key="CodeSystem-pacio-cat-cs"
+             id="CodeSystem/pacio-cat-cs"/>
    <artifact name="BSJ-Prior-Level-Of-Cognitive-Function-1"
              key="Observation-BSJ-Prior-Level-Of-Cognitive-Function-1"
              id="Observation/BSJ-Prior-Level-Of-Cognitive-Function-1"/>

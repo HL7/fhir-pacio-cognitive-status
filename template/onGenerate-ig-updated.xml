@@ -17,7 +17,7 @@
    <name value="PACIOCognitiveStatusImplementationGuide"/>
    <title value="PACIO Cognitive Status Implementation Guide"/>
    <status value="active"/>
-   <date value="2021-08-07T17:41:52-07:00"/>
+   <date value="2021-08-13T10:22:00-07:00"/>
    <publisher value="HL7 Patient Care Work Group"/>
    <contact>
       <name value="HL7 Patient Care Work Group"/>
@@ -77,8 +77,14 @@
          <name value="Structures: Extension Definitions"/>
          <description value="These define constraints on FHIR data types for systems conforming to this implementation guide"/>
       </grouping>
-
-
+      <grouping id="-term-valueset">
+         <name value="Terminology: Value Sets"/>
+         <description value="These define sets of codes used by systems conforming to this implementation guide"/>
+      </grouping>
+      <grouping id="-term-codesystem">
+         <name value="Terminology: Code Systems"/>
+         <description value="These define new code systems used by systems conforming to this implementation guide"/>
+      </grouping>
 
 
 
@@ -193,9 +199,39 @@
             <reference value="StructureDefinition/device-patient-used"/>
          </reference>
          <name value="DevicePatientUsed"/>
-         <description value="A record indicating what healthcare-related assistive device was used by a patient during a cognitive status assessment. This extension leverages the DeviceUseStatement resource instead of Device resource so as to indicate appropriately a record of assistive device usage by a patient."/>
+         <description value="Associated with the Cognitive Status Collection profile to point to a record indicating what healthcare-related assistive device was used by a patient during a functional status assessment. This extension leverages the DeviceUseStatement resource instead of Device resource so as to indicate appropriately a record of assistive device usage by a patient."/>
          <exampleBoolean value="false"/>
          <groupingId value="-str-extension"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="ValueSet"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="ValueSet-pacio-cat-vs.html"/>
+         </extension>
+         <reference>
+            <reference value="ValueSet/pacio-cat-vs"/>
+         </reference>
+         <name value="PACIO Functioning Category Value Set"/>
+         <description value="Codes for the classification of patient observation. This is an extension of the ObservationCategoryCodes value set"/>
+         <exampleBoolean value="false"/>
+         <groupingId value="-term-valueset"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="CodeSystem"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="CodeSystem-pacio-cat-cs.html"/>
+         </extension>
+         <reference>
+            <reference value="CodeSystem/pacio-cat-cs"/>
+         </reference>
+         <name value="PACIO Functioning Category Code System"/>
+         <description value="Defining a specific code for the classification of patient observation regarding individual's functioning."/>
+         <exampleBoolean value="false"/>
+         <groupingId value="-term-codesystem"/>
       </resource>
       <resource>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -1383,6 +1419,16 @@
             <page>
                <nameUrl value="StructureDefinition-device-patient-used.html"/>
                <title value="DevicePatientUsed"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="ValueSet-pacio-cat-vs.html"/>
+               <title value="PACIO Functioning Category Value Set"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="CodeSystem-pacio-cat-cs.html"/>
+               <title value="PACIO Functioning Category Code System"/>
                <generation value="generated"/>
             </page>
             <page>

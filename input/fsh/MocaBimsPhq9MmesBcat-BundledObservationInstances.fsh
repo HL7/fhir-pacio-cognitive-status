@@ -10,7 +10,7 @@ Description: "An instance of CognitiveStatusCollection"
 //* code = LNC#TBD-LOINC1
 //* code.coding.display = "Brief Cognitive Assessment Tool [BCAT]"
 * code.text = "Brief Cognitive Assessment Tool [BCAT]"
-* category = CAT#survey
+* category[1].coding = CAT#survey
 * performer = Reference(Role-SLP-HoneyJones)
 * extension[event-location].valueReference = Reference(Org-Loc-02)
 * hasMember[0] = Reference(CSC-SNF-BCAT-1-Ob-Question-30)
@@ -25,7 +25,7 @@ Description: "An instance of CognitiveStatusCollection"
 * effectiveDateTime = "2020-07-11T11:30:00-05:00"
 * code = LNC#52491-8
 * code.coding.display = "Brief interview for mental status [BIMS]"
-* category = CAT#survey
+* category[1].coding = CAT#survey
 * performer = Reference(Role-SLP-HoneyJones)
 * extension[event-location].valueReference = Reference(Org-Loc-02)
 * hasMember[0] = Reference(CSC-SNF-BIMS-1-Ob-Question-3)
@@ -47,7 +47,7 @@ Description: "An instance of CognitiveStatusCollection"
 * effectiveDateTime = "2020-07-08T17:32:00-05:00"
 * code = LNC#72133-2
 * code.coding.display = "Montreal Cognitive Assessment [MoCA]"
-* category = CAT#survey
+* category[1].coding = CAT#survey
 * performer = Reference(Role-SLP-JennyGlass)
 * extension[event-location].valueReference = Reference(Org-Loc-01)
 * hasMember[0] = Reference(CSC-Hospital-MOCA-1-Ob-Question-1)
@@ -62,7 +62,7 @@ Description: "An instance of CognitiveStatusCollection"
 * effectiveDateTime = "2020-07-10T12:16:00-05:00"
 * code = LNC#72133-2
 * code.coding.display = "Montreal Cognitive Assessment [MoCA]"
-* category = CAT#survey
+* category[1].coding = CAT#survey
 * performer = Reference(Role-SLP-JennyGlass)
 * extension[event-location].valueReference = Reference(Org-Loc-01)
 * hasMember[0] = Reference(CSC-Hospital-MOCA-2-Ob-Question-2)
@@ -77,7 +77,7 @@ Description: "An instance of CognitiveStatusCollection"
 * effectiveDateTime = "2020-07-11T11:30:00-05:00"
 * code = LNC#54635-8
 * code.coding.display = "Resident mood interview (PHQ-9) [Reported PHQ-9 CMS]"
-* category = CAT#survey
+* category[1].coding = CAT#survey
 * performer = Reference(Role-SLP-LunaBaskins)
 * extension[event-location].valueReference = Reference(Org-Loc-03)
 * hasMember[0] = Reference(CSC-SNF-PHQ9-1-Ob-Question-11)
@@ -110,7 +110,7 @@ Description: "An instance of CognitiveStatusCollection"
 * effectiveDateTime = "2020-07-10T12:16:00-05:00"
 * code = LNC#72107-6
 * code.coding.display = "Mini-Mental State Examination [MMSE]"
-* category = CAT#survey
+* category[1].coding = CAT#survey
 * performer = Reference(Role-SLP-JennyGlass)
 * extension[event-location].valueReference = Reference(Org-Loc-01)
 * hasMember[0] = Reference(CSC-Hospital-MMSE-2-Ob-Question-32)
@@ -125,7 +125,7 @@ Description: "An instance of CognitiveStatusCollection"
 * effectiveDateTime = "2020-07-08T17:32:00-05:00"
 * code = LNC#72107-6
 * code.coding.display = "Mini-Mental State Examination [MMSE]"
-* category = CAT#survey
+* category[1].coding = CAT#survey
 * performer = Reference(Role-SLP-JennyGlass)
 * extension[event-location].valueReference = Reference(Org-Loc-01)
 * hasMember[0] = Reference(CSC-Hospital-MMSE-1-Ob-Question-31)

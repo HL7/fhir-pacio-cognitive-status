@@ -16,8 +16,9 @@ Description:    "A point in time collection of cognitive status observations for
 
 //* value[x] only CodeableConcept or Quantity
 
-* category 1..1
-* category from CATVS (extensible)
+* category 1..*
+* category from PACIOFunctioningCategoryVS (extensible)
+* category = PACIOFunctioningCategoryCS#functioning
 
 * effective[x] 1..1
 * effective[x] only dateTime or Period
@@ -25,8 +26,8 @@ Description:    "A point in time collection of cognitive status observations for
 * hasMember MS
 * derivedFrom MS
 
+* category ^short = "A second category code may be used along with the code “functioning”. For example, for assessment tool/survey instrument observations use “survey” as a second code."
 * performer ^short = "The person who performed the assessment. The preferred way to specify the performer is to use the PractitionerRole resource to provide both the practitioner and organization."
-* category ^short = "For a Post-Acute Care Assessment, should have the value 'survey'."
 * code ^short = "For a Post-Acute Care structured assessment resource such as an instrument or screen, use a LOINC code to identify the instrument/screen name or panel/section title to indicate the kind of assessment."
 * subject ^short = "Should only reference a Patient resource."
 * value[x] ^short = "If used, should use the CodeableConcept type whenever possible to provide a suitable code to define the concept. When capturing a collection of related observations, typically this field is not used. As for values like an assessment score or roll-up value, the preferred way is to leave this field unused and use the 'hasMember' field to reference a cognitive status observation specifying the score or roll-up value in the value field using the Quantity type."
@@ -53,7 +54,7 @@ Description:    "A point in time collection of cognitive status observations for
 * extension[device-use] ^short = "An extension to indicate a record of assistive device usage by a patient during an assessment."
 
 Extension: DevicePatientUsed
-Description: "A record indicating what healthcare-related assistive device was used by a patient during a cognitive status assessment. This extension leverages the DeviceUseStatement resource instead of Device resource so as to indicate appropriately a record of assistive device usage by a patient."
+Description: "Associated with the Cognitive Status Collection profile to point to a record indicating what healthcare-related assistive device was used by a patient during a functional status assessment. This extension leverages the DeviceUseStatement resource instead of Device resource so as to indicate appropriately a record of assistive device usage by a patient."
 Id: device-patient-used
 * value[x] only Reference(UseOfDevice)
 * value[x] ^short = "Points to a record of a healthcare-related assistive device being used by a patient during an assessment."

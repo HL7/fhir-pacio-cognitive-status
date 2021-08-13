@@ -68,6 +68,8 @@
 <artifact id="StructureDefinition/pacio-cs" key="StructureDefinition-pacio-cs" name="PACIO Cognitive Status"/>
 <artifact id="CapabilityStatement/pacio-cs-cap" key="CapabilityStatement-pacio-cap" name="PACIO Cognitive Status Capability Statement"/>
 <artifact id="StructureDefinition/pacio-csc" key="StructureDefinition-pacio-csc" name="PACIO Cognitive Status Collection"/>
+<artifact id="CodeSystem/pacio-cat-cs" key="CodeSystem-pacio-cat-cs" name="PACIO Functioning Category Code System"/>
+<artifact id="ValueSet/pacio-cat-vs" key="ValueSet-pacio-cat-vs" name="PACIO Functioning Category Value Set"/>
 <artifact id="StructureDefinition/pacio-plcf" key="StructureDefinition-pacio-plcf" name="PACIO Prior Level of Cognitive Function"/>
 <artifact id="Practitioner/Practitioner-HoneyJones" key="Practitioner-Practitioner-HoneyJones" name="Practitioner-HoneyJones"/>
 <artifact id="Practitioner/Practitioner-JennyGlass" key="Practitioner-Practitioner-JennyGlass" name="Practitioner-JennyGlass"/>
