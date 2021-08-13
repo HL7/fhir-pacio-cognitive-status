@@ -1,6 +1,6 @@
-Alias: LNC = http://loinc.org
-Alias: UOM = http://unitsofmeasure.org
-Alias: DAR = http://terminology.hl7.org/CodeSystem/data-absent-reason
+//Alias: LNC = http://loinc.org
+//Alias: UOM = http://unitsofmeasure.org
+//Alias: DAR = http://terminology.hl7.org/CodeSystem/data-absent-reason
 
 Instance: CSC-SNF-BIMS-1-Ob-Question-4
 InstanceOf: CognitiveStatus

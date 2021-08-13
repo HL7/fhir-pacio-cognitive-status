@@ -1,5 +1,5 @@
-Alias:  LNC = http://loinc.org
-Alias:  CAT = http://terminology.hl7.org/CodeSystem/observation-category
+//Alias:  LNC = http://loinc.org
+//Alias:  CAT = http://terminology.hl7.org/CodeSystem/observation-category
 
 Instance: CSC-SNF-BCAT-1
 InstanceOf: CognitiveStatusCollection
