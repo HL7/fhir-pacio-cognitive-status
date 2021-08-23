@@ -12,6 +12,8 @@ Description:    "An exchange of cognitive status observation for a patient. This
 * subject 1..1
 * subject only Reference(USCorePatient)
 
+* encounter only Reference(USCoreEncounter)
+
 * performer 1..*
 * performer only Reference(USCorePractitioner or USCorePractitionerRole or USCoreOrganization)
 
@@ -55,3 +57,4 @@ Description:    "An exchange of cognitive status observation for a patient. This
 * derivedFrom ^short = "Should point back to the QuestionnaireResponse that this resource is derived from."
 * extension[event-location] ^short = "An extension to indicate where the observation event occurred."
 * extension[event-location] ^definition = "The principal physical location where the observation event occurred."
+

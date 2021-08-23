@@ -12,6 +12,8 @@ Description:    "A point in time collection of cognitive status observations for
 * subject 1..1
 * subject only Reference(USCorePatient)
 
+* encounter only Reference(USCoreEncounter)
+
 * performer 1..*
 * performer only Reference(USCorePractitioner or USCorePractitionerRole or USCoreOrganization)
 
@@ -54,11 +56,17 @@ Description:    "A point in time collection of cognitive status observations for
 * hasMember ^short = "Each cognitive status observation in the collection."
 * derivedFrom ^short = "Should point back to the QuestionnaireResponse that this resource is derived from."
 
-* extension contains ObservationLocation named event-location 0..1 MS
+* extension contains ObservationEventLocation named event-location 0..1 MS
 * extension[event-location] ^short = "An extension to indicate where the observation event occurred."
 * extension[event-location] ^definition = "The principal physical location where the observation event occurred."
 * extension contains DevicePatientUsed named device-use 0..* MS
 * extension[device-use] ^short = "An extension to indicate a record of assistive device usage by a patient during an assessment."
+
+Extension: ObservationEventLocation
+Parent: EventLocation
+Description: "This extension is used to indicate the principal physical location where an observation event occurred."
+Id: event-location
+* value[x] only Reference(USCoreLocation)
 
 Extension: DevicePatientUsed
 Description: "Associated with the Cognitive Status Collection profile to point to a record indicating what healthcare-related assistive device was used by a patient during a functional status assessment. This extension leverages the DeviceUseStatement resource instead of Device resource so as to indicate appropriately a record of assistive device usage by a patient."

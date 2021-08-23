@@ -20,6 +20,8 @@ Description:    "An exchange of summary observation regarding the most recent pr
 * subject 1..1
 * subject only Reference(USCorePatient)
 
+* encounter only Reference(USCoreEncounter)
+
 * performer 1..*
 * performer only Reference(USCorePractitioner or USCorePractitionerRole or USCoreOrganization)
 * performer ^short = "The person who performed the assessment. The preferred way to specify the performer is to use the PractitionerRole resource to provide both the practitioner and organization."

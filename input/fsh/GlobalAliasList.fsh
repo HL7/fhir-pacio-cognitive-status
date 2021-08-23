@@ -15,6 +15,7 @@ Alias: CATVS = http://hl7.org/fhir/ValueSet/observation-category
 Alias: LL4309-2 = http://loinc.org/vs/LL4309-2
 
 // Misc
+Alias: EventLocation = http://hl7.org/fhir/StructureDefinition/event-location
 Alias: USCorePatient = http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient
 Alias: USCoreEncounter = http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter
 Alias: USCoreLocation = http://hl7.org/fhir/us/core/StructureDefinition/us-core-location
