@@ -11,6 +11,7 @@ Description: "An instance of CognitiveStatus"
 * code = LNC#52732-5
 * code.text = "Able to report correct year"
 * code.coding.display = "Temporal orientation - current year [BIMS]"
+* category[1].coding = CAT#survey
 * valueCodeableConcept = LNC#LA10008-3
 * valueCodeableConcept.text = "Missed by 1 year"
 * valueCodeableConcept.coding.display = "Missed by 1 year"
@@ -27,6 +28,7 @@ Description: "An instance of CognitiveStatus"
 * code = LNC#72172-0
 //* code.text = "MoCA"
 * code.coding.display = "Total score [MoCA]"
+* category[1].coding = CAT#survey
 * valueQuantity = 22 UOM#{score}
 * performer = Reference(Role-SLP-JennyGlass)
 * extension[event-location].valueReference = Reference(Org-Loc-01)
@@ -41,6 +43,7 @@ Description: "An instance of CognitiveStatus"
 * code = LNC#54643-2
 * code.text = "Feeling tired or having little energy"
 * code.coding.display = "Feeling tired or having little energy in last 2 weeks.frequency [Reported PHQ-9 CMS]"
+* category[1].coding = CAT#survey
 * valueCodeableConcept = LNC#LA10997-7
 * valueCodeableConcept.text = "Never or 1 day"
 * valueCodeableConcept.coding.display = "Never or 1 day"
@@ -57,6 +60,7 @@ Description: "An instance of CognitiveStatus"
 * code = LNC#54644-0
 * code.text = "Poor appetite or overeating"
 * code.coding.display = "Poor appetite or overeating in last 2 weeks.presence [Reported PHQ-9 CMS]"
+* category[1].coding = CAT#survey
 * valueCodeableConcept = LNC#LA32-8
 * valueCodeableConcept.text = "No"
 * valueCodeableConcept.coding.display = "No"
@@ -73,6 +77,7 @@ Description: "An instance of CognitiveStatus"
 * code = LNC#54639-0
 * code.text = "Feeling down"
 * code.coding.display = "Feeling down, depressed or hopeless in last 2 weeks.frequency [Reported PHQ-9 CMS]"
+* category[1].coding = CAT#survey
 * valueCodeableConcept = LNC#LA10998-5
 * valueCodeableConcept.text = "2-6 days (several days)"
 * valueCodeableConcept.coding.display = "2-6 days (several days)"
@@ -89,6 +94,7 @@ Description: "An instance of CognitiveStatus"
 * code = LNC#54640-8
 * code.text = "Trouble falling or staying asleep"
 * code.coding.display = "Trouble falling or staying asleep, or sleeping too much in last 2 weeks.presence [Reported PHQ-9 CMS]"
+* category[1].coding = CAT#survey
 * valueCodeableConcept = LNC#LA33-6
 * valueCodeableConcept.text = "Yes"
 * valueCodeableConcept.coding.display = "Yes"
@@ -105,6 +111,7 @@ Description: "An instance of CognitiveStatus"
 * code = LNC#54641-6
 * code.text = "Trouble falling or staying asleep"
 * code.coding.display = "Trouble falling or staying asleep, or sleeping too much in last 2 weeks.frequency [Reported PHQ-9 CMS]"
+* category[1].coding = CAT#survey
 * valueCodeableConcept = LNC#LA10998-5
 * valueCodeableConcept.text = "2-6 days (several days)"
 * valueCodeableConcept.coding.display = "2-6 days (several days)"
@@ -120,6 +127,7 @@ Description: "An instance of CognitiveStatus"
 * effectiveDateTime = "2020-07-10T12:16:00-05:00"
 * code = LNC#72106-8
 * code.text = "Total score [MMSE]"
+* category[1].coding = CAT#survey
 * code.coding.display = "Total score [MMSE]"
 * valueQuantity = 24 UOM#{score}
 * performer = Reference(Role-SLP-JennyGlass)
@@ -135,6 +143,7 @@ Description: "An instance of CognitiveStatus"
 * code = LNC#54636-6
 * code.text = "Little interest or pleasure in doing things"
 * code.coding.display = "Little interest or pleasure in doing things in last 2 weeks.presence [Reported PHQ-9 CMS]"
+* category[1].coding = CAT#survey
 * valueCodeableConcept = LNC#LA33-6
 * valueCodeableConcept.text = "Yes"
 * valueCodeableConcept.coding.display = "Yes"
@@ -151,6 +160,7 @@ Description: "An instance of CognitiveStatus"
 * code = LNC#54637-4
 * code.text = "Little interest or pleasure in doing things"
 * code.coding.display = "Little interest or pleasure in doing things in last 2 weeks.frequency [Reported PHQ-9 CMS]"
+* category[1].coding = CAT#survey
 * valueCodeableConcept = LNC#LA10998-5
 * valueCodeableConcept.text = "2-6 days (several days)"
 * valueCodeableConcept.coding.display = "2-6 days (several days)"
@@ -167,6 +177,7 @@ Description: "An instance of CognitiveStatus"
 * code = LNC#54638-2
 * code.text = "Feeling down"
 * code.coding.display = "Feeling down, depressed or hopeless in last 2 weeks.presence [Reported PHQ-9 CMS]"
+* category[1].coding = CAT#survey
 * valueCodeableConcept = LNC#LA33-6
 * valueCodeableConcept.text = "Yes"
 * valueCodeableConcept.coding.display = "Yes"
@@ -183,6 +194,7 @@ Description: "An instance of CognitiveStatus"
 * code = LNC#54642-4
 * code.text = "Feeling tired or having little energy"
 * code.coding.display = "Feeling tired or having little energy in last 2 weeks.presence [Reported PHQ-9 CMS]"
+* category[1].coding = CAT#survey
 * valueCodeableConcept = LNC#LA32-8
 * valueCodeableConcept.text = "No"
 * valueCodeableConcept.coding.display = "No"
@@ -199,6 +211,7 @@ Description: "An instance of CognitiveStatus"
 * code = LNC#72106-8
 * code.text = "Total score [MMSE]"
 * code.coding.display = "Total score [MMSE]"
+* category[1].coding = CAT#survey
 * valueQuantity = 20 UOM#{score}
 * performer = Reference(Role-SLP-JennyGlass)
 * extension[event-location].valueReference = Reference(Org-Loc-01)
@@ -213,6 +226,7 @@ Description: "An instance of CognitiveStatus"
 * code = LNC#54650-7
 * code.text = "Moving or speaking so slowly that other people could have noticed. Or the opposite - being so fidgety or restless that you have been moving around a lot more than usual"
 * code.coding.display = "Moving or speaking so slowly that other people could have noticed. Or the opposite - being so fidgety or restless that you have been moving around a lot more than usual in last 2 weeks.presence [Reported PHQ-9 CMS]"
+* category[1].coding = CAT#survey
 * valueCodeableConcept = LNC#LA32-8
 * valueCodeableConcept.text = "No"
 * valueCodeableConcept.coding.display = "No"
@@ -229,6 +243,7 @@ Description: "An instance of CognitiveStatus"
 * code = LNC#54649-9
 * code.text = "Trouble concentrating on things"
 * code.coding.display = "Trouble concentrating on things, such as reading the newspaper or watching television in last 2 weeks.frequency [Reported PHQ-9 CMS]"
+* category[1].coding = CAT#survey
 * valueCodeableConcept = LNC#LA10997-7
 * valueCodeableConcept.text = "Never or 1 day"
 * valueCodeableConcept.coding.display = "Never or 1 day"
@@ -245,6 +260,7 @@ Description: "An instance of CognitiveStatus"
 * code = LNC#54652-3
 * code.text = "Thoughts that you would be better off dead"
 * code.coding.display = "Thoughts that you would be better off dead, or of hurting yourself in some way in last 2 weeks.presence [Reported PHQ-9 CMS]"
+* category[1].coding = CAT#survey
 * valueCodeableConcept = LNC#LA10996-9
 * valueCodeableConcept.text = "No response"
 * valueCodeableConcept.coding.display = "No response"
@@ -262,6 +278,7 @@ Description: "An instance of CognitiveStatus"
 * code.text = "Moving or speaking so slowly that other people could have noticed. Or the opposite - being so fidgety or restless that you have been moving around a lot more than usual"
 * code.coding.display = "Moving or speaking so slowly that other people could have noticed. Or the opposite - being so fidgety or restless that you have been moving around a lot more than usual in last 2 weeks.frequency [Reported PHQ-9 CMS]"
 * valueCodeableConcept = LNC#LA10997-7
+* category[1].coding = CAT#survey
 * valueCodeableConcept.text = "Never or 1 day"
 * valueCodeableConcept.coding.display = "Never or 1 day"
 * performer = Reference(Role-SLP-LunaBaskins)
@@ -277,6 +294,7 @@ Description: "An instance of CognitiveStatus"
 * code = LNC#54646-5
 * code.text = "Feeling bad about yourself - or that you are a failure or have let yourself or your family down"
 * code.coding.display = "Feeling bad about yourself - or that you are a failure or have let yourself or your family down in last 2 weeks.presence [Reported PHQ-9 CMS]"
+* category[1].coding = CAT#survey
 * valueCodeableConcept = LNC#LA32-8
 * valueCodeableConcept.text = "No"
 * valueCodeableConcept.coding.display = "No"
@@ -293,6 +311,7 @@ Description: "An instance of CognitiveStatus"
 * code = LNC#54645-7
 * code.text = "Poor appetite or overeating"
 * code.coding.display = "Poor appetite or overeating in last 2 weeks.frequency [Reported PHQ-9 CMS]"
+* category[1].coding = CAT#survey
 * valueCodeableConcept = LNC#LA10997-7
 * valueCodeableConcept.text = "Never or 1 day"
 * valueCodeableConcept.coding.display = "Never or 1 day"
@@ -309,6 +328,7 @@ Description: "An instance of CognitiveStatus"
 * code = LNC#54648-1
 * code.text = "Trouble concentrating on things"
 * code.coding.display = "Trouble concentrating on things, such as reading the newspaper or watching television in last 2 weeks.presence [Reported PHQ-9 CMS]"
+* category[1].coding = CAT#survey
 * valueCodeableConcept = LNC#LA32-8
 * valueCodeableConcept.text = "No"
 * valueCodeableConcept.coding.display = "No"
@@ -325,6 +345,7 @@ Description: "An instance of CognitiveStatus"
 * code = LNC#54647-3
 * code.text = "Feeling bad about yourself - or that you are a failure or have let yourself or your family down"
 * code.coding.display = "Feeling bad about yourself - or that you are a failure or have let yourself or your family down in last 2 weeks.frequency [Reported PHQ-9 CMS]"
+* category[1].coding = CAT#survey
 * valueCodeableConcept = LNC#LA10997-7
 * valueCodeableConcept.text = "Never or 1 day"
 * valueCodeableConcept.coding.display = "Never or 1 day"
@@ -341,6 +362,7 @@ Description: "An instance of CognitiveStatus"
 * code = LNC#54654-9
 * code.text = "Total Severity Score"
 * code.coding.display = "Mood interview total severity score [Reported PHQ-9 CMS]"
+* category[1].coding = CAT#survey
 * valueQuantity = 3 UOM#{score}
 * performer = Reference(Role-SLP-LunaBaskins)
 * extension[event-location].valueReference = Reference(Org-Loc-03)
@@ -355,6 +377,7 @@ Description: "An instance of CognitiveStatus"
 * code = LNC#54653-1
 * code.text = "Thoughts that you would be better off dead"
 * code.coding.display = "Thoughts that you would be better off dead, or of hurting yourself in some way in last 2 weeks.frequency [Reported PHQ-9 CMS]"
+* category[1].coding = CAT#survey
 * dataAbsentReason = DAR#not-asked
 * dataAbsentReason.coding.display = "Not Asked"
 * performer = Reference(Role-SLP-LunaBaskins)
@@ -370,6 +393,7 @@ Description: "An instance of CognitiveStatus"
 * code = LNC#52737-4
 * code.text = "Able to recall 'bed'"
 * code.coding.display = "Recall - bed [BIMS]"
+* category[1].coding = CAT#survey
 * valueCodeableConcept = LNC#LA10125-5
 * valueCodeableConcept.text = "Yes, after cueing ('a piece of furniture')"
 * valueCodeableConcept.coding.display = "Yes, after cueing ('a piece of furniture')"
@@ -386,6 +410,7 @@ Description: "An instance of CognitiveStatus"
 * code = LNC#52736-6
 * code.text = "Able to recall 'blue'"
 * code.coding.display = "Recall - blue [BIMS]"
+* category[1].coding = CAT#survey
 * valueCodeableConcept = LNC#LA10978-7
 * valueCodeableConcept.text = "Yes, after cueing ('a color')"
 * valueCodeableConcept.coding.display = "Yes, after cueing ('a color')"
@@ -402,6 +427,7 @@ Description: "An instance of CognitiveStatus"
 * code = LNC#52735-8
 * code.text = "Able to recall 'sock'"
 * code.coding.display = "Recall - sock [BIMS]"
+* category[1].coding = CAT#survey
 * valueCodeableConcept = LNC#LA10126-3
 * valueCodeableConcept.text = "Yes, after cueing ('something to wear')"
 * valueCodeableConcept.coding.display = "Yes, after cueing ('something to wear')"
@@ -418,6 +444,7 @@ Description: "An instance of CognitiveStatus"
 * code = LNC#54609-3
 * code.text = "Able to report correct day of the week"
 * code.coding.display = "Temporal orientation - current day of the week [BIMS]"
+* category[1].coding = CAT#survey
 * valueCodeableConcept = LNC#LA9960-1
 * valueCodeableConcept.text = "Correct"
 * valueCodeableConcept.coding.display = "Correct"
@@ -434,6 +461,7 @@ Description: "An instance of CognitiveStatus"
 * code = LNC#52733-3
 * code.text = "Able to report correct month"
 * code.coding.display = "Temporal orientation - current month [BIMS]"
+* category[1].coding = CAT#survey
 * valueCodeableConcept = LNC#LA10010-9
 * valueCodeableConcept.text = "Missed by 6 days to 1 month"
 * valueCodeableConcept.coding.display = "Missed by 6 days to 1 month"
@@ -450,6 +478,7 @@ Description: "An instance of CognitiveStatus"
 * code = LNC#72172-0
 //* code.text = "MoCA"
 * code.coding.display = "Total score [MoCA]"
+* category[1].coding = CAT#survey
 * valueQuantity = 18 UOM#{score}
 * performer = Reference(Role-SLP-JennyGlass)
 * extension[event-location].valueReference = Reference(Org-Loc-01)
@@ -464,6 +493,7 @@ Description: "An instance of CognitiveStatus"
 * code = LNC#52731-7
 * code.text = "Repetition of Three Words. Number of words repeated after first attempt"
 * code.coding.display = "Repetition of three words # [BIMS]"
+* category[1].coding = CAT#survey
 * valueCodeableConcept = LNC#LA6404-3
 * valueCodeableConcept.text = "Two"
 * valueCodeableConcept.coding.display = "Two"
@@ -480,6 +510,7 @@ Description: "An instance of CognitiveStatus"
 //* code = LNC#TBD-LOINC2
 //* code.coding.display = "BCAT Summary Score"
 * code.text = "BCAT Summary Score"
+* category[1].coding = CAT#survey
 * valueQuantity = 16 UOM#{score}
 * performer = Reference(Role-SLP-HoneyJones)
 * extension[event-location].valueReference = Reference(Org-Loc-02)
@@ -494,6 +525,7 @@ Description: "An instance of CognitiveStatus"
 * code = LNC#54614-3
 * code.text = "BIMS Summary Score			{score}"
 * code.coding.display = "Brief Interview for Mental Status - summary score [BIMS]"
+* category[1].coding = CAT#survey
 * valueQuantity = 9 UOM#{score}
 * performer = Reference(Role-SLP-HoneyJones)
 * extension[event-location].valueReference = Reference(Org-Loc-02)

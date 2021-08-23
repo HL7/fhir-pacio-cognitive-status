@@ -64,7 +64,7 @@
 <artifact id="Location/Org-Loc-02" key="Location-Org-Loc-02" name="Org-Loc-02"/>
 <artifact id="Location/Org-Loc-03" key="Location-Org-Loc-03" name="Org-Loc-03"/>
 <artifact deprecated="true" id="StructureDefinition/pacio-bcs" key="StructureDefinition-pacio-bcs" name="PACIO Bundled Cognitive Status"/>
-<artifact id="StructureDefinition/pacio-cognition-qr" key="StructureDefinition-pacio-cognition-qr" name="PACIO Cognition Questionnaire Response"/>
+<artifact deprecated="true" id="StructureDefinition/pacio-cognition-qr" key="StructureDefinition-pacio-cognition-qr" name="PACIO Cognition Questionnaire Response"/>
 <artifact id="StructureDefinition/pacio-cs" key="StructureDefinition-pacio-cs" name="PACIO Cognitive Status"/>
 <artifact id="CapabilityStatement/pacio-cs-cap" key="CapabilityStatement-pacio-cap" name="PACIO Cognitive Status Capability Statement"/>
 <artifact id="StructureDefinition/pacio-csc" key="StructureDefinition-pacio-csc" name="PACIO Cognitive Status Collection"/>

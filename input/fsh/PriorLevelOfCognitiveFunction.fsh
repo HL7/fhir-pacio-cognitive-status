@@ -14,13 +14,14 @@ Description:    "An exchange of summary observation regarding the most recent pr
 
 * value[x] 1..1
 * value[x] only string
-* value[x] ^short = "Text summary of the prior level of cognitive function for the patient."
-* value[x] ^binding.description = "Text summary of the prior level of cognitive function for the patient. (Strongly encouraged until more structured method is established)"
+* value[x] ^short = "Unstructured summary of cognitive status observation for the patient.(Strongly encouraged until more structured method is established) "
+* value[x] ^definition = "Unstructured summary of cognitive status observation for the patient. (Strongly encouraged until more structured method is established)"
 
 * subject 1..1
 * subject only Reference(USCorePatient)
 
 * performer 1..*
+* performer only Reference(USCorePractitioner or USCorePractitionerRole or USCoreOrganization)
 * performer ^short = "The person who performed the assessment. The preferred way to specify the performer is to use the PractitionerRole resource to provide both the practitioner and organization."
 
 * effective[x] 1..1

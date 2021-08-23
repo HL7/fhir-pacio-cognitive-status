@@ -14,9 +14,6 @@
    <artifactPageExtension value="-definitions"/>
    <artifactPageExtension value="-examples"/>
    <artifactPageExtension value="-mappings"/>
-   <artifact name="PACIO Cognition Questionnaire Response"
-             key="StructureDefinition-pacio-cognition-qr"
-             id="StructureDefinition/pacio-cognition-qr"/>
    <artifact name="PACIO Cognitive Status"
              key="StructureDefinition-pacio-cs"
              id="StructureDefinition/pacio-cs"/>
@@ -260,6 +257,10 @@
    <artifact name="PACIO Bundled Cognitive Status"
              key="StructureDefinition-pacio-bcs"
              id="StructureDefinition/pacio-bcs"
+             deprecated="true"/>
+   <artifact name="PACIO Cognition Questionnaire Response"
+             key="StructureDefinition-pacio-cognition-qr"
+             id="StructureDefinition/pacio-cognition-qr"
              deprecated="true"/>
    <artifact name="BCS-Hospital-MOCA-1"
              key="Observation-BCS-Hospital-MOCA-1"

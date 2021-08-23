@@ -1,8 +1,8 @@
 Alias: MDS3.0-NC-1.17 = https://api.logicahealth.org/PACIO/open/Questionnaire/MDS3.0-NC-1.17
 
 Instance: QResponse-SNF-BIMS-1
-InstanceOf: CognitionQuestionnaireResponse
-Description: "An instance of CognitionQuestionnaireResponse"
+InstanceOf: QuestionnaireResponse
+Description: "An instance of QuestionnaireResponse"
 * subject = Reference(patientBSJ1)
 * status = #completed
 * questionnaire = MDS3.0-NC-1.17
@@ -54,8 +54,8 @@ Description: "An instance of CognitionQuestionnaireResponse"
 * item[0].item[0].item[3].answer.valueReference = Reference(CSC-SNF-BIMS-1-Ob-Question-10)
 
 Instance: QResponse-SNF-BCAT-1
-InstanceOf: CognitionQuestionnaireResponse
-Description: "An instance of CognitionQuestionnaireResponse"
+InstanceOf: QuestionnaireResponse
+Description: "An instance of QuestionnaireResponse"
 * subject = Reference(patientBSJ1)
 * status = #completed
 * questionnaire = MDS3.0-NC-1.17
@@ -69,8 +69,8 @@ Description: "An instance of CognitionQuestionnaireResponse"
 * item[0].item[0].answer.valueReference = Reference(CSC-SNF-BCAT-1-Ob-Question-30)
 
 Instance: QResponse-Hospital-MOCA-2
-InstanceOf: CognitionQuestionnaireResponse
-Description: "An instance of CognitionQuestionnaireResponse"
+InstanceOf: QuestionnaireResponse
+Description: "An instance of QuestionnaireResponse"
 * subject = Reference(patientBSJ1)
 * status = #completed
 * questionnaire = MDS3.0-NC-1.17
@@ -85,8 +85,8 @@ Description: "An instance of CognitionQuestionnaireResponse"
 * item[0].item[0].answer.valueReference = Reference(CSC-Hospital-MOCA-2-Ob-Question-2)
 
 Instance: QResponse-SNF-PHQ9-1
-InstanceOf: CognitionQuestionnaireResponse
-Description: "An instance of CognitionQuestionnaireResponse"
+InstanceOf: QuestionnaireResponse
+Description: "An instance of QuestionnaireResponse"
 * subject = Reference(patientBSJ1)
 * status = #completed
 * questionnaire = MDS3.0-NC-1.17
@@ -182,8 +182,8 @@ Description: "An instance of CognitionQuestionnaireResponse"
 * item[0].item[1].answer.valueReference = Reference(CSC-SNF-PHQ9-1-Ob-Question-29)
 
 Instance: QResponse-Hospital-MOCA-1
-InstanceOf: CognitionQuestionnaireResponse
-Description: "An instance of CognitionQuestionnaireResponse"
+InstanceOf: QuestionnaireResponse
+Description: "An instance of QuestionnaireResponse"
 * subject = Reference(patientBSJ1)
 * status = #completed
 * questionnaire = MDS3.0-NC-1.17
@@ -198,8 +198,8 @@ Description: "An instance of CognitionQuestionnaireResponse"
 * item[0].item[0].answer.valueReference = Reference(CSC-Hospital-MOCA-1-Ob-Question-1)
 
 Instance: QResponse-Hospital-MMSE-1
-InstanceOf: CognitionQuestionnaireResponse
-Description: "An instance of CognitionQuestionnaireResponse"
+InstanceOf: QuestionnaireResponse
+Description: "An instance of QuestionnaireResponse"
 * subject = Reference(patientBSJ1)
 * status = #completed
 * questionnaire = MDS3.0-NC-1.17
@@ -214,8 +214,8 @@ Description: "An instance of CognitionQuestionnaireResponse"
 * item[0].item[0].answer.valueReference = Reference(CSC-Hospital-MMSE-1-Ob-Question-31)
 
 Instance: QResponse-Hospital-MMSE-2
-InstanceOf: CognitionQuestionnaireResponse
-Description: "An instance of CognitionQuestionnaireResponse"
+InstanceOf: QuestionnaireResponse
+Description: "An instance of QuestionnaireResponse"
 * subject = Reference(patientBSJ1)
 * status = #completed
 * questionnaire = MDS3.0-NC-1.17

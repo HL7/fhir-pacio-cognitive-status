@@ -17,7 +17,7 @@
    <name value="PACIOCognitiveStatusImplementationGuide"/>
    <title value="PACIO Cognitive Status Implementation Guide"/>
    <status value="active"/>
-   <date value="2021-08-13T11:06:24-07:00"/>
+   <date value="2021-08-22T22:15:34-07:00"/>
    <publisher value="HL7 Patient Care Work Group"/>
    <contact>
       <name value="HL7 Patient Care Work Group"/>
@@ -98,21 +98,6 @@
          <description value="These are example instances that show what data produced and consumed by systems conforming with this implementation guide might look like"/>
       </grouping>
 
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="StructureDefinition:resource"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="StructureDefinition-pacio-cognition-qr.html"/>
-         </extension>
-         <reference>
-            <reference value="StructureDefinition/pacio-cognition-qr"/>
-         </reference>
-         <name value="PACIO Cognition Questionnaire Response"/>
-         <description value="A completed, or sections of a completed, CMS PAC assessment."/>
-         <exampleBoolean value="false"/>
-         <groupingId value="-str-profile"/>
-      </resource>
       <resource>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
             <valueString value="StructureDefinition:resource"/>
@@ -1069,8 +1054,8 @@
             <reference value="QuestionnaireResponse/QResponse-Hospital-MMSE-1"/>
          </reference>
          <name value="QResponse-Hospital-MMSE-1"/>
-         <description value="An instance of CognitionQuestionnaireResponse"/>
-         <exampleCanonical value="http://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-cognition-qr"/>
+         <description value="An instance of QuestionnaireResponse"/>
+         <exampleBoolean value="true"/>
          <groupingId value="-ex-example"/>
       </resource>
       <resource>
@@ -1084,8 +1069,8 @@
             <reference value="QuestionnaireResponse/QResponse-Hospital-MMSE-2"/>
          </reference>
          <name value="QResponse-Hospital-MMSE-2"/>
-         <description value="An instance of CognitionQuestionnaireResponse"/>
-         <exampleCanonical value="http://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-cognition-qr"/>
+         <description value="An instance of QuestionnaireResponse"/>
+         <exampleBoolean value="true"/>
          <groupingId value="-ex-example"/>
       </resource>
       <resource>
@@ -1099,8 +1084,8 @@
             <reference value="QuestionnaireResponse/QResponse-Hospital-MOCA-1"/>
          </reference>
          <name value="QResponse-Hospital-MOCA-1"/>
-         <description value="An instance of CognitionQuestionnaireResponse"/>
-         <exampleCanonical value="http://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-cognition-qr"/>
+         <description value="An instance of QuestionnaireResponse"/>
+         <exampleBoolean value="true"/>
          <groupingId value="-ex-example"/>
       </resource>
       <resource>
@@ -1114,8 +1099,8 @@
             <reference value="QuestionnaireResponse/QResponse-Hospital-MOCA-2"/>
          </reference>
          <name value="QResponse-Hospital-MOCA-2"/>
-         <description value="An instance of CognitionQuestionnaireResponse"/>
-         <exampleCanonical value="http://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-cognition-qr"/>
+         <description value="An instance of QuestionnaireResponse"/>
+         <exampleBoolean value="true"/>
          <groupingId value="-ex-example"/>
       </resource>
       <resource>
@@ -1129,8 +1114,8 @@
             <reference value="QuestionnaireResponse/QResponse-SNF-BCAT-1"/>
          </reference>
          <name value="QResponse-SNF-BCAT-1"/>
-         <description value="An instance of CognitionQuestionnaireResponse"/>
-         <exampleCanonical value="http://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-cognition-qr"/>
+         <description value="An instance of QuestionnaireResponse"/>
+         <exampleBoolean value="true"/>
          <groupingId value="-ex-example"/>
       </resource>
       <resource>
@@ -1144,8 +1129,8 @@
             <reference value="QuestionnaireResponse/QResponse-SNF-BIMS-1"/>
          </reference>
          <name value="QResponse-SNF-BIMS-1"/>
-         <description value="An instance of CognitionQuestionnaireResponse"/>
-         <exampleCanonical value="http://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-cognition-qr"/>
+         <description value="An instance of QuestionnaireResponse"/>
+         <exampleBoolean value="true"/>
          <groupingId value="-ex-example"/>
       </resource>
       <resource>
@@ -1159,8 +1144,8 @@
             <reference value="QuestionnaireResponse/QResponse-SNF-CAM-Admission-1"/>
          </reference>
          <name value="QResponse-SNF-CAM-Admission-1"/>
-         <description value="An instance of CognitionQuestionnaireResponse"/>
-         <exampleCanonical value="http://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-cognition-qr"/>
+         <description value="An instance of SDC QuestionnaireResponse"/>
+         <exampleBoolean value="true"/>
          <groupingId value="-ex-example"/>
       </resource>
       <resource>
@@ -1174,8 +1159,8 @@
             <reference value="QuestionnaireResponse/QResponse-SNF-PHQ9-1"/>
          </reference>
          <name value="QResponse-SNF-PHQ9-1"/>
-         <description value="An instance of CognitionQuestionnaireResponse"/>
-         <exampleCanonical value="http://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-cognition-qr"/>
+         <description value="An instance of QuestionnaireResponse"/>
+         <exampleBoolean value="true"/>
          <groupingId value="-ex-example"/>
       </resource>
       <resource>
@@ -1384,11 +1369,6 @@
             <page>
                <nameUrl value="CapabilityStatement-pacio-cs-cap.html"/>
                <title value="PACIO Cognitive Status Capability Statement"/>
-               <generation value="generated"/>
-            </page>
-            <page>
-               <nameUrl value="StructureDefinition-pacio-cognition-qr.html"/>
-               <title value="PACIO Cognition Questionnaire Response"/>
                <generation value="generated"/>
             </page>
             <page>

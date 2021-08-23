@@ -13,6 +13,7 @@ Description:    "An exchange of cognitive status observation for a patient. This
 * subject only Reference(USCorePatient)
 
 * performer 1..*
+* performer only Reference(USCorePractitioner or USCorePractitionerRole or USCoreOrganization)
 
 //* value[x] only CodeableConcept
 
@@ -23,6 +24,7 @@ Description:    "An exchange of cognitive status observation for a patient. This
 * effective[x] 1..1
 * effective[x] only dateTime
 
+* derivedFrom only Reference(QuestionnaireResponse)
 * derivedFrom MS
 
 * extension contains ObservationLocation named event-location 0..1 MS
