@@ -11,8 +11,8 @@
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 id: hl7.fhir.us.pacio-cs
 ##### use this URL when publishing the IG:
-#####canonical: https://build.fhir.org/ig/HL7/fhir-pacio-cognitive-status
-canonical: http://paciowg.github.io/cognitive-status-ig
+#####canonical: http://hl7.org/fhir/us/pacio-cs
+canonical: https://build.fhir.org/ig/HL7/fhir-pacio-cognitive-status
 version: 0.1.0
 name: PACIOCognitiveStatusImplementationGuide
 title: PACIO Cognitive Status Implementation Guide
@@ -34,7 +34,7 @@ description: To advance interoperable health data exchange between post-acute ca
 license: CC0-1.0
 fhirVersion: 4.0.1
 dependencies:
-  hl7.fhir.us.core: 3.1.0
+  hl7.fhir.us.core: 3.1.1
 parameters:
   show-inherited-invariants: false
 copyrightYear: 2020+
