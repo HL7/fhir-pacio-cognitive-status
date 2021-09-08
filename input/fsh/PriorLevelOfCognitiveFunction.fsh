@@ -29,7 +29,7 @@ Description:    "An exchange of summary observation regarding the most recent pr
 * effective[x] 1..1
 * effective[x] only dateTime or Period
 
-* extension contains ObservationLocation named event-location 0..1 MS
+* extension contains ObservationEventLocation named event-location 0..1 MS
 * extension contains AssistanceRequired named assistance-required 0..1 MS
 
 //* category ^short = "A second category code may be used along with the code “functioning”. For example, for assessment tool/survey instrument observations use “survey” as a second code."

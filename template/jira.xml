@@ -32,6 +32,9 @@
    <artifact name="DevicePatientUsed"
              key="StructureDefinition-device-patient-used"
              id="StructureDefinition/device-patient-used"/>
+   <artifact name="ObservationEventLocation"
+             key="StructureDefinition-event-location"
+             id="StructureDefinition/event-location"/>
    <artifact name="PACIO Functioning Category Value Set"
              key="ValueSet-pacio-cat-vs"
              id="ValueSet/pacio-cat-vs"/>

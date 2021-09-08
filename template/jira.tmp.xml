@@ -194,7 +194,7 @@
    <name value="PACIOCognitiveStatusImplementationGuide"/>
    <title value="PACIO Cognitive Status Implementation Guide"/>
    <status value="active"/>
-   <date value="2021-08-22T22:15:34-07:00"/>
+   <date value="2021-09-08T09:40:02-07:00"/>
    <publisher value="HL7 Patient Care Work Group"/>
    <contact>
       <name value="HL7 Patient Care Work Group"/>
@@ -362,6 +362,21 @@
          </reference>
          <name value="DevicePatientUsed"/>
          <description value="Associated with the Cognitive Status Collection profile to point to a record indicating what healthcare-related assistive device was used by a patient during a functional status assessment. This extension leverages the DeviceUseStatement resource instead of Device resource so as to indicate appropriately a record of assistive device usage by a patient."/>
+         <exampleBoolean value="false"/>
+         <groupingId value="-str-extension"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="StructureDefinition:extension"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="StructureDefinition-event-location.html"/>
+         </extension>
+         <reference>
+            <reference value="StructureDefinition/event-location"/>
+         </reference>
+         <name value="ObservationEventLocation"/>
+         <description value="This extension is used to indicate the principal physical location where an observation event occurred."/>
          <exampleBoolean value="false"/>
          <groupingId value="-str-extension"/>
       </resource>
@@ -1576,6 +1591,11 @@
             <page>
                <nameUrl value="StructureDefinition-device-patient-used.html"/>
                <title value="DevicePatientUsed"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="StructureDefinition-event-location.html"/>
+               <title value="ObservationEventLocation"/>
                <generation value="generated"/>
             </page>
             <page>

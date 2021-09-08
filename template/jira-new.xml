@@ -57,6 +57,7 @@
 <artifact id="Observation/CSC-SNF-PHQ9-1-Ob-Question-28" key="Observation-CSC-SNF-PHQ9-1-Ob-Question-28" name="CSC-SNF-PHQ9-1-Ob-Question-28"/>
 <artifact id="Observation/CSC-SNF-PHQ9-1-Ob-Question-29" key="Observation-CSC-SNF-PHQ9-1-Ob-Question-29" name="CSC-SNF-PHQ9-1-Ob-Question-29"/>
 <artifact id="StructureDefinition/device-patient-used" key="StructureDefinition-device-patient-used" name="DevicePatientUsed"/>
+<artifact id="StructureDefinition/event-location" key="StructureDefinition-event-location" name="ObservationEventLocation"/>
 <artifact id="Organization/Org-01" key="Organization-Org-01" name="Org-01"/>
 <artifact id="Organization/Org-02" key="Organization-Org-02" name="Org-02"/>
 <artifact id="Organization/Org-03" key="Organization-Org-03" name="Org-03"/>

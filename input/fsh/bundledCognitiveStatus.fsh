@@ -39,7 +39,7 @@ Description:    "A point in time collection of cognitive status observations for
 * performer ^short = "The person who performed the assessment. The preferred way to specify the performer is to use the PractitionerRole resource to provide both the practitioner and organization."
 * code ^short = "For a Post-Acute Care structured assessment resource such as an instrument or screen, use a LOINC code to identify the instrument/screen name or panel/section title to indicate the kind of assessment."
 * subject ^short = "Should only reference a Patient resource."
-* value[x] ^short = "If used, should use the CodeableConcept type whenever possible to provide a suitable code to define the concept. When capturing a collection of related observations, typically this field is not used. As for values like an assessment score or roll-up value, leave this field unused and use the 'hasMember' field to reference a cognitive status observation specifying the score or roll-up value in the value field using the Quantity type."
+* value[x] ^short = "If used, should use the CodeableConcept datatype whenever possible to provide a suitable code to define the concept for the observation data. When capturing a collection of related observations, typically this field is not used. If the outcome of an assessment includes one or more summary scores, leave this field unused and use the 'hasMember' field to point to one or more Observation resources with each of which has a score provided in the 'value' field."
 * component ^short = "Currently not used in CognitiveStatusCollection."
 * basedOn ^short = "Currently not used in CognitiveStatusCollection."
 * partOf ^short = "Currently not used in CognitiveStatusCollection."
