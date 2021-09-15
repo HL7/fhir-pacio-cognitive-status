@@ -124,9 +124,9 @@ Instance: provider-role-neurologist
 InstanceOf: PractitionerRole
 Description: "An instance of PractitionerRole"
 * code = NUCC#2084N0400X
-* code.coding.display = "Neurology"
+* code.coding.display = "Neurology Physician"
 //* specialty = NUCC#2084N0400X
-//* specialty.coding.display = "Neurology"
+//* specialty.coding.display = "Neurology Physician"
 * active = true
 * practitioner = Reference(Practitioner-NoraOlogist)
 * organization = Reference(provider-org-16)

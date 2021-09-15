@@ -1,21 +1,22 @@
 //Alias:  LNC = http://loinc.org
 //Alias:  CAT = http://terminology.hl7.org/CodeSystem/observation-category
 
-Instance: CSC-SNF-BCAT-1
-InstanceOf: CognitiveStatusCollection
-Description: "An instance of CognitiveStatusCollection"
-* subject = Reference(patientBSJ1)
-* status = #final
-* effectiveDateTime = "2020-07-11T11:30:00-05:00"
-//* code = LNC#TBD-LOINC1
-//* code.coding.display = "Brief Cognitive Assessment Tool [BCAT]"
-* code.text = "Brief Cognitive Assessment Tool [BCAT]"
-* category[1].coding = CAT#survey
-* performer = Reference(Role-SLP-HoneyJones)
-* extension[event-location].valueReference = Reference(Org-Loc-02)
-* hasMember[0] = Reference(CSC-SNF-BCAT-1-Ob-Question-30)
-* derivedFrom = Reference(QResponse-SNF-BCAT-1)
-* derivedFrom.display = "Questionnaire Response"
+// Instance: CSC-SNF-BCAT-1
+// InstanceOf: CognitiveStatusCollection
+// Description: "An instance of CognitiveStatusCollection"
+// * subject = Reference(patientBSJ1)
+// * status = #final
+// * effectiveDateTime = "2020-07-11T11:30:00-05:00"
+// //* code = LNC#TBD-LOINC1
+// //* code.coding.display = "Brief Cognitive Assessment Tool [BCAT]"
+// * code.text = "Brief Cognitive Assessment Tool [BCAT]"
+// //* category[functioning].coding = PACIOFunctioningCategoryCS#functioning "Functioning"
+// * category[1].coding = CAT#survey "Survey"
+// * performer = Reference(Role-SLP-HoneyJones)
+// * extension[event-location].valueReference = Reference(Org-Loc-02)
+// * hasMember[0] = Reference(CSC-SNF-BCAT-1-Ob-Question-30)
+// * derivedFrom = Reference(QResponse-SNF-BCAT-1)
+// * derivedFrom.display = "Questionnaire Response"
 
 Instance: CSC-SNF-BIMS-1
 InstanceOf: CognitiveStatusCollection
@@ -25,9 +26,12 @@ Description: "An instance of CognitiveStatusCollection"
 * effectiveDateTime = "2020-07-11T11:30:00-05:00"
 * code = LNC#52491-8
 * code.coding.display = "Brief interview for mental status [BIMS]"
-* category[1].coding = CAT#survey
+//* category[functioning].coding = PACIOFunctioningCategoryCS#functioning "Functioning"
+* category[1].coding = CAT#survey "Survey"
 * performer = Reference(Role-SLP-HoneyJones)
 * extension[event-location].valueReference = Reference(Org-Loc-02)
+* extension[device-patient-used][0].valueReference = Reference(CSC-SNF-BIMS-1-UseOfDevice-1)
+* extension[device-patient-used][1].valueReference = Reference(CSC-SNF-BIMS-1-UseOfDevice-2)
 * hasMember[0] = Reference(CSC-SNF-BIMS-1-Ob-Question-3)
 * hasMember[1] = Reference(CSC-SNF-BIMS-1-Ob-Question-4)
 * hasMember[2] = Reference(CSC-SNF-BIMS-1-Ob-Question-5)
@@ -47,7 +51,8 @@ Description: "An instance of CognitiveStatusCollection"
 * effectiveDateTime = "2020-07-08T17:32:00-05:00"
 * code = LNC#72133-2
 * code.coding.display = "Montreal Cognitive Assessment [MoCA]"
-* category[1].coding = CAT#survey
+//* category[functioning].coding = PACIOFunctioningCategoryCS#functioning "Functioning"
+* category[1].coding = CAT#survey "Survey"
 * performer = Reference(Role-SLP-JennyGlass)
 * extension[event-location].valueReference = Reference(Org-Loc-01)
 * hasMember[0] = Reference(CSC-Hospital-MOCA-1-Ob-Question-1)
@@ -62,7 +67,8 @@ Description: "An instance of CognitiveStatusCollection"
 * effectiveDateTime = "2020-07-10T12:16:00-05:00"
 * code = LNC#72133-2
 * code.coding.display = "Montreal Cognitive Assessment [MoCA]"
-* category[1].coding = CAT#survey
+//* category[functioning].coding = PACIOFunctioningCategoryCS#functioning "Functioning"
+* category[1].coding = CAT#survey "Survey"
 * performer = Reference(Role-SLP-JennyGlass)
 * extension[event-location].valueReference = Reference(Org-Loc-01)
 * hasMember[0] = Reference(CSC-Hospital-MOCA-2-Ob-Question-2)
@@ -77,7 +83,8 @@ Description: "An instance of CognitiveStatusCollection"
 * effectiveDateTime = "2020-07-11T11:30:00-05:00"
 * code = LNC#54635-8
 * code.coding.display = "Resident mood interview (PHQ-9) [Reported PHQ-9 CMS]"
-* category[1].coding = CAT#survey
+//* category[functioning].coding = PACIOFunctioningCategoryCS#functioning "Functioning"
+* category[1].coding = CAT#survey "Survey"
 * performer = Reference(Role-SLP-LunaBaskins)
 * extension[event-location].valueReference = Reference(Org-Loc-03)
 * hasMember[0] = Reference(CSC-SNF-PHQ9-1-Ob-Question-11)
@@ -110,7 +117,8 @@ Description: "An instance of CognitiveStatusCollection"
 * effectiveDateTime = "2020-07-10T12:16:00-05:00"
 * code = LNC#72107-6
 * code.coding.display = "Mini-Mental State Examination [MMSE]"
-* category[1].coding = CAT#survey
+//* category[functioning].coding = PACIOFunctioningCategoryCS#functioning "Functioning"
+* category[1].coding = CAT#survey "Survey"
 * performer = Reference(Role-SLP-JennyGlass)
 * extension[event-location].valueReference = Reference(Org-Loc-01)
 * hasMember[0] = Reference(CSC-Hospital-MMSE-2-Ob-Question-32)
@@ -125,7 +133,8 @@ Description: "An instance of CognitiveStatusCollection"
 * effectiveDateTime = "2020-07-08T17:32:00-05:00"
 * code = LNC#72107-6
 * code.coding.display = "Mini-Mental State Examination [MMSE]"
-* category[1].coding = CAT#survey
+//* category[functioning].coding = PACIOFunctioningCategoryCS#functioning "Functioning"
+* category[1].coding = CAT#survey "Survey"
 * performer = Reference(Role-SLP-JennyGlass)
 * extension[event-location].valueReference = Reference(Org-Loc-01)
 * hasMember[0] = Reference(CSC-Hospital-MMSE-1-Ob-Question-31)

@@ -17,7 +17,7 @@
    <name value="PACIOCognitiveStatusImplementationGuide"/>
    <title value="PACIO Cognitive Status Implementation Guide"/>
    <status value="active"/>
-   <date value="2021-09-08T09:40:02-07:00"/>
+   <date value="2021-09-15T16:24:56-07:00"/>
    <publisher value="HL7 Patient Care Work Group"/>
    <contact>
       <name value="HL7 Patient Care Work Group"/>
@@ -133,13 +133,13 @@
             <valueString value="StructureDefinition:resource"/>
          </extension>
          <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="StructureDefinition-pacio-plcf.html"/>
+            <valueUri value="StructureDefinition-pacio-nhcs.html"/>
          </extension>
          <reference>
-            <reference value="StructureDefinition/pacio-plcf"/>
+            <reference value="StructureDefinition/pacio-nhcs"/>
          </reference>
-         <name value="PACIO Prior Level of Cognitive Function"/>
-         <description value="An exchange of summary observation regarding the most recent prior level of cognitive function immediately preceding the current admission, illness, or exacerbation for a patient. The use of this profile is encouraged in the absence of formal prior level of cognitive assessments. For formal assessments conducted with for example, an assessment instructment, use the Cognitive Status Collecction and Cognitive Status profiles to capture assessment data."/>
+         <name value="PACIO Narrative History of Cognitive Status"/>
+         <description value="An exchange of summary observation regarding the most recent prior level of cognitive function immediately preceding the current admission, illness, or exacerbation for a patient. The use of this profile is encouraged in the absence of formal prior level of cognitive assessments. For formal assessments conducted with for example, an assessment instrument, use the Cognitive Status Collection and Cognitive Status profiles to capture assessment data."/>
          <exampleBoolean value="false"/>
          <groupingId value="-str-profile"/>
       </resource>
@@ -238,14 +238,42 @@
             <valueString value="Observation"/>
          </extension>
          <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Observation-BSJ-Prior-Level-Of-Cognitive-Function-1.html"/>
+            <valueUri value="Observation-BSJ-Narrative-History-Cognitive-Status-1.html"/>
          </extension>
          <reference>
-            <reference value="Observation/BSJ-Prior-Level-Of-Cognitive-Function-1"/>
+            <reference value="Observation/BSJ-Narrative-History-Cognitive-Status-1"/>
          </reference>
-         <name value="BSJ-Prior-Level-Of-Cognitive-Function-1"/>
-         <description value="An instance of PriorLevelOfCognitiveFunction"/>
-         <exampleCanonical value="http://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-plcf"/>
+         <name value="BSJ-Narrative-History-Cognitive-Status-1"/>
+         <description value="An instance of NarrativeHistoryOfCognitiveStatus"/>
+         <exampleCanonical value="http://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-nhcs"/>
+         <groupingId value="-ex-example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Device"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Device-CMS-Device-1.html"/>
+         </extension>
+         <reference>
+            <reference value="Device/CMS-Device-1"/>
+         </reference>
+         <name value="CMS-Device-1"/>
+         <exampleBoolean value="true"/>
+         <groupingId value="-ex-example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Device"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Device-CMS-Device-2.html"/>
+         </extension>
+         <reference>
+            <reference value="Device/CMS-Device-2"/>
+         </reference>
+         <name value="CMS-Device-2"/>
+         <exampleBoolean value="true"/>
          <groupingId value="-ex-example"/>
       </resource>
       <resource>
@@ -364,36 +392,6 @@
             <reference value="Observation/CSC-Hospital-MOCA-2-Ob-Question-2"/>
          </reference>
          <name value="CSC-Hospital-MOCA-2-Ob-Question-2"/>
-         <description value="An instance of CognitiveStatus"/>
-         <exampleCanonical value="http://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-cs"/>
-         <groupingId value="-ex-example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="Observation"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Observation-CSC-SNF-BCAT-1.html"/>
-         </extension>
-         <reference>
-            <reference value="Observation/CSC-SNF-BCAT-1"/>
-         </reference>
-         <name value="CSC-SNF-BCAT-1"/>
-         <description value="An instance of CognitiveStatusCollection"/>
-         <exampleCanonical value="http://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-csc"/>
-         <groupingId value="-ex-example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="Observation"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Observation-CSC-SNF-BCAT-1-Ob-Question-30.html"/>
-         </extension>
-         <reference>
-            <reference value="Observation/CSC-SNF-BCAT-1-Ob-Question-30"/>
-         </reference>
-         <name value="CSC-SNF-BCAT-1-Ob-Question-30"/>
          <description value="An instance of CognitiveStatus"/>
          <exampleCanonical value="http://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-cs"/>
          <groupingId value="-ex-example"/>
@@ -531,6 +529,34 @@
          <name value="CSC-SNF-BIMS-1-Ob-Question-9"/>
          <description value="An instance of CognitiveStatus"/>
          <exampleCanonical value="http://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-cs"/>
+         <groupingId value="-ex-example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="DeviceUseStatement"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="DeviceUseStatement-CSC-SNF-BIMS-1-UseOfDevice-1.html"/>
+         </extension>
+         <reference>
+            <reference value="DeviceUseStatement/CSC-SNF-BIMS-1-UseOfDevice-1"/>
+         </reference>
+         <name value="CSC-SNF-BIMS-1-UseOfDevice-1"/>
+         <exampleCanonical value="http://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-cs-dev"/>
+         <groupingId value="-ex-example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="DeviceUseStatement"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="DeviceUseStatement-CSC-SNF-BIMS-1-UseOfDevice-2.html"/>
+         </extension>
+         <reference>
+            <reference value="DeviceUseStatement/CSC-SNF-BIMS-1-UseOfDevice-2"/>
+         </reference>
+         <name value="CSC-SNF-BIMS-1-UseOfDevice-2"/>
+         <exampleCanonical value="http://paciowg.github.io/cognitive-status-ig/StructureDefinition/pacio-cs-dev"/>
          <groupingId value="-ex-example"/>
       </resource>
       <resource>
@@ -1123,21 +1149,6 @@
             <valueString value="QuestionnaireResponse"/>
          </extension>
          <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="QuestionnaireResponse-QResponse-SNF-BCAT-1.html"/>
-         </extension>
-         <reference>
-            <reference value="QuestionnaireResponse/QResponse-SNF-BCAT-1"/>
-         </reference>
-         <name value="QResponse-SNF-BCAT-1"/>
-         <description value="An instance of QuestionnaireResponse"/>
-         <exampleBoolean value="true"/>
-         <groupingId value="-ex-example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="QuestionnaireResponse"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
             <valueUri value="QuestionnaireResponse-QResponse-SNF-BIMS-1.html"/>
          </extension>
          <reference>
@@ -1397,8 +1408,8 @@
                <generation value="generated"/>
             </page>
             <page>
-               <nameUrl value="StructureDefinition-pacio-plcf.html"/>
-               <title value="PACIO Prior Level of Cognitive Function"/>
+               <nameUrl value="StructureDefinition-pacio-nhcs.html"/>
+               <title value="PACIO Narrative History of Cognitive Status"/>
                <generation value="generated"/>
             </page>
             <page>
@@ -1432,8 +1443,18 @@
                <generation value="generated"/>
             </page>
             <page>
-               <nameUrl value="Observation-BSJ-Prior-Level-Of-Cognitive-Function-1.html"/>
-               <title value="BSJ-Prior-Level-Of-Cognitive-Function-1"/>
+               <nameUrl value="Observation-BSJ-Narrative-History-Cognitive-Status-1.html"/>
+               <title value="BSJ-Narrative-History-Cognitive-Status-1"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Device-CMS-Device-1.html"/>
+               <title value="CMS-Device-1"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Device-CMS-Device-2.html"/>
+               <title value="CMS-Device-2"/>
                <generation value="generated"/>
             </page>
             <page>
@@ -1474,16 +1495,6 @@
             <page>
                <nameUrl value="Observation-CSC-Hospital-MOCA-2-Ob-Question-2.html"/>
                <title value="CSC-Hospital-MOCA-2-Ob-Question-2"/>
-               <generation value="generated"/>
-            </page>
-            <page>
-               <nameUrl value="Observation-CSC-SNF-BCAT-1.html"/>
-               <title value="CSC-SNF-BCAT-1"/>
-               <generation value="generated"/>
-            </page>
-            <page>
-               <nameUrl value="Observation-CSC-SNF-BCAT-1-Ob-Question-30.html"/>
-               <title value="CSC-SNF-BCAT-1-Ob-Question-30"/>
                <generation value="generated"/>
             </page>
             <page>
@@ -1529,6 +1540,16 @@
             <page>
                <nameUrl value="Observation-CSC-SNF-BIMS-1-Ob-Question-9.html"/>
                <title value="CSC-SNF-BIMS-1-Ob-Question-9"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="DeviceUseStatement-CSC-SNF-BIMS-1-UseOfDevice-1.html"/>
+               <title value="CSC-SNF-BIMS-1-UseOfDevice-1"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="DeviceUseStatement-CSC-SNF-BIMS-1-UseOfDevice-2.html"/>
+               <title value="CSC-SNF-BIMS-1-UseOfDevice-2"/>
                <generation value="generated"/>
             </page>
             <page>
@@ -1724,11 +1745,6 @@
             <page>
                <nameUrl value="QuestionnaireResponse-QResponse-Hospital-MOCA-2.html"/>
                <title value="QResponse-Hospital-MOCA-2"/>
-               <generation value="generated"/>
-            </page>
-            <page>
-               <nameUrl value="QuestionnaireResponse-QResponse-SNF-BCAT-1.html"/>
-               <title value="QResponse-SNF-BCAT-1"/>
                <generation value="generated"/>
             </page>
             <page>

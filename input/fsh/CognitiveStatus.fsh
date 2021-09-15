@@ -19,9 +19,17 @@ Description:    "An exchange of cognitive status observation for a patient. This
 
 //* value[x] only CodeableConcept
 
-* category 1..* MS
-* category from PACIOFunctioningCategoryVS (extensible)
-* category = PACIOFunctioningCategoryCS#functioning
+* category ^slicing.discriminator.type = #pattern
+* category ^slicing.discriminator.path = "coding"
+* category ^slicing.rules = #open
+* category ^slicing.ordered = true
+* category contains functioning 1..1
+* category[functioning] from PACIOFunctioningCategoryVS (extensible)
+* category[functioning].coding = PACIOFunctioningCategoryCS#functioning "Functioning"
+
+// * category 1..* MS
+// * category from PACIOFunctioningCategoryVS (extensible)
+// * category = PACIOFunctioningCategoryCS#functioning
 
 * effective[x] 1..1
 * effective[x] only dateTime

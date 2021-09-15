@@ -12,7 +12,10 @@
 <artifact deprecated="true" id="Observation/BCS-SNF-CAM-Admission-1-Ob-Question-1" key="Observation-BCS-SNF-CAM-Admission-1-Ob-Question-1" name="BCS-SNF-CAM-Admission-1-Ob-Question-1"/>
 <artifact deprecated="true" id="Observation/BCS-SNF-CAM-Admission-1-Ob-Question-3" key="Observation-BCS-SNF-CAM-Admission-1-Ob-Question-3" name="BCS-SNF-CAM-Admission-1-Ob-Question-3"/>
 <artifact deprecated="true" id="Observation/BCS-SNF-CAM-Admission-1-Ob-Question-5" key="Observation-BCS-SNF-CAM-Admission-1-Ob-Question-5" name="BCS-SNF-CAM-Admission-1-Ob-Question-5"/>
-<artifact id="Observation/BSJ-Prior-Level-Of-Cognitive-Function-1" key="Observation-BSJ-Prior-Level-Of-Cognitive-Function-1" name="BSJ-Prior-Level-Of-Cognitive-Function-1"/>
+<artifact id="Observation/BSJ-Narrative-History-Cognitive-Status-1" key="Observation-BSJ-Narrative-History-Cognitive-Status-1" name="BSJ-Narrative-History-Cognitive-Status-1"/>
+<artifact deprecated="true" id="Observation/BSJ-Prior-Level-Of-Cognitive-Function-1" key="Observation-BSJ-Prior-Level-Of-Cognitive-Function-1" name="BSJ-Prior-Level-Of-Cognitive-Function-1"/>
+<artifact id="Device/CMS-Device-1" key="Device-CMS-Device-1" name="CMS-Device-1"/>
+<artifact id="Device/CMS-Device-2" key="Device-CMS-Device-2" name="CMS-Device-2"/>
 <artifact id="Observation/CSC-Hospital-MMSE-1" key="Observation-CSC-Hospital-MMSE-1" name="CSC-Hospital-MMSE-1"/>
 <artifact id="Observation/CSC-Hospital-MMSE-1-Ob-Question-31" key="Observation-CSC-Hospital-MMSE-1-Ob-Question-31" name="CSC-Hospital-MMSE-1-Ob-Question-31"/>
 <artifact id="Observation/CSC-Hospital-MMSE-2" key="Observation-CSC-Hospital-MMSE-2" name="CSC-Hospital-MMSE-2"/>
@@ -21,8 +24,6 @@
 <artifact id="Observation/CSC-Hospital-MOCA-1-Ob-Question-1" key="Observation-CSC-Hospital-MOCA-1-Ob-Question-1" name="CSC-Hospital-MOCA-1-Ob-Question-1"/>
 <artifact id="Observation/CSC-Hospital-MOCA-2" key="Observation-CSC-Hospital-MOCA-2" name="CSC-Hospital-MOCA-2"/>
 <artifact id="Observation/CSC-Hospital-MOCA-2-Ob-Question-2" key="Observation-CSC-Hospital-MOCA-2-Ob-Question-2" name="CSC-Hospital-MOCA-2-Ob-Question-2"/>
-<artifact id="Observation/CSC-SNF-BCAT-1" key="Observation-CSC-SNF-BCAT-1" name="CSC-SNF-BCAT-1"/>
-<artifact id="Observation/CSC-SNF-BCAT-1-Ob-Question-30" key="Observation-CSC-SNF-BCAT-1-Ob-Question-30" name="CSC-SNF-BCAT-1-Ob-Question-30"/>
 <artifact id="Observation/CSC-SNF-BIMS-1" key="Observation-CSC-SNF-BIMS-1" name="CSC-SNF-BIMS-1"/>
 <artifact id="Observation/CSC-SNF-BIMS-1-Ob-Question-10" key="Observation-CSC-SNF-BIMS-1-Ob-Question-10" name="CSC-SNF-BIMS-1-Ob-Question-10"/>
 <artifact id="Observation/CSC-SNF-BIMS-1-Ob-Question-3" key="Observation-CSC-SNF-BIMS-1-Ob-Question-3" name="CSC-SNF-BIMS-1-Ob-Question-3"/>
@@ -32,6 +33,8 @@
 <artifact id="Observation/CSC-SNF-BIMS-1-Ob-Question-7" key="Observation-CSC-SNF-BIMS-1-Ob-Question-7" name="CSC-SNF-BIMS-1-Ob-Question-7"/>
 <artifact id="Observation/CSC-SNF-BIMS-1-Ob-Question-8" key="Observation-CSC-SNF-BIMS-1-Ob-Question-8" name="CSC-SNF-BIMS-1-Ob-Question-8"/>
 <artifact id="Observation/CSC-SNF-BIMS-1-Ob-Question-9" key="Observation-CSC-SNF-BIMS-1-Ob-Question-9" name="CSC-SNF-BIMS-1-Ob-Question-9"/>
+<artifact id="DeviceUseStatement/CSC-SNF-BIMS-1-UseOfDevice-1" key="DeviceUseStatement-CSC-SNF-BIMS-1-UseOfDevice-1" name="CSC-SNF-BIMS-1-UseOfDevice-1"/>
+<artifact id="DeviceUseStatement/CSC-SNF-BIMS-1-UseOfDevice-2" key="DeviceUseStatement-CSC-SNF-BIMS-1-UseOfDevice-2" name="CSC-SNF-BIMS-1-UseOfDevice-2"/>
 <artifact id="Observation/CSC-SNF-CAM-Admission-1" key="Observation-CSC-SNF-CAM-Admission-1" name="CSC-SNF-CAM-Admission-1"/>
 <artifact id="Observation/CSC-SNF-CAM-Admission-1-Ob-Question-1" key="Observation-CSC-SNF-CAM-Admission-1-Ob-Question-1" name="CSC-SNF-CAM-Admission-1-Ob-Question-1"/>
 <artifact id="Observation/CSC-SNF-CAM-Admission-1-Ob-Question-3" key="Observation-CSC-SNF-CAM-Admission-1-Ob-Question-3" name="CSC-SNF-CAM-Admission-1-Ob-Question-3"/>
@@ -71,7 +74,8 @@
 <artifact id="StructureDefinition/pacio-csc" key="StructureDefinition-pacio-csc" name="PACIO Cognitive Status Collection"/>
 <artifact id="CodeSystem/pacio-cat-cs" key="CodeSystem-pacio-cat-cs" name="PACIO Functioning Category Code System"/>
 <artifact id="ValueSet/pacio-cat-vs" key="ValueSet-pacio-cat-vs" name="PACIO Functioning Category Value Set"/>
-<artifact id="StructureDefinition/pacio-plcf" key="StructureDefinition-pacio-plcf" name="PACIO Prior Level of Cognitive Function"/>
+<artifact id="StructureDefinition/pacio-nhcs" key="StructureDefinition-pacio-nhcs" name="PACIO Narrative History of Cognitive Status"/>
+<artifact deprecated="true" id="StructureDefinition/pacio-plcf" key="StructureDefinition-pacio-plcf" name="PACIO Prior Level of Cognitive Function"/>
 <artifact id="Practitioner/Practitioner-HoneyJones" key="Practitioner-Practitioner-HoneyJones" name="Practitioner-HoneyJones"/>
 <artifact id="Practitioner/Practitioner-JennyGlass" key="Practitioner-Practitioner-JennyGlass" name="Practitioner-JennyGlass"/>
 <artifact id="Practitioner/Practitioner-JohnSmith" key="Practitioner-Practitioner-JohnSmith" name="Practitioner-JohnSmith"/>
@@ -81,7 +85,6 @@
 <artifact id="QuestionnaireResponse/QResponse-Hospital-MMSE-2" key="QuestionnaireResponse-QResponse-Hospital-MMSE-2" name="QResponse-Hospital-MMSE-2"/>
 <artifact id="QuestionnaireResponse/QResponse-Hospital-MOCA-1" key="QuestionnaireResponse-QResponse-Hospital-MOCA-1" name="QResponse-Hospital-MOCA-1"/>
 <artifact id="QuestionnaireResponse/QResponse-Hospital-MOCA-2" key="QuestionnaireResponse-QResponse-Hospital-MOCA-2" name="QResponse-Hospital-MOCA-2"/>
-<artifact id="QuestionnaireResponse/QResponse-SNF-BCAT-1" key="QuestionnaireResponse-QResponse-SNF-BCAT-1" name="QResponse-SNF-BCAT-1"/>
 <artifact id="QuestionnaireResponse/QResponse-SNF-BIMS-1" key="QuestionnaireResponse-QResponse-SNF-BIMS-1" name="QResponse-SNF-BIMS-1"/>
 <artifact id="QuestionnaireResponse/QResponse-SNF-CAM-Admission-1" key="QuestionnaireResponse-QResponse-SNF-CAM-Admission-1" name="QResponse-SNF-CAM-Admission-1"/>
 <artifact id="QuestionnaireResponse/QResponse-SNF-PHQ9-1" key="QuestionnaireResponse-QResponse-SNF-PHQ9-1" name="QResponse-SNF-PHQ9-1"/>

@@ -2,9 +2,9 @@
 NOTE: Aliases are defined in GlobalAliasList.fsh
 **********/
 
-Instance: BSJ-Prior-Level-Of-Cognitive-Function-1
-InstanceOf: PriorLevelOfCognitiveFunction
-Description: "An instance of PriorLevelOfCognitiveFunction"
+Instance: BSJ-Narrative-History-Cognitive-Status-1
+InstanceOf: NarrativeHistoryOfCognitiveStatus
+Description: "An instance of NarrativeHistoryOfCognitiveStatus"
 * subject = Reference(patientBSJ1)
 * status = #final
 //* code = LNC#11332-4 "History of Cognitive Function Narrative"

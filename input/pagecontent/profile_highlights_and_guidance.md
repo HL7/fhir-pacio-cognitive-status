@@ -5,18 +5,14 @@ For profiles defined in other IGs, the meaning of "Must Support" is established 
 
 ### Resource Profile: CognitiveStatusCollection
 
-This resource profile is intended to be used for data exchange of a point in time bundle of cognitive status observations from a single post-acute care (PAC) assessment. It is derived from the FHIR resource Observation.
-
+This resource profile is intended to be used for the data exchange of a point in time set of cognitive status observations collected through the use of a structured resource (e.g. assessment tool, instrument, or screen). It is derived from the FHIR Observation resource.
 
 ### Resource Profile: CognitiveStatus
 
-This resource profile is intended to be used for data exchange of a single cognitive status observation included in a post-acute care (PAC) assessment. It is derived from the FHIR resource Observation.
-
-
+This resource profile is intended to be used for the data exchange of a single cognitive status observation generally included in a set of observations collected through the use of a structured resource (e.g. assessment tool, instrument, or screen). It is derived from the FHIR Observation resource.
 ### Resource Profile: PriorLevelOfCognitiveFunction
 
-This resource profile is intended to be used for the exchange of prior level of cognitive function data when formal prior level of cognitive assessments are not available. It is derived from the FHIR resource Observation.
-
+This resource profile is intended to be used for the data exchange of a summary observation regarding the most recent prior level of cognitive function immediately preceding the current admission, illness, or exacerbation for a patient. The use of this profile is encouraged in the absence of formal prior level of cognitive assessments. For formal assessments conducted with for example, an assessment instrument, use the Cognitive Status Collection and Cognitive Status profiles to capture assessment data. It is derived from the FHIR Observation resource.
 
 ### Resource Profile: UseOfDevice
 

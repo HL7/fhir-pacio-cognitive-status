@@ -1,26 +1,33 @@
-Profile:        PriorLevelOfCognitiveFunction
+Profile:        NarrativeHistoryOfCognitiveStatus
 Parent:         Observation
-Id:             pacio-plcf
-Title:          "PACIO Prior Level of Cognitive Function"
-Description:    "An exchange of summary observation regarding the most recent prior level of cognitive function immediately preceding the current admission, illness, or exacerbation for a patient. The use of this profile is encouraged in the absence of formal prior level of cognitive assessments. For formal assessments conducted with for example, an assessment instructment, use the Cognitive Status Collecction and Cognitive Status profiles to capture assessment data."
+Id:             pacio-nhcs
+Title:          "PACIO Narrative History of Cognitive Status"
+Description:    "An exchange of summary observation regarding the most recent prior level of cognitive function immediately preceding the current admission, illness, or exacerbation for a patient. The use of this profile is encouraged in the absence of formal prior level of cognitive assessments. For formal assessments conducted with for example, an assessment instrument, use the Cognitive Status Collection and Cognitive Status profiles to capture assessment data."
 
 * code from LNCVS
 * code = LNC#11332-4 "History of Cognitive Function Narrative"
 //* code.text = "History of Cognitive Function Narrative"
 
-* category 1..*
-* category from PACIOFunctioningCategoryVS (extensible)
-* category = PACIOFunctioningCategoryCS#functioning
-
 * value[x] 1..1
 * value[x] only string
-* value[x] ^short = "Unstructured summary of cognitive status observation for the patient.(Strongly encouraged until more structured method is established) "
+* value[x] ^short = "Unstructured summary of cognitive status observation for the patient. (Strongly encouraged until more structured method is established)"
 * value[x] ^definition = "Unstructured summary of cognitive status observation for the patient. (Strongly encouraged until more structured method is established)"
 
 * subject 1..1
 * subject only Reference(USCorePatient)
 
 * encounter only Reference(USCoreEncounter)
+
+* category ^slicing.discriminator.type = #pattern
+* category ^slicing.discriminator.path = "coding"
+* category ^slicing.rules = #open
+* category ^slicing.ordered = true
+* category contains functioning 1..1
+* category[functioning] from PACIOFunctioningCategoryVS (extensible)
+* category[functioning].coding = PACIOFunctioningCategoryCS#functioning "Functioning"
+// * category 1..*
+// * category from PACIOFunctioningCategoryVS (extensible)
+// * category = PACIOFunctioningCategoryCS#functioning
 
 * performer 1..*
 * performer only Reference(USCorePractitioner or USCorePractitionerRole or USCoreOrganization)

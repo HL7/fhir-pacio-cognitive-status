@@ -19,9 +19,47 @@ Description:    "A point in time collection of cognitive status observations for
 
 //* value[x] only CodeableConcept or Quantity
 
-* category 1..*
-* category from PACIOFunctioningCategoryVS (extensible)
-* category = PACIOFunctioningCategoryCS#functioning
+* category ^slicing.discriminator.type = #pattern
+* category ^slicing.discriminator.path = "coding"
+//* category[1] ^slicing.discriminator.type = #value
+//* category[1] ^slicing.discriminator.path = #system
+// * category ^slicing.discriminator[1].type = #value
+// * category ^slicing.discriminator[1].path = "coding"
+* category ^slicing.rules = #open
+* category ^slicing.ordered = true
+// * category ^slicing.description = "Slice based on the category pattern"
+
+* category contains functioning 1..1
+
+* category[functioning] from PACIOFunctioningCategoryVS (extensible)
+// first slice: must have fixed value 'functioning'
+//* category[functioning] 1..*
+* category[functioning].coding = PACIOFunctioningCategoryCS#functioning "Functioning"
+// second slice: any code from the Observation Categaory Value Set
+//* category[other] 0..1
+//* category[other].coding from CATVS (extensible)
+
+
+
+
+
+// * category.coding ^slicing.discriminator.type = #pattern
+// * category.coding ^slicing.discriminator.path = "code"
+// //* category[1] ^slicing.discriminator.type = #value
+// //* category[1] ^slicing.discriminator.path = #system
+// * category ^slicing.rules = #open
+// * category ^slicing.ordered = true
+// * category ^slicing.description = "Slice based on the category pattern"
+
+// * category contains functioning 1..1 and other 0..1
+
+// * category[functioning].coding from PACIOFunctioningCategoryVS (extensible)
+// // first slice: must have fixed value 'functioning'
+// //* category[functioning] 1..*
+// * category[functioning].coding = PACIOFunctioningCategoryCS#functioning "Functioning"
+// // second slice: any code from the Observation Categaory Value Set
+// //* category[other] 0..1
+// * category[other].coding from CATVS (extensible)
 
 * effective[x] 1..1
 * effective[x] only dateTime or Period

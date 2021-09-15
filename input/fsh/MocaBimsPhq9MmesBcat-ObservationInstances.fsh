@@ -11,6 +11,7 @@ Description: "An instance of CognitiveStatus"
 * code = LNC#52732-5
 * code.text = "Able to report correct year"
 * code.coding.display = "Temporal orientation - current year [BIMS]"
+* category[0].coding = PACIOFunctioningCategoryCS#functioning "Functioning"
 * category[1].coding = CAT#survey
 * valueCodeableConcept = LNC#LA10008-3
 * valueCodeableConcept.text = "Missed by 1 year"
@@ -28,6 +29,7 @@ Description: "An instance of CognitiveStatus"
 * code = LNC#72172-0
 //* code.text = "MoCA"
 * code.coding.display = "Total score [MoCA]"
+* category[0].coding = PACIOFunctioningCategoryCS#functioning "Functioning"
 * category[1].coding = CAT#survey
 * valueQuantity = 22 UOM#{score}
 * performer = Reference(Role-SLP-JennyGlass)
@@ -395,8 +397,8 @@ Description: "An instance of CognitiveStatus"
 * code.coding.display = "Recall - bed [BIMS]"
 * category[1].coding = CAT#survey
 * valueCodeableConcept = LNC#LA10125-5
-* valueCodeableConcept.text = "Yes, after cueing ('a piece of furniture')"
-* valueCodeableConcept.coding.display = "Yes, after cueing ('a piece of furniture')"
+* valueCodeableConcept.text = "Yes, after cueing (\"a piece of furniture\")"
+* valueCodeableConcept.coding.display = "Yes, after cueing (\"a piece of furniture\")"
 * performer = Reference(Role-SLP-HoneyJones)
 * extension[event-location].valueReference = Reference(Org-Loc-02)
 * derivedFrom = Reference(QResponse-SNF-BIMS-1)
@@ -412,8 +414,8 @@ Description: "An instance of CognitiveStatus"
 * code.coding.display = "Recall - blue [BIMS]"
 * category[1].coding = CAT#survey
 * valueCodeableConcept = LNC#LA10978-7
-* valueCodeableConcept.text = "Yes, after cueing ('a color')"
-* valueCodeableConcept.coding.display = "Yes, after cueing ('a color')"
+* valueCodeableConcept.text = "Yes, after cueing (\"a color\")"
+* valueCodeableConcept.coding.display = "Yes, after cueing (\"a color\")"
 * performer = Reference(Role-SLP-HoneyJones)
 * extension[event-location].valueReference = Reference(Org-Loc-02)
 * derivedFrom = Reference(QResponse-SNF-BIMS-1)
@@ -429,8 +431,8 @@ Description: "An instance of CognitiveStatus"
 * code.coding.display = "Recall - sock [BIMS]"
 * category[1].coding = CAT#survey
 * valueCodeableConcept = LNC#LA10126-3
-* valueCodeableConcept.text = "Yes, after cueing ('something to wear')"
-* valueCodeableConcept.coding.display = "Yes, after cueing ('something to wear')"
+* valueCodeableConcept.text = "Yes, after cueing (\"something to wear\")"
+* valueCodeableConcept.coding.display = "Yes, after cueing (\"something to wear\")"
 * performer = Reference(Role-SLP-HoneyJones)
 * extension[event-location].valueReference = Reference(Org-Loc-02)
 * derivedFrom = Reference(QResponse-SNF-BIMS-1)
@@ -501,20 +503,20 @@ Description: "An instance of CognitiveStatus"
 * extension[event-location].valueReference = Reference(Org-Loc-02)
 * derivedFrom = Reference(QResponse-SNF-BIMS-1)
 
-Instance: CSC-SNF-BCAT-1-Ob-Question-30
-InstanceOf: CognitiveStatus
-Description: "An instance of CognitiveStatus"
-* subject = Reference(patientBSJ1)
-* status = #final
-* effectiveDateTime = "2020-07-11T11:30:00-05:00"
-//* code = LNC#TBD-LOINC2
-//* code.coding.display = "BCAT Summary Score"
-* code.text = "BCAT Summary Score"
-* category[1].coding = CAT#survey
-* valueQuantity = 16 UOM#{score}
-* performer = Reference(Role-SLP-HoneyJones)
-* extension[event-location].valueReference = Reference(Org-Loc-02)
-* derivedFrom = Reference(QResponse-SNF-BCAT-1)
+// Instance: CSC-SNF-BCAT-1-Ob-Question-30
+// InstanceOf: CognitiveStatus
+// Description: "An instance of CognitiveStatus"
+// * subject = Reference(patientBSJ1)
+// * status = #final
+// * effectiveDateTime = "2020-07-11T11:30:00-05:00"
+// //* code = LNC#TBD-LOINC2
+// //* code.coding.display = "BCAT Summary Score"
+// * code.text = "BCAT Summary Score"
+// * category[1].coding = CAT#survey
+// * valueQuantity = 16 UOM#{score}
+// * performer = Reference(Role-SLP-HoneyJones)
+// * extension[event-location].valueReference = Reference(Org-Loc-02)
+// * derivedFrom = Reference(QResponse-SNF-BCAT-1)
 
 Instance: CSC-SNF-BIMS-1-Ob-Question-10
 InstanceOf: CognitiveStatus
