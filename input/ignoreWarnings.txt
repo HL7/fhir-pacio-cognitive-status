@@ -1,5 +1,6 @@
 == Suppressed Messages ==
 # The following code systems are external and not supported by terminology server
+The valueSet reference http://loinc.org/vs/LL4309-2 on element Extension.value[x] could not be resolved
 
 # These are actual warnings to surpress, all relating to validation of values from terminologies
 

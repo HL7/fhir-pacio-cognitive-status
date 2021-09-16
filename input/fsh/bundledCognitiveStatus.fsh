@@ -26,7 +26,7 @@ Description:    "A point in time collection of cognitive status observations for
 // * category ^slicing.discriminator[1].type = #value
 // * category ^slicing.discriminator[1].path = "coding"
 * category ^slicing.rules = #open
-* category ^slicing.ordered = true
+//* category ^slicing.ordered = true
 // * category ^slicing.description = "Slice based on the category pattern"
 
 * category contains functioning 1..1
