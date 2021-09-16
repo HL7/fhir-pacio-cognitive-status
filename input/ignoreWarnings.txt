@@ -1,8 +1,14 @@
 == Suppressed Messages ==
-# The following code systems are external and not supported by terminology server 
+# The following code systems are external and not supported by terminology server
 
 # These are actual warnings to surpress, all relating to validation of values from terminologies
 
-#informational -- these examples are in the IG because they are examples of the referenced profiles. 
+# informational -- these examples are in the IG because they are examples of the referenced profiles.
 
 # Suppress warnings about validation of build-in FHIR resources
+
+# The URL is good for downloading the questionnaire as a JSON resource
+The questionnaire 'https://api.logicahealth.org/PACIO/open/Questionnaire/MDS3.0-NC-1.17' could not be resolved, so no validation can be performed against the base questionnaire
+
+# This variance https://jira.hl7.org/browse/FHIR-31590 was approved to allow the IG profiles to base on the Observation resource instead of the US Core Observation Lab Profile
+US FHIR Usage rules require that all profiles on Observation derive from one of the base US profiles. Comparison with US Core Pediatric Head Occipital-frontal Circumference Percentile Profile. Comparison with US Core Pediatric BMI for Age Observation Profile. Comparison with US Core Pediatric Weight for Height Observation Profile. Comparison with US Core Blood Pressure Profile. Comparison with US Core BMI Profile. Comparison with US Core Body Height Profile. Comparison with US Core Body Temperature Profile. Comparison with US Core Body Weight Profile. Comparison with US Core Head Circumference Profile. Comparison with US Core Heart Rate Profile. Comparison with US Core Laboratory Result Observation Profile. Comparison with US Core Pulse Oximetry Profile. Comparison with US Core Respiratory Rate Profile. Comparison with US Core Smoking Status Observation Profile. Comparison with US Core Vital Signs Profile
