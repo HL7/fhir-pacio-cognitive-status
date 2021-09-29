@@ -1,15 +1,53 @@
 == Suppressed Messages ==
-# The following code systems are external and not supported by terminology server
+
+# Add warning and/or information messages here after you've confirmed that they aren't really a problem
+# (And include comments like this justifying why)
+# See https://github.com/FHIR/sample-ig/blob/master/input/ignoreWarnings.txt for examples
+
+# The following LOINC answer list is not supported by terminology server. NOTE: LOINC answer lists are value sets. The value set identifier "http://loinc.org/vs/[id]" identifies a value set that contains a set of LOINC codes.
 The valueSet reference http://loinc.org/vs/LL4309-2 on element Extension.value[x] could not be resolved
-
-# These are actual warnings to surpress, all relating to validation of values from terminologies
-
-# informational -- these examples are in the IG because they are examples of the referenced profiles.
-
-# Suppress warnings about validation of build-in FHIR resources
 
 # The URL is good for downloading the questionnaire as a JSON resource
 The questionnaire 'https://api.logicahealth.org/PACIO/open/Questionnaire/MDS3.0-NC-1.17' could not be resolved, so no validation can be performed against the base questionnaire
+
+# Suppress Slicing Information for Observation.category added by FHIR Shorthand SUSHI
+INFORMATION: Observation/CSC-Hospital-MMSE-1: Observation.category[1]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-csc
+INFORMATION: Observation/CSC-Hospital-MMSE-1-Ob-Question-31: Observation.category[1]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cs
+INFORMATION: Observation/CSC-Hospital-MOCA-1: Observation.category[1]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-csc
+INFORMATION: Observation/CSC-Hospital-MOCA-1-Ob-Question-1: Observation.category[1]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cs
+INFORMATION: Observation/CSC-SNF-BIMS-1: Observation.category[1]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-csc
+INFORMATION: Observation/CSC-SNF-BIMS-1-Ob-Question-3: Observation.category[1]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cs
+INFORMATION: Observation/CSC-SNF-BIMS-1-Ob-Question-4: Observation.category[1]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cs
+INFORMATION: Observation/CSC-SNF-BIMS-1-Ob-Question-5: Observation.category[1]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cs
+INFORMATION: Observation/CSC-SNF-BIMS-1-Ob-Question-6: Observation.category[1]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cs
+INFORMATION: Observation/CSC-SNF-BIMS-1-Ob-Question-7: Observation.category[1]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cs
+INFORMATION: Observation/CSC-SNF-BIMS-1-Ob-Question-8: Observation.category[1]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cs
+INFORMATION: Observation/CSC-SNF-BIMS-1-Ob-Question-9: Observation.category[1]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cs
+INFORMATION: Observation/CSC-SNF-BIMS-1-Ob-Question-10: Observation.category[1]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cs
+INFORMATION: Observation/CSC-SNF-CAM-Admission-1: Observation.category[1]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-csc
+INFORMATION: Observation/CSC-SNF-CAM-Admission-1-Ob-Question-1: Observation.category[1]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cs
+INFORMATION: Observation/CSC-SNF-CAM-Admission-1-Ob-Question-3: Observation.category[1]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cs
+INFORMATION: Observation/CSC-SNF-CAM-Admission-1-Ob-Question-5: Observation.category[1]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cs
+INFORMATION: Observation/CSC-SNF-PHQ9-1: Observation.category[1]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-csc
+INFORMATION: Observation/CSC-SNF-PHQ9-1-Ob-Question-11: Observation.category[1]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cs
+INFORMATION: Observation/CSC-SNF-PHQ9-1-Ob-Question-12: Observation.category[1]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cs
+INFORMATION: Observation/CSC-SNF-PHQ9-1-Ob-Question-13: Observation.category[1]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cs
+INFORMATION: Observation/CSC-SNF-PHQ9-1-Ob-Question-14: Observation.category[1]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cs
+INFORMATION: Observation/CSC-SNF-PHQ9-1-Ob-Question-15: Observation.category[1]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cs
+INFORMATION: Observation/CSC-SNF-PHQ9-1-Ob-Question-16: Observation.category[1]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cs
+INFORMATION: Observation/CSC-SNF-PHQ9-1-Ob-Question-17: Observation.category[1]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cs
+INFORMATION: Observation/CSC-SNF-PHQ9-1-Ob-Question-18: Observation.category[1]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cs
+INFORMATION: Observation/CSC-SNF-PHQ9-1-Ob-Question-19: Observation.category[1]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cs
+INFORMATION: Observation/CSC-SNF-PHQ9-1-Ob-Question-20: Observation.category[1]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cs
+INFORMATION: Observation/CSC-SNF-PHQ9-1-Ob-Question-21: Observation.category[1]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cs
+INFORMATION: Observation/CSC-SNF-PHQ9-1-Ob-Question-22: Observation.category[1]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cs
+INFORMATION: Observation/CSC-SNF-PHQ9-1-Ob-Question-23: Observation.category[1]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cs
+INFORMATION: Observation/CSC-SNF-PHQ9-1-Ob-Question-24: Observation.category[1]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cs
+INFORMATION: Observation/CSC-SNF-PHQ9-1-Ob-Question-25: Observation.category[1]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cs
+INFORMATION: Observation/CSC-SNF-PHQ9-1-Ob-Question-26: Observation.category[1]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cs
+INFORMATION: Observation/CSC-SNF-PHQ9-1-Ob-Question-27: Observation.category[1]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cs
+INFORMATION: Observation/CSC-SNF-PHQ9-1-Ob-Question-28: Observation.category[1]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cs
+INFORMATION: Observation/CSC-SNF-PHQ9-1-Ob-Question-29: Observation.category[1]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cs
 
 # This variance https://jira.hl7.org/browse/FHIR-31590 was approved to allow the IG profiles to base on the Observation resource instead of the US Core Observation Lab Profile
 WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-cs').baseDefinition: US FHIR Usage rules require that all profiles on Observation derive from one of the base US profiles

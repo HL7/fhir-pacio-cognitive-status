@@ -20,4 +20,4 @@ Description: "An instance of CognitiveStatusCollection"
 * hasMember[1] = Reference(CSC-SNF-CAM-Admission-1-Ob-Question-3)
 * hasMember[2] = Reference(CSC-SNF-CAM-Admission-1-Ob-Question-5)
 * derivedFrom = Reference(QResponse-SNF-CAM-Admission-1)
-* derivedFrom.display = "Questionnaire Response"
+//* derivedFrom.display = "Questionnaire Response"

@@ -20,21 +20,21 @@ Description: "An instance of CognitiveStatus"
 * extension[event-location].valueReference = Reference(Org-Loc-02)
 * derivedFrom = Reference(QResponse-SNF-BIMS-1)
 
-Instance: CSC-Hospital-MOCA-2-Ob-Question-2
-InstanceOf: CognitiveStatus
-Description: "An instance of CognitiveStatus"
-* subject = Reference(patientBSJ1)
-* status = #final
-* effectiveDateTime = "2020-07-10T12:16:00-05:00"
-* code = LNC#72172-0
-//* code.text = "MoCA"
-* code.coding.display = "Total score [MoCA]"
-* category[0].coding = PACIOFunctioningCategoryCS#functioning "Functioning"
-* category[1].coding = CAT#survey
-* valueQuantity = 22 UOM#{score}
-* performer = Reference(Role-SLP-JennyGlass)
-* extension[event-location].valueReference = Reference(Org-Loc-01)
-* derivedFrom = Reference(QResponse-Hospital-MOCA-2)
+// Instance: CSC-Hospital-MOCA-2-Ob-Question-2
+// InstanceOf: CognitiveStatus
+// Description: "An instance of CognitiveStatus"
+// * subject = Reference(patientBSJ1)
+// * status = #final
+// * effectiveDateTime = "2020-07-10T12:16:00-05:00"
+// * code = LNC#72172-0
+// //* code.text = "MoCA"
+// * code.coding.display = "Total score [MoCA]"
+// * category[0].coding = PACIOFunctioningCategoryCS#functioning "Functioning"
+// * category[1].coding = CAT#survey
+// * valueQuantity = 22 UOM#{score}
+// * performer = Reference(Role-SLP-JennyGlass)
+// * extension[event-location].valueReference = Reference(Org-Loc-01)
+// * derivedFrom = Reference(QResponse-Hospital-MOCA-2)
 
 Instance: CSC-SNF-PHQ9-1-Ob-Question-18
 InstanceOf: CognitiveStatus
@@ -121,20 +121,20 @@ Description: "An instance of CognitiveStatus"
 * extension[event-location].valueReference = Reference(Org-Loc-03)
 * derivedFrom = Reference(QResponse-SNF-PHQ9-1)
 
-Instance: CSC-Hospital-MMSE-2-Ob-Question-32
-InstanceOf: CognitiveStatus
-Description: "An instance of CognitiveStatus"
-* subject = Reference(patientBSJ1)
-* status = #final
-* effectiveDateTime = "2020-07-10T12:16:00-05:00"
-* code = LNC#72106-8
-* code.text = "Total score [MMSE]"
-* category[1].coding = CAT#survey
-* code.coding.display = "Total score [MMSE]"
-* valueQuantity = 24 UOM#{score}
-* performer = Reference(Role-SLP-JennyGlass)
-* extension[event-location].valueReference = Reference(Org-Loc-01)
-* derivedFrom = Reference(QResponse-Hospital-MMSE-2)
+// Instance: CSC-Hospital-MMSE-2-Ob-Question-32
+// InstanceOf: CognitiveStatus
+// Description: "An instance of CognitiveStatus"
+// * subject = Reference(patientBSJ1)
+// * status = #final
+// * effectiveDateTime = "2020-07-10T12:16:00-05:00"
+// * code = LNC#72106-8
+// * code.text = "Total score [MMSE]"
+// * category[1].coding = CAT#survey
+// * code.coding.display = "Total score [MMSE]"
+// * valueQuantity = 24 UOM#{score}
+// * performer = Reference(Role-SLP-JennyGlass)
+// * extension[event-location].valueReference = Reference(Org-Loc-01)
+// * derivedFrom = Reference(QResponse-Hospital-MMSE-2)
 
 Instance: CSC-SNF-PHQ9-1-Ob-Question-11
 InstanceOf: CognitiveStatus
@@ -393,7 +393,7 @@ Description: "An instance of CognitiveStatus"
 * status = #final
 * effectiveDateTime = "2020-07-11T11:30:00-05:00"
 * code = LNC#52737-4
-* code.text = "Able to recall 'bed'"
+* code.text = "Able to recall \"bed\""
 * code.coding.display = "Recall - bed [BIMS]"
 * category[1].coding = CAT#survey
 * valueCodeableConcept = LNC#LA10125-5
@@ -410,7 +410,7 @@ Description: "An instance of CognitiveStatus"
 * status = #final
 * effectiveDateTime = "2020-07-11T11:30:00-05:00"
 * code = LNC#52736-6
-* code.text = "Able to recall 'blue'"
+* code.text = "Able to recall \"blue\""
 * code.coding.display = "Recall - blue [BIMS]"
 * category[1].coding = CAT#survey
 * valueCodeableConcept = LNC#LA10978-7
@@ -427,7 +427,7 @@ Description: "An instance of CognitiveStatus"
 * status = #final
 * effectiveDateTime = "2020-07-11T11:30:00-05:00"
 * code = LNC#52735-8
-* code.text = "Able to recall 'sock'"
+* code.text = "Able to recall \"sock\""
 * code.coding.display = "Recall - sock [BIMS]"
 * category[1].coding = CAT#survey
 * valueCodeableConcept = LNC#LA10126-3

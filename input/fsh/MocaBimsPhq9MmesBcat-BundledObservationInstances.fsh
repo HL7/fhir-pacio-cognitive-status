@@ -41,7 +41,7 @@ Description: "An instance of CognitiveStatusCollection"
 * hasMember[6] = Reference(CSC-SNF-BIMS-1-Ob-Question-9)
 * hasMember[7] = Reference(CSC-SNF-BIMS-1-Ob-Question-10)
 * derivedFrom = Reference(QResponse-SNF-BIMS-1)
-* derivedFrom.display = "Questionnaire Response"
+//* derivedFrom.display = "Questionnaire Response"
 
 Instance: CSC-Hospital-MOCA-1
 InstanceOf: CognitiveStatusCollection
@@ -57,23 +57,23 @@ Description: "An instance of CognitiveStatusCollection"
 * extension[event-location].valueReference = Reference(Org-Loc-01)
 * hasMember[0] = Reference(CSC-Hospital-MOCA-1-Ob-Question-1)
 * derivedFrom = Reference(QResponse-Hospital-MOCA-1)
-* derivedFrom.display = "Questionnaire Response"
+//* derivedFrom.display = "Questionnaire Response"
 
-Instance: CSC-Hospital-MOCA-2
-InstanceOf: CognitiveStatusCollection
-Description: "An instance of CognitiveStatusCollection"
-* subject = Reference(patientBSJ1)
-* status = #final
-* effectiveDateTime = "2020-07-10T12:16:00-05:00"
-* code = LNC#72133-2
-* code.coding.display = "Montreal Cognitive Assessment [MoCA]"
-//* category[functioning].coding = PACIOFunctioningCategoryCS#functioning "Functioning"
-* category[1].coding = CAT#survey "Survey"
-* performer = Reference(Role-SLP-JennyGlass)
-* extension[event-location].valueReference = Reference(Org-Loc-01)
-* hasMember[0] = Reference(CSC-Hospital-MOCA-2-Ob-Question-2)
-* derivedFrom = Reference(QResponse-Hospital-MOCA-2)
-* derivedFrom.display = "Questionnaire Response"
+// Instance: CSC-Hospital-MOCA-2
+// InstanceOf: CognitiveStatusCollection
+// Description: "An instance of CognitiveStatusCollection"
+// * subject = Reference(patientBSJ1)
+// * status = #final
+// * effectiveDateTime = "2020-07-10T12:16:00-05:00"
+// * code = LNC#72133-2
+// * code.coding.display = "Montreal Cognitive Assessment [MoCA]"
+// //* category[functioning].coding = PACIOFunctioningCategoryCS#functioning "Functioning"
+// * category[1].coding = CAT#survey "Survey"
+// * performer = Reference(Role-SLP-JennyGlass)
+// * extension[event-location].valueReference = Reference(Org-Loc-01)
+// * hasMember[0] = Reference(CSC-Hospital-MOCA-2-Ob-Question-2)
+// * derivedFrom = Reference(QResponse-Hospital-MOCA-2)
+// //* derivedFrom.display = "Questionnaire Response"
 
 Instance: CSC-SNF-PHQ9-1
 InstanceOf: CognitiveStatusCollection
@@ -107,23 +107,23 @@ Description: "An instance of CognitiveStatusCollection"
 * hasMember[17] = Reference(CSC-SNF-PHQ9-1-Ob-Question-28)
 * hasMember[18] = Reference(CSC-SNF-PHQ9-1-Ob-Question-29)
 * derivedFrom = Reference(QResponse-SNF-PHQ9-1)
-* derivedFrom.display = "Questionnaire Response"
+//* derivedFrom.display = "Questionnaire Response"
 
-Instance: CSC-Hospital-MMSE-2
-InstanceOf: CognitiveStatusCollection
-Description: "An instance of CognitiveStatusCollection"
-* subject = Reference(patientBSJ1)
-* status = #final
-* effectiveDateTime = "2020-07-10T12:16:00-05:00"
-* code = LNC#72107-6
-* code.coding.display = "Mini-Mental State Examination [MMSE]"
-//* category[functioning].coding = PACIOFunctioningCategoryCS#functioning "Functioning"
-* category[1].coding = CAT#survey "Survey"
-* performer = Reference(Role-SLP-JennyGlass)
-* extension[event-location].valueReference = Reference(Org-Loc-01)
-* hasMember[0] = Reference(CSC-Hospital-MMSE-2-Ob-Question-32)
-* derivedFrom = Reference(QResponse-Hospital-MMSE-2)
-* derivedFrom.display = "Questionnaire Response"
+// Instance: CSC-Hospital-MMSE-2
+// InstanceOf: CognitiveStatusCollection
+// Description: "An instance of CognitiveStatusCollection"
+// * subject = Reference(patientBSJ1)
+// * status = #final
+// * effectiveDateTime = "2020-07-10T12:16:00-05:00"
+// * code = LNC#72107-6
+// * code.coding.display = "Mini-Mental State Examination [MMSE]"
+// //* category[functioning].coding = PACIOFunctioningCategoryCS#functioning "Functioning"
+// * category[1].coding = CAT#survey "Survey"
+// * performer = Reference(Role-SLP-JennyGlass)
+// * extension[event-location].valueReference = Reference(Org-Loc-01)
+// * hasMember[0] = Reference(CSC-Hospital-MMSE-2-Ob-Question-32)
+// * derivedFrom = Reference(QResponse-Hospital-MMSE-2)
+// //* derivedFrom.display = "Questionnaire Response"
 
 Instance: CSC-Hospital-MMSE-1
 InstanceOf: CognitiveStatusCollection
@@ -139,4 +139,4 @@ Description: "An instance of CognitiveStatusCollection"
 * extension[event-location].valueReference = Reference(Org-Loc-01)
 * hasMember[0] = Reference(CSC-Hospital-MMSE-1-Ob-Question-31)
 * derivedFrom = Reference(QResponse-Hospital-MMSE-1)
-* derivedFrom.display = "Questionnaire Response"
+//* derivedFrom.display = "Questionnaire Response"
