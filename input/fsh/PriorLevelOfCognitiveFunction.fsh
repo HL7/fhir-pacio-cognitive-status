@@ -59,7 +59,7 @@ Description:    "An exchange of summary observation regarding the most recent pr
 * extension[assistance-required] ^short = "An extension to indicate the level of assistance required for a patient during an assessment."
 
 Extension: AssistanceRequired
-Description: "Associated with prior level of cognitive function to provide a high-level indication of assistance required for the person’s baseline ability (cognitive function immediately preceding the current admission, illness, or exacerbation for a patient) to answer cognitive related clinical questions. The CMS Assessment answer list LL4309-2 provides possible values for this extension."
+Description: "Associated with the Narrative History of Cognitive Status profile to provide a high-level indication of assistance required for the person’s baseline ability (cognitive function immediately preceding the current admission, illness, or exacerbation for a patient) to answer cognitive related clinical questions. The CMS Assessment answer list LL4309-2 provides possible values for this extension."
 Id: assistance-required
 * value[x] only CodeableConcept
 * value[x] from LL4309-2 (extensible)
