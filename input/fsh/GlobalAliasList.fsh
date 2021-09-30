@@ -24,4 +24,5 @@ Alias: USCorePractitionerRole = http://hl7.org/fhir/us/core/StructureDefinition/
 Alias: USCoreOrganization = http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization
 Alias: SDCQR = http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaireresponse
 
-Alias: MDS3.0-NC-1.17 = http://hl7.org/fhir/us/pacio-cs/MDS3.0-NC-1.17
+//Alias: MDS3.0-NC-1.17 = http://hl7.org/fhir/us/pacio-cs/MDS3.0-NC-1.17
+Alias: MDS3.0-NC-1.17 = https://build.fhir.org/ig/HL7/fhir-pacio-cognitive-status/MDS3.0-NC-1.17
