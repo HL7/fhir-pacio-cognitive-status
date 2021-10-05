@@ -10,6 +10,7 @@
    <version code="current"
             url="http://build.fhir.org/ig/HL7/fhir-pacio-cognitive-status"/>
    <version code="0.1.0" url="http://hl7.org/fhir/us/pacio-cs/2021Jan"/>
+   <version code="0.0.1" deprecated="true" url="http://example.org/fhir/STU1"/>
    <version code="0.1" deprecated="true"/>
    <artifactPageExtension value="-definitions"/>
    <artifactPageExtension value="-examples"/>
@@ -242,50 +243,50 @@
    <artifact name="PACIO Cognitive Status Capability Statement"
              key="CapabilityStatement-pacio-cap"
              id="CapabilityStatement/pacio-cs-cap"/>
-   <artifact name="PACIO Bundled Cognitive Status"
-             key="StructureDefinition-pacio-bcs"
-             id="StructureDefinition/pacio-bcs"
-             deprecated="true"/>
-   <artifact name="PACIO Cognition Questionnaire Response"
-             key="StructureDefinition-pacio-cognition-qr"
-             id="StructureDefinition/pacio-cognition-qr"
-             deprecated="true"/>
-   <artifact name="PACIO Prior Level of Cognitive Function"
-             key="StructureDefinition-pacio-plcf"
-             id="StructureDefinition/pacio-plcf"
-             deprecated="true"/>
-   <artifact name="BCS-Hospital-MOCA-1"
-             key="Observation-BCS-Hospital-MOCA-1"
+   <artifact deprecated="true"
              id="Observation/BCS-Hospital-MOCA-1"
-             deprecated="true"/>
-   <artifact name="BCS-SNF-CAM-Admission-1"
-             key="Observation-BCS-SNF-CAM-Admission-1"
+             key="Observation-BCS-Hospital-MOCA-1"
+             name="BCS-Hospital-MOCA-1"/>
+   <artifact deprecated="true"
              id="Observation/BCS-SNF-CAM-Admission-1"
-             deprecated="true"/>
-   <artifact name="BCS-SNF-CAM-Admission-1-Ob-Question-1"
-             key="Observation-BCS-SNF-CAM-Admission-1-Ob-Question-1"
+             key="Observation-BCS-SNF-CAM-Admission-1"
+             name="BCS-SNF-CAM-Admission-1"/>
+   <artifact deprecated="true"
              id="Observation/BCS-SNF-CAM-Admission-1-Ob-Question-1"
-             deprecated="true"/>
-   <artifact name="BCS-SNF-CAM-Admission-1-Ob-Question-3"
-             key="Observation-BCS-SNF-CAM-Admission-1-Ob-Question-3"
+             key="Observation-BCS-SNF-CAM-Admission-1-Ob-Question-1"
+             name="BCS-SNF-CAM-Admission-1-Ob-Question-1"/>
+   <artifact deprecated="true"
              id="Observation/BCS-SNF-CAM-Admission-1-Ob-Question-3"
-             deprecated="true"/>
-   <artifact name="BCS-SNF-CAM-Admission-1-Ob-Question-5"
-             key="Observation-BCS-SNF-CAM-Admission-1-Ob-Question-5"
+             key="Observation-BCS-SNF-CAM-Admission-1-Ob-Question-3"
+             name="BCS-SNF-CAM-Admission-1-Ob-Question-3"/>
+   <artifact deprecated="true"
              id="Observation/BCS-SNF-CAM-Admission-1-Ob-Question-5"
-             deprecated="true"/>
-   <artifact name="BSJ-Prior-Level-Of-Cognitive-Function-1"
-             key="Observation-BSJ-Prior-Level-Of-Cognitive-Function-1"
+             key="Observation-BCS-SNF-CAM-Admission-1-Ob-Question-5"
+             name="BCS-SNF-CAM-Admission-1-Ob-Question-5"/>
+   <artifact deprecated="true"
              id="Observation/BSJ-Prior-Level-Of-Cognitive-Function-1"
-             deprecated="true"/>
-   <artifact name="Role-RN"
-             key="PractitionerRole-Role-RN"
+             key="Observation-BSJ-Prior-Level-Of-Cognitive-Function-1"
+             name="BSJ-Prior-Level-Of-Cognitive-Function-1"/>
+   <artifact deprecated="true"
+             id="StructureDefinition/pacio-bcs"
+             key="StructureDefinition-pacio-bcs"
+             name="PACIO Bundled Cognitive Status"/>
+   <artifact deprecated="true"
+             id="StructureDefinition/pacio-cognition-qr"
+             key="StructureDefinition-pacio-cognition-qr"
+             name="PACIO Cognition Questionnaire Response"/>
+   <artifact deprecated="true"
+             id="StructureDefinition/pacio-plcf"
+             key="StructureDefinition-pacio-plcf"
+             name="PACIO Prior Level of Cognitive Function"/>
+   <artifact deprecated="true"
              id="PractitionerRole/Role-RN"
-             deprecated="true"/>
-   <artifact name="Role-SLP"
-             key="PractitionerRole-Role-SLP"
+             key="PractitionerRole-Role-RN"
+             name="Role-RN"/>
+   <artifact deprecated="true"
              id="PractitionerRole/Role-SLP"
-             deprecated="true"/>
+             key="PractitionerRole-Role-SLP"
+             name="Role-SLP"/>
    <page name="(NA)" key="NA"/>
    <page name="(many)" key="many"/>
    <page name="Table of Contents" key="toc"/>
@@ -297,6 +298,6 @@
    <page name="Security and Data Sharing" key="security_and_data_sharing"/>
    <page name="Underlying Technologies" key="underlying_technologies"/>
    <page name="Artifacts Summary" key="artifacts"/>
-   <page name="(profiles)" key="profiles" deprecated="true"/>
-   <page name="usecases" key="usecases" deprecated="true"/>
+   <page deprecated="true" key="profiles" name="(profiles)"/>
+   <page deprecated="true" key="usecases" name="usecases"/>
 </specification>
