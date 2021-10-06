@@ -26,7 +26,7 @@ contact:
   - name: PACIO project
     telecom:
       - system: url
-        value: http://www.hl7.org/Special/committees/patientcare/
+        value: http://www.hl7.org/Special/committees/patientcare
       - system: email
         value: info@pacioproject.org
 description: To advance interoperable health data exchange between post-acute care (PAC)
@@ -39,7 +39,7 @@ parameters:
   show-inherited-invariants: false
   path-expansion-params: '../../input/_resources/terminology-settings.json'  # for using US ed of SNOMED
 copyrightYear: 2020+
-releaseLabel: STU Ballot
+releaseLabel: STU 1
 
 # ╭───────────────────────────────────────package-list.json────────────────────────────────────────╮
 # │  To use a provided ig-data/package-list.json file, delete the "history" property below.        │

@@ -8,7 +8,7 @@
 The valueSet reference http://loinc.org/vs/LL4309-2 on element Extension.value[x] could not be resolved
 
 # The questionnaire is included with the IG and the URL is good for downloading the questionnaire
-The questionnaire 'https://build.fhir.org/ig/HL7/fhir-pacio-cognitive-status/MDS3.0-NC-1.17' could not be resolved, so no validation can be performed against the base questionnaire
+The questionnaire 'http://build.fhir.org/ig/HL7/fhir-pacio-cognitive-status/MDS3.0-NC-1.17' could not be resolved, so no validation can be performed against the base questionnaire
 
 # Suppress Slicing Information for Observation.category since all these examples have optional slices that are not defined in the profile - not matching is expected behavior
 INFORMATION: Observation/CSC-Hospital-MMSE-1: Observation.category[1]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/pacio-cs/StructureDefinition/pacio-csc

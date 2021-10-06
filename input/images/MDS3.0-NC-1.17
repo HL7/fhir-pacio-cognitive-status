@@ -12,7 +12,7 @@
          <br/>The MDS is a powerful tool for implementing standardized assessment and for facilitating care management in nursing homes (NHs) and non-critical access hospital swing beds (SBs).
       </div>
    </text>
-   <url value="https://api.logicahealth.org/PACIO/open/Questionnaire/MDS3.0-NC-1.17"/>
+   <url value="http://build.fhir.org/ig/HL7/fhir-pacio-cognitive-status/MDS3.0-NC-1.17"/>
    <identifier>
       <use value="official"/>
       <system value="http://del.cms.gov"/>
