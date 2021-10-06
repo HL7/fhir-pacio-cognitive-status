@@ -9,9 +9,20 @@
       "version": "current",
       "desc": "Continuous Integration Build (latest in version control)",
       "path": "http://build.fhir.org/ig/HL7/fhir-pacio-cognitive-status",
+      "fhirversion": "4.0.1",
       "status": "ci-build",
       "current": true
     },
+		{
+			"version": "1.0.0",
+			"desc": "STU 1 release",
+			"status": "trial-use",
+			"sequence": "STU 1",
+			"fhirversion": "4.0.1",
+			"path": "http://hl7.org/fhir/us/pacio-cs/STU1",
+			"date": "2021-10-11",
+			"current": true
+		},
     {
       "version": "0.1.0",
       "date": "2020-10-16",
