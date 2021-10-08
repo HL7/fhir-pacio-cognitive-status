@@ -35,6 +35,7 @@ license: CC0-1.0
 fhirVersion: 4.0.1
 dependencies:
   hl7.fhir.us.core: 3.1.1
+  hl7.fhir.uv.sdc: 2.7.0
 parameters:
   show-inherited-invariants: false
   path-expansion-params: '../../input/_resources/terminology-settings.json'  # for using US ed of SNOMED

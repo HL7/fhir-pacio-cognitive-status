@@ -34,7 +34,7 @@ Description:    "An exchange of cognitive status observation for a patient. This
 * effective[x] 1..1
 * effective[x] only dateTime
 
-* derivedFrom only Reference(QuestionnaireResponse)
+* derivedFrom only Reference(SDCQR)
 * derivedFrom MS
 
 * extension contains ObservationEventLocation named event-location 0..1 MS
@@ -63,7 +63,7 @@ Description:    "An exchange of cognitive status observation for a patient. This
 * device ^short = "Currently not used in CognitiveStatus."
 * referenceRange ^short = "Currently not used in CognitiveStatus."
 * hasMember ^short = "Currently not used in CognitiveStatus."
-* derivedFrom ^short = "Should point back to the QuestionnaireResponse that this resource is derived from."
+* derivedFrom ^short = "Should point back to the SDC QuestionnaireResponse that this resource is derived from."
 * extension[event-location] ^short = "An extension to indicate where the observation event occurred."
 * extension[event-location] ^definition = "The principal physical location where the observation event occurred."
 

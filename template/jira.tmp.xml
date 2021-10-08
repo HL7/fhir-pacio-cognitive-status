@@ -53,7 +53,7 @@
                defaultWorkgroup="pc"
                defaultVersion="1.0.0"
                gitUrl="https://github.com/HL7/fhir-pacio-cognitive-status"
-               ballotUrl="http://hl7.org/fhir/us/pacio-cs">
+               ballotUrl="http://hl7.org/fhir/us/pacio-cs/2021Jan">
 <version code="current" url="http://build.fhir.org/ig/HL7/fhir-pacio-cognitive-status"/>
 <version code="1.0.0" url="http://hl7.org/fhir/us/pacio-cs/STU1"/>
 <version code="0.1.0" url="http://hl7.org/fhir/us/pacio-cs/2021Jan"/>
@@ -193,7 +193,7 @@
    <name value="PACIOCognitiveStatusImplementationGuide"/>
    <title value="PACIO Cognitive Status Implementation Guide"/>
    <status value="active"/>
-   <date value="2021-10-05T18:39:58-07:00"/>
+   <date value="2021-10-07T17:21:53-07:00"/>
    <publisher value="HL7 Patient Care Work Group"/>
    <contact>
       <name value="HL7 Patient Care Work Group"/>
@@ -210,7 +210,7 @@
       <name value="PACIO project"/>
       <telecom>
          <system value="url"/>
-         <value value="http://www.hl7.org/Special/committees/patientcare/"/>
+         <value value="http://www.hl7.org/Special/committees/patientcare"/>
       </telecom>
       <telecom>
          <system value="email"/>
@@ -231,6 +231,11 @@
       <uri value="http://hl7.org/fhir/us/core/ImplementationGuide/hl7.fhir.us.core"/>
       <packageId value="hl7.fhir.us.core"/>
       <version value="3.1.1"/>
+   </dependsOn>
+   <dependsOn id="hl7_fhir_uv_sdc">
+      <uri value="http://hl7.org/fhir/uv/sdc/ImplementationGuide/sdc"/>
+      <packageId value="hl7.fhir.uv.sdc"/>
+      <version value="2.7.0"/>
    </dependsOn>
    <definition>
       <grouping id="-dyn-capabilitystatement">
@@ -1880,7 +1885,7 @@
       </parameter>
       <parameter>
          <code value="releaselabel"/>
-         <value value="STU Ballot"/>
+         <value value="STU 1"/>
       </parameter>
       <parameter>
          <code value="show-inherited-invariants"/>

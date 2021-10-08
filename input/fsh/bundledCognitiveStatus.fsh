@@ -67,7 +67,7 @@ Description:    "A point in time collection of cognitive status observations for
 * hasMember only Reference(CognitiveStatus)
 * hasMember MS
 
-* derivedFrom only Reference(QuestionnaireResponse)
+* derivedFrom only Reference(SDCQR)
 * derivedFrom MS
 
 * effective[x] ^short = "Clinical relevant time for an assessment such as cognitive assessments performed with structured evaluation tools is the time the evaluation occurs, i.e., when the clinician obtains the answers entered in the tool. However, the only timing available may be when then tool is completed by the clinician. That timing is generally documented as a point in time (dateTime)."
@@ -92,7 +92,7 @@ Description:    "A point in time collection of cognitive status observations for
 * device ^short = "Currently not used in CognitiveStatusCollection."
 * referenceRange ^short = "Currently not used in CognitiveStatusCollection."
 * hasMember ^short = "Each cognitive status observation in the collection."
-* derivedFrom ^short = "Should point back to the QuestionnaireResponse that this resource is derived from."
+* derivedFrom ^short = "Should point back to the SDC QuestionnaireResponse that this resource is derived from."
 
 * extension contains ObservationEventLocation named event-location 0..1 MS
 * extension[event-location] ^short = "An extension to indicate where the observation event occurred."

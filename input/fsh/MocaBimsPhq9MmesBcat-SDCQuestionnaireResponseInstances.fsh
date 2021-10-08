@@ -3,11 +3,12 @@ Alias: SDCQR = http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnairer
 Alias: LNC = http://loinc.org
 
 Instance: QResponse-SNF-BIMS-1
-InstanceOf: QuestionnaireResponse
+InstanceOf: SDCQR
 Description: "An instance of QuestionnaireResponse"
 * subject = Reference(patientBSJ1)
 * status = #completed
 * questionnaire = MDS3.0-NC-1.17
+* questionnaire.extension[questionnaireDisplay].valueString = "Minimum Data Set (MDS) - version 3.0 - Resident Assessment Instrument (RAI) version 1.17.1 [CMS Assessment]"
 * authored = "2020-07-11T11:30:00-05:00"
 * author = Reference(Role-SLP-HoneyJones)
 * item[0].linkId = "Section-3"
@@ -44,7 +45,7 @@ Description: "An instance of QuestionnaireResponse"
 * item[0].item[0].item[3].answer.valueQuantity = 9 UOM#{score}
 
 // Instance: QResponse-SNF-BCAT-1
-// InstanceOf: QuestionnaireResponse
+// InstanceOf: SDCQR
 // Description: "An instance of QuestionnaireResponse"
 // * subject = Reference(patientBSJ1)
 // * status = #completed
@@ -58,7 +59,7 @@ Description: "An instance of QuestionnaireResponse"
 // * item[0].item[0].answer.valueQuantity = 16 UOM#{score}
 
 // Instance: QResponse-Hospital-MOCA-2
-// InstanceOf: QuestionnaireResponse
+// InstanceOf: SDCQR
 // Description: "An instance of QuestionnaireResponse"
 // * subject = Reference(patientBSJ1)
 // * status = #completed
@@ -72,11 +73,12 @@ Description: "An instance of QuestionnaireResponse"
 // * item[0].item[0].answer.valueQuantity = 22 UOM#{score}
 
 Instance: QResponse-SNF-PHQ9-1
-InstanceOf: QuestionnaireResponse
+InstanceOf: SDCQR
 Description: "An instance of QuestionnaireResponse"
 * subject = Reference(patientBSJ1)
 * status = #completed
 * questionnaire = MDS3.0-NC-1.17
+* questionnaire.extension[questionnaireDisplay].valueString = "Minimum Data Set (MDS) - version 3.0 - Resident Assessment Instrument (RAI) version 1.17.1 [CMS Assessment]"
 * authored = "2020-07-11T11:30:00-05:00"
 * author = Reference(Role-SLP-LunaBaskins)
 * item[0].linkId = "Section-4"
@@ -145,11 +147,12 @@ Description: "An instance of QuestionnaireResponse"
 * item[0].item[1].answer.valueQuantity = 3 UOM#{score}
 
 Instance: QResponse-Hospital-MOCA-1
-InstanceOf: QuestionnaireResponse
+InstanceOf: SDCQR
 Description: "An instance of QuestionnaireResponse"
 * subject = Reference(patientBSJ1)
 * status = #completed
 * questionnaire = MDS3.0-NC-1.17
+* questionnaire.extension[questionnaireDisplay].valueString = "Minimum Data Set (MDS) - version 3.0 - Resident Assessment Instrument (RAI) version 1.17.1 [CMS Assessment]"
 * authored = "2020-07-08T17:32:00-05:00"
 * author = Reference(Role-SLP-JennyGlass)
 * item[0].linkId = "MoCA"
@@ -159,11 +162,12 @@ Description: "An instance of QuestionnaireResponse"
 * item[0].item[0].answer.valueQuantity = 18 UOM#{score}
 
 Instance: QResponse-Hospital-MMSE-1
-InstanceOf: QuestionnaireResponse
+InstanceOf: SDCQR
 Description: "An instance of QuestionnaireResponse"
 * subject = Reference(patientBSJ1)
 * status = #completed
 * questionnaire = MDS3.0-NC-1.17
+* questionnaire.extension[questionnaireDisplay].valueString = "Minimum Data Set (MDS) - version 3.0 - Resident Assessment Instrument (RAI) version 1.17.1 [CMS Assessment]"
 * authored = "2020-07-08T17:32:00-05:00"
 * author = Reference(Role-SLP-JennyGlass)
 * item[0].linkId = "MMSE"
@@ -173,7 +177,7 @@ Description: "An instance of QuestionnaireResponse"
 * item[0].item[0].answer.valueQuantity = 20 UOM#{score}
 
 // Instance: QResponse-Hospital-MMSE-2
-// InstanceOf: QuestionnaireResponse
+// InstanceOf: SDCQR
 // Description: "An instance of QuestionnaireResponse"
 // * subject = Reference(patientBSJ1)
 // * status = #completed

@@ -1,11 +1,12 @@
 //Alias: Q-MDS3-NC-1.17 = https://api.logicahealth.org/PACIO/open/Questionnaire/MDS3.0-NC-1.17
 
 Instance: QResponse-SNF-CAM-Admission-1
-InstanceOf: QuestionnaireResponse
+InstanceOf: SDCQR
 Description: "An instance of SDC QuestionnaireResponse"
 * subject = Reference(patientBSJ1)
 * status = #completed
 * questionnaire = MDS3.0-NC-1.17
+* questionnaire.extension[questionnaireDisplay].valueString = "Minimum Data Set (MDS) - version 3.0 - Resident Assessment Instrument (RAI) version 1.17.1 [CMS Assessment]"
 * authored = "2020-04-09T18:00:00-05:00"
 
 * item[0].linkId = "Section-3"
