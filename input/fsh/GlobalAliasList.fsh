@@ -26,4 +26,4 @@ Alias: SDCQR = http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnairer
 
 //Alias: MDS3.0-NC-1.17 = http://build.fhir.org/ig/HL7/fhir-pacio-cognitive-status/MDS3.0-NC-1.17
 //Alias: MDS3.0-NC-1.17 = https://api.logicahealth.org/PACIO/open/Questionnaire/MDS3.0-NC-1.17
-Alias: MDS3.0-NC-1.17 = http://example.org
+Alias: MDS3.0-NC-1.17 = http://example.org/Questionnaire/MDS3.0-NC-1.17
