@@ -3,6 +3,8 @@
 # Add warning and/or information messages here after you've confirmed that they aren't really a problem
 # (And include comments like this justifying why)
 # See https://github.com/FHIR/sample-ig/blob/master/input/ignoreWarnings.txt for examples
+# This is due to a bug in the validator--will be fixed in the next IG Publisher release.
+# The valueSet reference http://loinc.org/vs/LL4309-2 on element Extension.value[x] could not be resolved
 
 # Grahame Grieve confirmed that this information message should be suppressed. (Zulip stream: https://chat.fhir.org/#narrow/stream/179252-IG-creation/topic/Questionnaire.20could.20not.20be.20resolved)
 The questionnaire 'http://example.org/Questionnaire/MDS3.0-NC-1.17' could not be resolved, so no validation can be performed against the base questionnaire
