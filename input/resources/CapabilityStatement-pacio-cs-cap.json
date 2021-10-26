@@ -1,7 +1,7 @@
 {
   "resourceType": "CapabilityStatement",
   "id": "pacio-cs-cap",
-  "url": "/CapabilityStatement-pacio-cs-cap.html",
+  "url": "https://build.fhir.org/ig/HL7/fhir-pacio-cognitive-status/CapabilityStatement-pacio-cs-cap.html",
   "version": "0.1.0",
   "name": "PACIO_CognitiveStatus_CapabilityStatement",
   "title": "PACIO Cognitive Status Capability Statement",
